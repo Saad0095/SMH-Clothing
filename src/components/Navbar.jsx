@@ -8,16 +8,16 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
-  const [isToggle, setIsToggle] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div>
-      <nav className="flex justify-between items-center px-6 h-16 text-xl fixed top-0 w-full">
+      <nav className="flex justify-between items-center px-6 h-16 text-xl fixed top-0 w-full bg-white z-10 shadow">
         <div className="flex justify-between items-center gap-6">
           <FontAwesomeIcon
             className="cursor-pointer"
             icon={faBars}
-            onClick={() => setIsToggle(!isToggle)}
+            onClick={() => setIsOpen(true)}
           />
           <div className="logo text-xl md:text-2xl font-bold">SMH Clothing</div>
         </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
           <FontAwesomeIcon className="cursor-pointer" icon={faBagShopping} />
         </div>
       </nav>
-      <div>{isToggle && <Sidebar />}</div>
+      <Sidebar isOpen={isOpen} setIsOpen={setIsOpen}/>
     </div>
   );
 };
