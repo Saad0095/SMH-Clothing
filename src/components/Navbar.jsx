@@ -6,27 +6,34 @@ import {
   faBars,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div>
-      <nav className="flex justify-between items-center px-6 h-16 text-xl fixed top-0 w-full bg-white z-10 shadow">
+      <nav className="flex justify-between items-center px-6 h-16 text-xl fixed w-full top-0 ">
         <div className="flex justify-between items-center gap-6">
           <FontAwesomeIcon
             className="cursor-pointer"
             icon={faBars}
             onClick={() => setIsOpen(true)}
           />
-          <div className="logo text-xl md:text-2xl font-bold">SMH Clothing</div>
+          <div
+            className="logo text-xl md:text-2xl font-bold cursor-pointer"
+            onClick={() => navigate("/")}
+          >
+            SMH Clothing
+          </div>
         </div>
         <div className="flex justify-between items-center gap-6">
           <FontAwesomeIcon className="cursor-pointer" icon={faSearch} />
           <FontAwesomeIcon className="cursor-pointer" icon={faBagShopping} />
         </div>
       </nav>
-      <Sidebar isOpen={isOpen} setIsOpen={setIsOpen}/>
+      <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   );
 };
