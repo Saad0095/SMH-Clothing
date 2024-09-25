@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <div>
-      <img className='h-screen w-full' src="../src/assets/Hero1.webp" alt=""/>
+      <img className='h-screen w-full bg-cover bg-center' src="../src/assets/Hero2.webp" alt=""/>
     </div>
   )
 }

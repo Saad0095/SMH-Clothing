@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="flex justify-between items-center px-6 h-16 text-xl fixed w-full top-0 ">
+      <nav className="flex justify-between items-center px-6 h-16 text-xl fixed w-full top-0 z-10">
         <div className="flex justify-between items-center gap-6">
           <FontAwesomeIcon
             className="cursor-pointer"
