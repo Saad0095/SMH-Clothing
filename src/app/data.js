@@ -17,22 +17,330 @@ export const Men = [
     sizes: ["M", "L"],
   },
   {
-    id: Date.now(),
-    name: "White Cotton Kurta",
-    description:
-      "This Men's white cotton formal kurta epitomizes traditional charm and modern sophistication, featuring timeless designs, exquisite fabrics, and meticulous craftsmanship, perfect for adding a touch of cultural refinement to any occasion",
-    price: "7,990",
-    image: [
-      "https://www.junaidjamshed.com/media/catalog/product/4/7/47257_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
-      "https://www.junaidjamshed.com/media/catalog/product/4/7/47257_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
-      "https://www.junaidjamshed.com/media/catalog/product/4/7/47257_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
-    ],
-    category: "shalwar-kameez",
-    sizes: ["M", "L", "XL"],
-    color: "white",
-    fabric: "Cotton",
-    category: "Formal Kurta",
-  },
+  name: "BLACK COTTON KAMEEZ SHALWAR",
+  description:
+    "Simple yet stylish, this black cotton casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
+  price: "PKR 6,990.00",
+  image: [
+    " https://www.junaidjamshed.com/media/catalog/product/4/7/47268_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    " https://www.junaidjamshed.com/media/catalog/product/4/7/47268_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/4/7/47268_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+  ],
+  category: "Kameez Shalwar",
+  color: "BLACK",
+  fabric: "	Cotton",
+  size: ["M", "L"],
+},
+{
+  name: "BROWN BLENDED KAMEEZ SHALWAR",
+  description:
+    "Simple yet stylish, this brown blended casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
+  price: "PKR 8,990.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32965-1_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32965-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32965-1_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+  ],
+  category: "Kameez Shalwar",
+  color: "Brown",
+  fabric: "Blended",
+  size: ["M", "L"],
+},
+
+{
+  name: "LIGHT BROWN COTTON KAMEEZ SHALWAR",
+  description:
+    "Simple yet stylish, this light brown cotton casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
+  price: "PKR 8,990.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7014_2__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+    "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7014_3__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+    " https://www.junaidjamshed.com/media/catalog/product/2/4/24-7014_3__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+  ],
+  category: "Kameez Shalwar",
+  color: "Light Brown",
+  fabric: "Cotton",
+  size: ["M", "L"],
+},
+{
+  name: "WHITE BLENDED KAMEEZ SHALWAR",
+  description:
+    "With subtle detailing and a refined silhouette, this white blended semi-formal kameez shalwar embodies understated elegance, perfect for gatherings and events.",
+  price: "PKR 7,990.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/4/7/47263_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/4/7/47263_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+    "https://www.junaidjamshed.com/media/catalog/product/4/7/47263_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+  ],
+  category: "Kameez Shalwar",
+  color: "	White",
+  fabric: "Blended",
+  size: ["M", "L"],
+},
+{
+  name: "STONE GREY BLENDED KAMEEZ SHALWAR",
+  description:
+    "Simple yet stylish, this stone grey blended casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
+  price: "PKR 8,490.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32980_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+    " https://www.junaidjamshed.com/media/catalog/product/3/2/32980_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    " https://www.junaidjamshed.com/media/catalog/product/3/2/32980_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  category: "Kameez Shalwar",
+  color: "Stone Grey",
+  fabric: "Blended",
+  size: ["M", "L"],
+},
+{
+  name: "ASH GREY BLENDED KAMEEZ SHALWAR",
+  description:
+    "With subtle detailing and a refined silhouette, this white blended semi-formal kameez shalwar embodies understated elegance, perfect for gatherings and events.",
+  price: "PKR 8,490.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32982_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32982_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+    " https://www.junaidjamshed.com/media/catalog/product/3/2/32981_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  category: "Kameez Shalwar",
+  color: "Ash Grey",
+  fabric: "	Blended",
+  size: ["M", "L"],
+},
+
+{
+  name: "CALGARY - BLACK BLENDED KAMEEZ SHALWAR",
+  description:
+    "Shirt Collar With Round Edge Cuffs. Embroidery on Front, Button Placket, Collar Back, Back Yoke, Sleeve Vent And Cuffs. Square Hem.",
+  price: "PKR 10,990.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/c/a/calgary_black_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+    " https://www.junaidjamshed.com/media/catalog/product/c/a/calgary_black_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    " https://www.junaidjamshed.com/media/catalog/product/c/a/calgary_black_4_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  category: "Kameez Shalwar",
+  color: "Black",
+  fabric: "Blended",
+  size: ["M", "L"],
+},
+{
+  name: "LONDON - LIGHT BEIGE BLENDED KAMEEZ SHALWAR",
+  description:
+    "Shirt Collar With Round Edge Cuffs. Embroidery at Front, Collar Back, Back Yoke, Sleeve Vent And Cuffs. Square Hem.",
+  price: "PKR 11,990.00",
+  image: [
+    " https://www.junaidjamshed.com/media/catalog/product/l/o/london_light_beige_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/l/o/london_light_beige_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+    " https://www.junaidjamshed.com/media/catalog/product/l/o/london_light_beige_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  category: "Kameez Shalwar",
+  color: "Light Beige",
+  fabric: "Blended",
+  size: ["M", "L"],
+},
+{
+  name: "MAAMBA - FOREST GREY BLENDED KAMEEZ SHALWAR",
+  description:
+    "Shirt Collar With Square Edge Cuffs. Embroidery at Front, Back Yoke, Back, Sleeve Vent And Cuffs. Square Hem.",
+  price: "PKR 10,990.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/m/a/maamba_forest_grey_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+    "https://www.junaidjamshed.com/media/catalog/product/m/a/maamba_forest_grey_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+  ],
+  category: "Kameez Shalwar",
+  color: "Forest Grey",
+  fabric: "Blended",
+  size: ["M", "L"],
+},
+{
+  name: "MAAMBA - OFF WHITE BLENDED KAMEEZ SHALWAR",
+  description:
+    "Shirt Collar With Square Edge Cuffs. Embroidery at Front, Back Yoke, Back, Sleeve Vent And Cuffs. Square Hem.",
+  price: "PKR 10,990.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/m/a/maamba_offwhite_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
+    " https://www.junaidjamshed.com/media/catalog/product/m/a/maamba_offwhite_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    " https://www.junaidjamshed.com/media/catalog/product/m/a/maamba_offwhite_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  category: "Kameez Shalwar",
+  color: "Off White",
+  fabric: "Blended",
+  size: ["M", "L"],
+},
+
+{
+  id: Date.now(),
+  name: "White Cotton Kurta",
+  description:
+    "This Men's white cotton formal kurta epitomizes traditional charm and modern sophistication, featuring timeless designs, exquisite fabrics, and meticulous craftsmanship, perfect for adding a touch of cultural refinement to any occasion",
+  price: "7,990",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/4/7/47257_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
+    "https://www.junaidjamshed.com/media/catalog/product/4/7/47257_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
+    "https://www.junaidjamshed.com/media/catalog/product/4/7/47257_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
+  ],
+  category: "shalwar-kameez",
+  sizes: ["M", "L", "XL"],
+  color: "white",
+  fabric: "Cotton",
+  category: "Formal Kurta",
+},
+
+{
+  
+  name: "CHARCOAL COTTON KURTA",
+  description:"With subtle detailing and a refined silhouette, this charcoal cotton semi-formal kurta embodies understated elegance, perfect for gatherings and events.",
+  price: "PKR 4,490.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/3/7/37899-1_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/7/37899-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/7/37899-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+
+  sizes: ["M", "L", "XL"],
+  color: "CHARCOAL",
+  fabric: "Cotton",
+  category: "Formal Kurta",
+
+},
+
+{
+  
+  name: "APPLE GREEN COTTON KURTA",
+  description:"This apple green cotton semi-formal kurta exudes understated elegance, striking the perfect balance between traditional charm and contemporary sophistication.",
+  price: "PKR 3,890.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32979_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32979_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32979_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  
+  sizes: ["M", "L", "XL"],
+  color: "Apple Green",
+  fabric: "Cotton",
+  category: "Formal Kurta",
+
+},
+
+{
+  
+  name: "GREY COTTON KURTA ",
+  description:"This grey cotton semi-formal kurta exudes understated elegance, striking the perfect balance between traditional charm and contemporary sophistication.",
+  price: "PKR 3,890.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32984_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32984_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32984_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  
+  sizes: ["M", "L", "XL"],
+  color: "Grey",
+  fabric: "Cotton",
+  category: "Formal Kurta",
+
+},
+{
+  
+  name: "CREAM COTTON KURTA ",
+  description:"With subtle detailing and a refined silhouette, this cream cotton semi-formal kurta embodies understated elegance, perfect for gatherings and events.",
+  price: "PKR 4,490.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32970-1_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32970-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/2/32970-1_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  
+  sizes: ["M", "L", "XL"],
+  color: "Cream",
+  fabric: "Cotton",
+  category: "Formal Kurta",
+
+},
+{
+  
+  name: "MAROON COTTON KURTA ",
+  description:"This Men's maroon cotton formal kurta epitomizes traditional charm and modern sophistication, featuring timeless designs, exquisite fabrics, and meticulous craftsmanship, perfect for adding a touch of cultural refinement to any occasion",
+  price: "PKR 7,990.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/4/7/47259_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/4/7/47259_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/4/7/47259_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  
+  sizes: ["M", "L", "XL"],
+  color: "Maroon",
+  fabric: "Cotton",
+  category: "Formal Kurta",
+
+},
+{
+  
+  name: "BOTTLE GREEN BLENDED KURTA",
+  description:"With subtle detailing and a refined silhouette, this bottle green blended semi-formal kurta embodies understated elegance, perfect for gatherings and events.",
+  price: "PKR 3,690.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/3/4/34704-1_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/4/34704-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/4/34704-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  
+  sizes: ["M", "L", "XL"],
+  color: "Bottle Green",
+  fabric: "	Blended",
+  category: "Formal Kurta",
+
+},
+{
+  
+  name: "RED COTTON KURTA ",
+  description:"With subtle detailing and a refined silhouette, this red cotton semi-formal kurta embodies understated elegance, perfect for gatherings and events.",
+  price: "PKR 4,610.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/3/7/37886-1_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/7/37886-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/3/7/37886-1_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  
+  sizes: ["M", "L", "XL"],
+  color: "Red",
+  fabric: "Cotton",
+  category: "Formal Kurta",
+
+},
+{
+  
+  name: "BLACK BLENDED SPECIAL KURTA ",
+  description:"Adorned with embroidery on the collar, front, and sleeves, adding intricate detailing.Perfect for formal occasions, offering a distinguished and elegant look",
+  price: "PKR 25,660.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/j/j/jjk-sp-a-48110_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/j/j/jjk-sp-a-48110_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/j/j/jjk-sp-a-48110_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  
+  sizes: ["M", "L", "XL"],
+  color: "Black",
+  fabric: "Cotton",
+  category: "Formal Kurta",
+
+},
+{
+  
+  name: "BROWN COTTON KURTA ",
+  description:"This brown cotton semi-formal kurta strikes a delicate balance between traditional grace and modern refinement, ideal for semi-formal occasions.",
+  price: "PKR 3,890.00",
+  image: [
+    "https://www.junaidjamshed.com/media/catalog/product/9/0/90440_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/9/0/90440_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    "https://www.junaidjamshed.com/media/catalog/product/9/0/90440_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+  ],
+  
+  sizes: ["M", "L", "XL"],
+  color: "",
+  fabric: "Cotton",
+  category: "Formal Kurta",
+
+},
   {
     id: Date.now(),
     name: "GREY SUITING WAIST COAT",
