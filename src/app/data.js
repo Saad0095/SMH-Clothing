@@ -27,7 +27,7 @@ export const Men = [
       "https://www.junaidjamshed.com/media/catalog/product/4/7/47257_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
       "https://www.junaidjamshed.com/media/catalog/product/4/7/47257_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
     ],
-    category: "shalwar-kameez",
+    category: "Kurta",
     sizes: ["M", "L", "XL"],
     color: "white",
     fabric: "Cotton",
