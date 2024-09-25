@@ -2,8 +2,11 @@ import React from "react";
 import BannerWomen1 from "../assets/Banner_women1.webp";
 import BannerWomen2 from "../assets/Banner_women2.webp";
 import BannerWomen3 from "../assets/Banner_women3.webp";
+import { useNavigate } from "react-router-dom";
 
 const CateogriesDisplayWomen = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="container mx-auto my-10 ">
       <h1 className="text-4xl text-center font-bold p-4">Shop For Women</h1>
@@ -16,7 +19,7 @@ const CateogriesDisplayWomen = () => {
               className="w-full h-full"
             />
             <div className="overlay absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <button className="bg-white text-black py-2 px-4 rounded">
+              <button className="bg-white text-black py-2 px-4 rounded" onClick={()=> navigate("/")}>
                 Shop Now
               </button>
             </div>
@@ -27,7 +30,7 @@ const CateogriesDisplayWomen = () => {
           <div className="relative group h-full w-full">
             <img src={BannerWomen2} alt="Kurta" className="w-full h-full" />
             <div className="overlay absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <button className="bg-white text-black py-2 px-4 rounded">
+              <button className="bg-white text-black py-2 px-4 rounded" onClick={()=> navigate("/")}>
                 Shop Now
               </button>
             </div>
@@ -42,7 +45,7 @@ const CateogriesDisplayWomen = () => {
               className="w-full h-full"
             />
             <div className="overlay absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <button className="bg-white text-black py-2 px-4 rounded">
+              <button className="bg-white text-black py-2 px-4 rounded" onClick={()=> navigate("/")}>
                 Shop Now
               </button>
             </div>
