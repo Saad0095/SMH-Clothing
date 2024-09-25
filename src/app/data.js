@@ -17,6 +17,7 @@ export const Men = [
     sizes: ["M", "L"],
   },
   {
+<<<<<<< HEAD
   name: "BLACK COTTON KAMEEZ SHALWAR",
   description:
     "Simple yet stylish, this black cotton casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
@@ -341,6 +342,24 @@ export const Men = [
   category: "Formal Kurta",
 
 },
+=======
+    id: Date.now(),
+    name: "White Cotton Kurta",
+    description:
+      "This Men's white cotton formal kurta epitomizes traditional charm and modern sophistication, featuring timeless designs, exquisite fabrics, and meticulous craftsmanship, perfect for adding a touch of cultural refinement to any occasion",
+    price: "7,990",
+    image: [
+      "https://www.junaidjamshed.com/media/catalog/product/4/7/47257_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
+      "https://www.junaidjamshed.com/media/catalog/product/4/7/47257_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
+      "https://www.junaidjamshed.com/media/catalog/product/4/7/47257_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
+    ],
+    category: "Kurta",
+    sizes: ["M", "L", "XL"],
+    color: "white",
+    fabric: "Cotton",
+    category: "Formal Kurta",
+  },
+>>>>>>> debc43603b41123cda0e37d644c1129ecdd6e033
   {
     id: Date.now(),
     name: "GREY SUITING WAIST COAT",

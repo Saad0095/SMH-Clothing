@@ -2,8 +2,8 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='h-screen w-screen'>
-      <img className='h-full w-full' src="../src/assets/Hero1.webp" alt=""/>
+    <div>
+      <img className='h-screen w-full bg-cover bg-center' src="../src/assets/Hero2.webp" alt=""/>
     </div>
   )
 }
