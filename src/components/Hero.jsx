@@ -12,21 +12,36 @@ const Hero = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1500,
-    // cssEase: "linear",
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    pauseOnHover: false, 
+    pauseOnFocus: false, 
+    pauseOnDotsHover: false, 
   };
 
   return (
-    <div className="w-full h-screen overflow-hidden">
+    <div className="hero-container overflow-hidden relative">
       <Slider {...settings}>
         <div>
-          <img className="w-full h-screen object-cover" src="../src/assets/Hero1.webp" alt="Hero1" />
+          <img
+            className="w-full h-[642px]"
+            src="../src/assets/Hero1.webp"
+            alt="Hero1"
+          />
         </div>
         <div>
-          <img className="w-full h-screen object-cover" src="../src/assets/Hero2.webp" alt="Hero2" />
+          <img
+            className="w-full h-[642px]"
+            src="../src/assets/Hero2.webp"
+            alt="Hero2"
+          />
         </div>
         <div>
-          <img className="w-full h-screen object-cover" src="../src/assets/Hero3.webp" alt="Hero3" />
+          <img
+            className="w-full h-[642px]"
+            src="../src/assets/Hero3.webp"
+            alt="Hero3"
+          />
         </div>
       </Slider>
     </div>
