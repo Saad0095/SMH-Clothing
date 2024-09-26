@@ -1,6 +1,6 @@
 export const Men = [
   {
-    id: Date.now(),
+    id: 1,
     name: "NAVY BLUE COTTON KAMEEZ SHALWAR ",
     description:
       "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -17,7 +17,7 @@ export const Men = [
     sizes: ["M", "L"],
   },
   {
-<<<<<<< HEAD
+
   name: "BLACK COTTON KAMEEZ SHALWAR",
   description:
     "Simple yet stylish, this black cotton casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
@@ -342,7 +342,7 @@ export const Men = [
   category: "Formal Kurta",
 
 },
-=======
+{
     id: Date.now(),
     name: "White Cotton Kurta",
     description:
@@ -359,7 +359,7 @@ export const Men = [
     fabric: "Cotton",
     category: "Formal Kurta",
   },
->>>>>>> debc43603b41123cda0e37d644c1129ecdd6e033
+
   {
     id: Date.now(),
     name: "GREY SUITING WAIST COAT",
@@ -376,6 +376,155 @@ export const Men = [
     fabric: "suiting",
     category: "Waist Coat",
   },
+  {
+    name: "NAVY LINEN WAISTCOAT",
+    description: ""
+    price: "PKR 16,990.00",
+    image: [
+      "https://www.junaidjamshed.com/media/catalog/product/c/c/ccvc-39344-c5_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+      "https://www.junaidjamshed.com/media/catalog/product/c/c/ccvc-39344-c5_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+
+    ],
+    sizes: ["M", "L", "XL"],
+    color: "Navy",
+    fabric: "Linen",
+    category: "Waist Coat",
+  },
+  
+  {
+    name: "OLIVE LINEN WAISTCOAT",
+    description: ""
+    price: "PKR 16,990.00",
+    image: [
+      "https://www.junaidjamshed.com/media/catalog/product/b/a/baku_brown_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+     
+    ],
+    sizes: ["M", "L", "XL"],
+    color: "Olive",
+    fabric: "Linen",
+    category: "Waist Coat",
+  },
+  
+  {
+    name: "GREY SUITING WAIST COAT",
+    description: "Complete Your Traditional Outfit With This Stylish Waistcoat. It Adds a Touch of Class and Complements Your Look Perfectly."
+    price: "PKR 7,890.00",
+    image: [
+      "https://www.junaidjamshed.com/media/catalog/product/2/7/27385-r10_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+      "https://www.junaidjamshed.com/media/catalog/product/2/7/27385-r10_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+      "https://www.junaidjamshed.com/media/catalog/product/2/7/27385-r10_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
+    ],
+    sizes: ["M", "L", "XL"],
+    color: "Grey",
+    fabric: "Suiting",
+    category: "Waist Coat",
+  },
+  
+  {
+    name: "Red Waistcoat ",
+    description: ""
+    price: "PKR  6,392",
+    image: [
+      "https://www.gulahmedshop.com/media/catalog/product/r/e/red_waistcoat_wc-pd24-033_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/r/e/red_waistcoat_wc-pd24-033_3_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/r/e/red_waistcoat_wc-pd24-033_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+    ],
+    sizes: ["M", "L", "XL"],
+    color: "Red",
+    fabric: "Blended",
+    category: "Waist Coat",
+  },
+  
+  {
+    name: "Off White Waistcoat",
+    description: "Regular Fit Model Specs: The model is 6ft and wearing size Medium"
+    price: "PKR  5,592",
+    image: [
+      "https://www.gulahmedshop.com/media/catalog/product/o/f/off_white_waistcoat_wc-pd24-030_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/o/f/off_white_waistcoat_wc-pd24-030_3_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/o/f/off_white_waistcoat_wc-pd24-030_3_.jpg?optimize=medium&fit=bounds&height=&width=",
+    ],
+    sizes: ["M", "L", "XL"],
+    color: "Off White",
+    fabric: "Blended",
+    category: "Waist Coat",
+  },
+  
+  {
+    name: "Grey Waistcoat",
+    description: "Top your traditional wear with an exquisite waistcoat from Ideas.Regular Fit Model Specs: The model is 6ft and wearing size Medium"
+    price: "PKR  5,738",
+    image: [
+      "https://www.gulahmedshop.com/media/catalog/product/g/r/grey_waistcoat_wc-pd24-031_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/g/r/grey_waistcoat_wc-pd24-031_3_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/g/r/grey_waistcoat_wc-pd24-031_5_.jpg?optimize=medium&fit=bounds&height=&width=",
+    ],
+    sizes: ["M", "L", "XL"],
+    color: "Grey",
+    fabric: "Blended",
+    category: "Waist Coat",
+  },
+  
+  {
+    name: "Mink Grey Basic Waist Coat",
+    description: "Top your traditional wear with an exquisite waistcoat from Ideas.BlendedRegular Fit Model Specs: The model is 5’8 and wearing size Medium"
+    price: "PKR 5,892",
+    image: [
+      "https://www.gulahmedshop.com/media/catalog/product/m/i/mink_grey_basic_waist_coat_wc-pd23-006_7_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/m/i/mink_grey_basic_waist_coat_wc-pd23-006_3_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/m/i/mink_grey_basic_waist_coat_wc-pd23-006_4_.jpg?optimize=medium&fit=bounds&height=&width=",
+    ],
+    sizes: ["M", "L", "XL"],
+    color: "Mink Grey",
+    fabric: "Blended",
+    category: "Waist Coat",
+  },
+  
+  {
+    name: "Black Basic Waist Coat ",
+    description: "Top your traditional wear with an exquisite waistcoat from Ideas.BlendedRegular Fit Model Specs: The model is 6ft 2in and wearing size Medium"
+    price: "PKR  5,738",
+    image: [
+      "https://www.gulahmedshop.com/media/catalog/product/b/l/black_basic_waist_coat_wc-pd24-019_4_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/b/l/black_basic_waist_coat_wc-pd24-019_5_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/b/l/black_basic_waist_coat_wc-pd24-019_5_.jpg?optimize=medium&fit=bounds&height=&width=",
+    ],
+    sizes: ["M", "L", "XL"],
+    color: "Black Basic",
+    fabric: "Blended",
+    category: "Waist Coat",
+  },
+  
+  {
+    name: "Brown Basic Waistcoat",
+    description: "Top your traditional wear with an exquisite waistcoat from Ideas.Blended Regular Fit Model Specs: The model is 6ft and wearing size Medium"
+    price: "PKR  5,738",
+    image: [
+      "https://www.gulahmedshop.com/media/catalog/product/b/r/brown_basic_waistcoat_wc-pd24-017_5_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/b/r/brown_basic_waistcoat_wc-pd24-017_5_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/b/r/brown_basic_waistcoat_wc-pd24-017_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+    ],
+    sizes: ["M", "L", "XL"],
+    color: "Brown",
+    fabric: "Blended",
+    category: "Waist Coat",
+  },
+  
+  {
+    name: "Blue Basic Waistcoat ",
+    description: "Top your traditional wear with an exquisite waistcoat from Ideas.Blended Regular Fit Model Specs: The model is 6ft and wearing size Medium"
+    price: "PKR  5,738",
+    image: [
+      "https://www.gulahmedshop.com/media/catalog/product/b/l/blue_basic_waistcoat_wc-pd24-021_7_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/b/l/blue_basic_waistcoat_wc-pd24-021_7_.jpg?optimize=medium&fit=bounds&height=&width=",
+      "https://www.gulahmedshop.com/media/catalog/product/b/l/blue_basic_waistcoat_wc-pd24-021_4_.jpg?optimize=medium&fit=bounds&height=&width=",
+    ],
+    sizes: ["M", "L", "XL"],
+    color: "Blue",
+    fabric: "Blended",
+    category: "Waist Coat",
+  },
+  
 ];
 
 export const women = [
