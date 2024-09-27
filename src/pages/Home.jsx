@@ -9,11 +9,10 @@ const Home = () => {
     <div>
       <Hero />
       <CateogriesDisplayMen />
-      <hr className="w-[90%] h-2 bg-black mx-auto"/>
+      <hr className="w-[90%] h-2 bg-black mx-auto" />
       <CateogriesDisplayWomen />
-      <hr className="w-[90%] h-2 bg-black mx-auto"/>
+      <hr className="w-[90%] h-2 bg-black mx-auto" />
       <Newsletter />
-
     </div>
   );
 };

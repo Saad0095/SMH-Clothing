@@ -6,6 +6,7 @@ import ProductDetail from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import OrderPlacement from "./pages/OrderPlacement";
+import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/orderplacement" element={<OrderPlacement />} />
       </Routes>
+      <ScrollToTop/>
       <Footer />
     </>
   );
