@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const [isOpen, setIsOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div>
@@ -19,7 +19,7 @@ const Navbar = () => {
           <FontAwesomeIcon
             className="cursor-pointer"
             icon={faBars}
-            onClick={() => setIsOpen(true)}
+            onClick={() => setIsMenuOpen(true)}
           />
           <div
             className="logo text-xl md:text-2xl font-bold cursor-pointer"
@@ -33,7 +33,7 @@ const Navbar = () => {
           <FontAwesomeIcon className="cursor-pointer" icon={faBagShopping} />
         </div>
       </nav>
-      <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Sidebar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
     </div>
   );
 };
