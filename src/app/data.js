@@ -4,7 +4,7 @@ export const Men = [
     name: "NAVY BLUE COTTON KAMEEZ SHALWAR ",
     description:
       "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-    price: "8,990",
+    price: "PKR 8,990",
 
     image: [
       "https://www.junaidjamshed.com/media/catalog/product/3/2/32983_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
