@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Sidebar from "./Sidebar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,14 +7,38 @@ import {
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
+import useScroll from "../hooks/useScroll";
 
 const Navbar = () => {
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isColored, setIsColored] = useState(false);
+
+  const listenToScroll = () => {
+    const heightToTransparent = 150;
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
+
+    if (winScroll > heightToTransparent) {
+      setIsColored(true);
+    } else {
+      setIsColored(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenToScroll);
+    return () => window.removeEventListener("scroll", listenToScroll);
+  }, []);
 
   return (
     <div>
-      <nav className="flex justify-between items-center px-6 h-16 text-xl fixed w-full top-0 z-10">
+      <nav className="flex justify-between items-center px-6 h-16 text-xl fixed w-full top-0 left-0 z-10">
+        <div
+          className={`h-16 absolute top-0 left-0 px-6 w-full -z-10 bg-white transition-all duration-300 transform ${
+            isColored ? "translate-y-0 drop-shadow-xl" : "-translate-y-20"
+          }`}
+        ></div>
         <div className="flex justify-between items-center gap-6">
           <FontAwesomeIcon
             className="cursor-pointer"

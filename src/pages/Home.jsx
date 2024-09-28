@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../components/Hero";
+import Carousel from "../components/Carousel";
 import CateogriesDisplayMen from "../components/CateogriesDisplayMen";
 import CateogriesDisplayWomen from "../components/CateogriesDisplayWomen";
 import Newsletter from "../components/Newsletter";
@@ -7,7 +7,7 @@ import Newsletter from "../components/Newsletter";
 const Home = () => {
   return (
     <div>
-      <Hero />
+      <Carousel />
       <CateogriesDisplayMen />
       <hr className="w-[90%] h-2 bg-black mx-auto" />
       <CateogriesDisplayWomen />

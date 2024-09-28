@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-const Hero = () => {
+const Carousel = () => {
   const settings = {
     dots: true,
     lazyLoad: true,
@@ -20,27 +20,27 @@ const Hero = () => {
   };
 
   return (
-    <div className="hero-container overflow-hidden relative">
+    <div className="carousel overflow-hidden relative">
       <Slider {...settings}>
         <div>
           <img
             className="w-full h-[642px]"
-            src="../src/assets/Hero1.webp"
-            alt="Hero1"
+            src="../src/assets/CarouselImg1.webp"
+            alt="Carousel Image"
           />
         </div>
         <div>
           <img
             className="w-full h-[642px]"
-            src="../src/assets/Hero2.webp"
-            alt="Hero2"
+            src="../src/assets/CarouselImg2.webp"
+            alt="Carousel Image"
           />
         </div>
         <div>
           <img
             className="w-full h-[642px]"
-            src="../src/assets/Hero3.webp"
-            alt="Hero3"
+            src="../src/assets/CarouselImg3.webp"
+            alt="Carousel Image"
           />
         </div>
       </Slider>
@@ -48,4 +48,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Carousel;

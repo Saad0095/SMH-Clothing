@@ -10,39 +10,48 @@ body {
   height: 100%;
 }
 
+/* Sidebar */
+
+.sidebar a:hover {
+  color: #1ACAE6;
+}
+
+.sidebar a.active {
+  color: #0799B9;
+}
+
+
 /* Carousel */
 
-.hero-container .slick-dots {
+.carousel .slick-dots {
   bottom: 10px;
 }
 
-.hero-container .slick-prev,
-.hero-container .slick-next {
+.carousel .slick-prev,
+.carousel .slick-next {
   top: 50%;
   transform: translateY(-50%);
   z-index: 1;
 }
 
-.hero-container .slick-prev {
+.carousel .slick-prev {
   left: 20px;
 }
 
-.hero-container .slick-next {
+.carousel .slick-next {
   right: 20px;
 }
 
-.hero-container .slick-prev:before,
-.hero-container .slick-next:before {
+.carousel .slick-prev:before,
+.carousel .slick-next:before {
   font-size: 30px;
   color: black;
 }
 
 /* Newsletter Animation */
 
-
 .newsletter-alert {
   animation: slidedown 0.5s ease-in-out;
-
 }
 
 @keyframes slidedown {

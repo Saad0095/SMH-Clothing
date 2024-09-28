@@ -34,7 +34,7 @@ const ScrollToTop = () => {
     <div>
       {isVisible && (
         <button
-          className="fixed z-50 bottom-8 right-8 bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 rounded-full w-10 h-10 text-white"
+          className="fixed z-50 bottom-8 right-8 bg-gradient-to-t from-cyan-400 via-cyan-500 to-cyan-600 w-8 h-8 text-white"
           onClick={handleScroll}
         >
           <FontAwesomeIcon

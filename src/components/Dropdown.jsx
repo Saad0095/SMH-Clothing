@@ -1,20 +1,30 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
-const Dropdown = ({ title, categories,setIsMenuOpen }) => {
+const Dropdown = ({ title, categories, setIsMenuOpen }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="relative">
       <button
-        className="w-full text-left p-2 rounded hover:bg-gray-200 transition"
+        className="w-full text-left p-2 rounded hover:bg-gray-200 transition flex justify-between"
         onClick={() => setIsOpen(!isOpen)}
       >
-        {title}
+        <span>{title}</span>
+        <span>
+          <FontAwesomeIcon icon={faPlus} />
+        </span>
       </button>
       {isOpen && (
-        <ul className="flex flex-col gap-3 p-4 transition">
+        <ul className="flex flex-col p-4 transition">
           {categories.map((category, index) => (
-            <NavLink key={index} to={category.path} onClick={()=>setIsMenuOpen(false)}>
+            <NavLink
+              key={index}
+              to={category.path}
+              className="p-2 rounded hover:bg-gray-200 transition"
+              onClick={() => setIsMenuOpen(false)}
+            >
               {category.name}
             </NavLink>
           ))}
