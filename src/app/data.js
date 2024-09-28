@@ -681,6 +681,42 @@ export const women = [
     fabric: "	Linen",
     sizes: ["XS","S","M","L","XL","XXL"],
   },
+  {
+    id: Date.now(),
+    name: "ORANGE LAWN 3PC STITCHED ",
+    description:
+      "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
+    price: "6,970",
+
+    image: [
+      "https://www.junaidjamshed.com/media/catalog/product/2/4/24-526_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+      "https://www.junaidjamshed.com/media/catalog/product/2/4/24-526_2__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+      "https://www.junaidjamshed.com/media/catalog/product/2/4/24-526_3__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+    ],
+    category: "3 Piece Stitched",
+    color: "	Orange",
+    fabric: "	Lawn",
+    sizes: ["XS","S","M","L","XL",],
+  },
+  {
+    id: Date.now(),
+    name: "BEIGE LAWN 3PC STITCHED ",
+    description:
+      "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
+    price: "6,970",
+
+    image: [
+      "https://www.junaidjamshed.com/media/catalog/product/2/4/24-519_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+      "https://www.junaidjamshed.com/media/catalog/product/2/4/24-519_2__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+      "https://www.junaidjamshed.com/media/catalog/product/2/4/24-519_3__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+    ],
+    category: "3 Piece Stitched",
+    color: "	BEIGE",
+    fabric: "	Lawn",
+    sizes: ["XS","S","M","L","XL",],
+  },
+
+
 
   //Unstitched 2 Piece
 
@@ -837,6 +873,41 @@ export const women = [
     fabric: "Lawn",
     sizes: ["XS","S","M","L",],
   },
+  {
+    id: Date.now(),
+    name: "GREEN LAWN UNSTITCHED 2PC",
+    description:
+      "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
+    price: " 3,590",
+
+    image: [
+      "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1673_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+      "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1673_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+      "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1673_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+    ],
+    category: "Unstitched 2 Piece ",
+    color: "Green",
+    fabric: "Lawn",
+    sizes: ["XS","S","M","L",],
+  },
+  {
+    id: Date.now(),
+    name: "YELLOW LAWN UNSTITCHED 2PC",
+    description:
+      "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
+    price: " 3,590",
+
+    image: [
+      "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1666_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+      "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1666_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+      "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1666_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+    ],
+    category: "Unstitched 2 Piece ",
+    color: "Yellow",
+    fabric: "Lawn",
+    sizes: ["XS","S","M","L",],
+  },
+
 
   //Ladies Kurti
   {
@@ -1009,6 +1080,42 @@ export const women = [
     fabric: "Stitched",
     sizes: ["S","M","L","XL"],
   },
+  {
+    id: Date.now(),
+    name: "SKIN STITCHED KURTI ",
+    description:
+      "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
+    price: "1,199",
+
+    image: [
+      "https://chasevalue.pk/cdn/shop/files/DZ7A0431_669be61d-3c80-47c4-9b32-96475d35a272_medium.jpg?v=1704803319",
+      "https://chasevalue.pk/cdn/shop/files/DZ7A0435_778eee39-480e-4723-9de6-7c0543a23e79_medium.jpg?v=1704803319",
+      "https://chasevalue.pk/cdn/shop/files/DZ7A0434_a855092a-7448-4855-aa64-27d11c5fbe10_medium.jpg?v=1704803319",
+    ],
+    category: "Ladies Kurti ",
+    color: "Skin",
+    fabric: "Stitched",
+    sizes: ["S","M","L","XL"],
+  },
+  {
+    id: Date.now(),
+    name: "BLUE STITCHED KURTI ",
+    description:
+      "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
+    price: "1,199",
+
+    image: [
+      "https://chasevalue.pk/cdn/shop/files/DZ7A0426_ecd9da79-11e2-4a76-86ae-bf21b896b83c_medium.jpg?v=1704803532",
+      "https://chasevalue.pk/cdn/shop/files/DZ7A0429_cc1fdc3b-d497-4bf0-b7d5-ad69d655e5f9_medium.jpg?v=1704803532",
+      "https://chasevalue.pk/cdn/shop/files/DZ7A0428_2dc218d8-0e7f-46a9-8754-d2d5ef29e8e1_medium.jpg?v=1704803532",
+    ],
+    category: "Ladies Kurti ",
+    color: "Blue",
+    fabric: "Stitched",
+    sizes: ["S","M","L","XL"],
+  },
+
+
 
  
 ];
