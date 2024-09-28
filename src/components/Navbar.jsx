@@ -12,24 +12,7 @@ import useScroll from "../hooks/useScroll";
 const Navbar = () => {
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isColored, setIsColored] = useState(false);
-
-  const listenToScroll = () => {
-    const heightToTransparent = 150;
-    const winScroll =
-      document.body.scrollTop || document.documentElement.scrollTop;
-
-    if (winScroll > heightToTransparent) {
-      setIsColored(true);
-    } else {
-      setIsColored(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", listenToScroll);
-    return () => window.removeEventListener("scroll", listenToScroll);
-  }, []);
+  const isColored = useScroll(150);
 
   return (
     <div>
