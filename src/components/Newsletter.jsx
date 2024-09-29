@@ -38,11 +38,11 @@ const Newsletter = () => {
       <div className="newsletter flex flex-col justify-center items-center px-5 py-20 max-w-96 mx-auto">
         <h1 className="text-3xl font-bold">Newsletter</h1>
         <h4 className="text-lg p-2">Get the latest trends first</h4>
-        <div className="border-b-2 border-black w-full flex justify-between px-2 py-1 m-4">
+        <div className="border-b-2 border-black w-full flex justify-between px-2 py-1 m-4 dark:border-white">
           <input
             type="email"
             value={email}
-            className="border-none outline-none w-4/5 caret-blue-600"
+            className="border-none outline-none w-4/5 caret-blue-600 bg-inherit p-2"
             placeholder="Enter your email"
             onChange={(e) => setEmail(e.target.value)}
             required

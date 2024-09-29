@@ -7,7 +7,7 @@ import Dropdown from "./Dropdown";
 const Sidebar = ({ isMenuOpen, setIsMenuOpen }) => {
   return (
     <div
-      className={`sidebar fixed inset-y-0 left-0 z-20 bg-white border transition-all duration-300 ease-in-out transform w-2/3 md:w-1/3 font-bold ${
+      className={`sidebar fixed inset-y-0 left-0 z-20 bg-white transition-all duration-300 ease-in-out transform w-2/3 md:w-1/3 font-bold  dark:bg-black dark:text-white ${
         isMenuOpen ? "translate-x-0" : "-translate-x-full"
       }`}
     >

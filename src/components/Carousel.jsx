@@ -26,29 +26,6 @@ const Carousel = () => {
         <div className="img img2"></div>
         <div className="img img3"></div>
       </Slider>
-      {/* <Slider {...settings}>
-        <div>
-          <img
-            className="w-full h-[642px] "
-            src="../src/assets/CarouselImg1.webp"
-            alt="Carousel Image"
-          />
-        </div>
-        <div>
-          <img
-            className="w-full h-[642px] "
-            src="../src/assets/CarouselImg2.webp"
-            alt="Carousel Image"
-          />
-        </div>
-        <div>
-          <img
-            className="w-full h-[642px] r"
-            src="../src/assets/CarouselImg3.webp"
-            alt="Carousel Image"
-          />
-        </div>
-      </Slider> */}
     </div>
   );
 };

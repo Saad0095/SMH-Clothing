@@ -10,11 +10,11 @@ const CateogriesDisplayMen = () => {
   return (
     <div className="container mx-auto my-10">
       <div className="flex justify-between items-center w-[92%] mx-auto">
-        <span className="w-1/4 md:w-1/3 bg-black h-1"></span>
+        <span className="w-1/4 md:w-1/3 bg-black h-1 dark:bg-white"></span>
         <h1 className="text-2xl md:text-2xl lg:text-3xl xl:text-4xl text-center font-bold p-3">
           Shop For Men
         </h1>
-        <span className="w-1/4 md:w-1/3 bg-black h-1"></span>
+        <span className="w-1/4 md:w-1/3 bg-black h-1 dark:bg-white"></span>
       </div>
       <div className="flex justify-center items-center flex-wrap ">
         <div className="w-96 h-[500px] p-4 m-4">

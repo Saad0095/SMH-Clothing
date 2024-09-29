@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="bg-white text-black dark:bg-black dark:text-white">
     {/* Incomplete ==> Lazy Loading will be applied at end */}
       <Navbar />
       <Routes>
@@ -41,7 +41,7 @@ function App() {
       </Routes>
       <ScrollToTop/>
       <Footer />
-    </>
+    </div>
   );
 }
 
