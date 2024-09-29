@@ -9,9 +9,8 @@ const Home = () => {
     <div>
       <Carousel />
       <CateogriesDisplayMen />
-      <hr className="w-[90%] h-2 bg-black mx-auto" />
       <CateogriesDisplayWomen />
-      <hr className="w-[90%] h-2 bg-black mx-auto" />
+      <hr className="w-[90%] h-2 bg-black mx-auto my-4" />
       <Newsletter />
     </div>
   );

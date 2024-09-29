@@ -35,7 +35,7 @@ const Newsletter = () => {
 
   return (
     <div className="w-full ">
-      <div className="newsletter flex flex-col justify-center items-center px-5 py-20 w-96 mx-auto">
+      <div className="newsletter flex flex-col justify-center items-center px-5 py-20 max-w-96 mx-auto">
         <h1 className="text-3xl font-bold">Newsletter</h1>
         <h4 className="text-lg p-2">Get the latest trends first</h4>
         <div className="border-b-2 border-black w-full flex justify-between px-2 py-1 m-4">

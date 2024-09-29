@@ -14,36 +14,41 @@ const Carousel = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     cssEase: "linear",
-    pauseOnHover: false, 
-    pauseOnFocus: false, 
-    pauseOnDotsHover: false, 
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    pauseOnDotsHover: false,
   };
 
   return (
     <div className="carousel overflow-hidden relative">
       <Slider {...settings}>
+        <div className="img img1"></div>
+        <div className="img img2"></div>
+        <div className="img img3"></div>
+      </Slider>
+      {/* <Slider {...settings}>
         <div>
           <img
-            className="w-full h-[642px]"
+            className="w-full h-[642px] "
             src="../src/assets/CarouselImg1.webp"
             alt="Carousel Image"
           />
         </div>
         <div>
           <img
-            className="w-full h-[642px]"
+            className="w-full h-[642px] "
             src="../src/assets/CarouselImg2.webp"
             alt="Carousel Image"
           />
         </div>
         <div>
           <img
-            className="w-full h-[642px]"
+            className="w-full h-[642px] r"
             src="../src/assets/CarouselImg3.webp"
             alt="Carousel Image"
           />
         </div>
-      </Slider>
+      </Slider> */}
     </div>
   );
 };
