@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { Men } from "../app/data";
 import ProductCard from "./ProductCard";
 
@@ -9,19 +9,27 @@ const ProductList = () => {
   // console.log(Men);
 
   return (
+    <>
+    <Link to={`product-detail${products.id}`}>
     <div className="flex flex-wrap justify-center mt-12">
+      
       {products.map((items) => {
         return (
           <ProductCard
             key={items.id}
-            id={items.id}
+            // id={items.id}
             img={items.image}
             name={items.name}
             price={items.price}
           />
+         
         );
       })}
     </div>
+    </Link>
+
+        </>
+
   );
 };
 

@@ -26,6 +26,7 @@ function App() {
           path="/products/:category"
           element={<ProductList />}
         />
+        <Route path="/product-details/:id" element={<ProductDetail/>}/>
         <Route
           path="/women/unstitched"
           element={<ProductList category="unstitched" />}
