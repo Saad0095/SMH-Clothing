@@ -42,7 +42,7 @@ const Newsletter = () => {
           <input
             type="email"
             value={email}
-            className="border-none outline-none w-4/5 caret-blue-600 bg-inherit p-2"
+            className="border-none outline-none w-4/5 caret-cyan-600 bg-inherit p-2"
             placeholder="Enter your email"
             onChange={(e) => setEmail(e.target.value)}
             required

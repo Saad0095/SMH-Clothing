@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Sidebar from "./Sidebar";
+import SearchBar from "./SearchBar";
 import ThemeChanger from "./ThemeChanger";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -13,6 +14,7 @@ import useScroll from "../hooks/useScroll";
 const Navbar = () => {
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [searchBarShow, setSearchBarShow] = useState(false);
   const isColored = useScroll(150);
 
   return (
@@ -20,7 +22,9 @@ const Navbar = () => {
       <nav className="flex justify-between items-center h-16 text-xl fixed w-full top-0 left-0 z-10 px-4 md:px-10">
         <div
           className={`h-16 absolute top-0 left-0 px-6 w-full -z-10 bg-white transition-all duration-300 transform dark:bg-black ${
-            isColored ? "translate-y-0 shadow-2xl shadow-gray-200 dark:shadow-gray-950" : "-translate-y-20"
+            isColored
+              ? "translate-y-0 shadow-2xl shadow-gray-200 dark:shadow-gray-950"
+              : "-translate-y-20"
           }`}
         ></div>
         <div className="flex justify-between items-center gap-6">
@@ -37,11 +41,16 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex justify-between items-center gap-6">
-          <FontAwesomeIcon className="cursor-pointer" icon={faSearch} />
+          <FontAwesomeIcon
+            className="cursor-pointer"
+            icon={faSearch}
+            onClick={() => setSearchBarShow(!searchBarShow)}
+          />
           <FontAwesomeIcon className="cursor-pointer" icon={faBagShopping} />
           <ThemeChanger />
         </div>
       </nav>
+      {searchBarShow && <SearchBar setSearchBarShow={setSearchBarShow}/>}
       <Sidebar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
     </div>
   );
