@@ -1,13 +1,12 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowRight,
   faCheckCircle,
   faTimes,
 } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
 
-const Newsletter = () => {
+const Modal = () => {
+  const [modalShow, setModalShow] = useState(false);
   const [email, setEmail] = useState("");
   const [confirmationMsgShow, setConfirmationMsgShow] = useState(false);
   const [errorMsg, setErrorMsg] = useState(null);
@@ -33,30 +32,55 @@ const Newsletter = () => {
     setConfirmationMsgShow(false);
   };
 
+  useEffect(() => {
+    setTimeout(() => {
+      setModalShow(true);
+    }, 5000);
+  }, []);
+  //   useEffect(() => {
+  //     document.addEventListener("mousedown", handleOutsideClick);
+  //     return () => document.removeEventListener("mousedown", handleOutsideClick);
+  //   });
+
+  //   const handleOutsideClick = (e) => {
+  //     if (searchRef.current && !searchRef.current.contains(e.target)) {
+  //       setSearchBarShow(false);
+  //     }
+  //   };
+
   return (
-    <div className="w-full ">
-      <div className="newsletter flex flex-col justify-center items-center px-5 py-20 max-w-96 mx-auto">
-        <h1 className="text-3xl font-bold">Newsletter</h1>
-        <h4 className="text-lg p-2">Get the latest trends first</h4>
-        <div className="border-b-2 border-black w-full flex justify-between px-2 py-1 m-4 dark:border-white">
+    <div>
+      <div className="modalOverlay"></div>
+      <div
+        className={`modal fixed transition -translate-x-1/2 -translate-y-1/2 left-1/2 w-[600px] h-96 bg-white flex flex-col items-center justify-center ${
+          modalShow ? "top-1/2" : "-top-96"
+        }`}
+      >
+        <h1 className="text-2xl">JOIN OUR MAILING LIST TO</h1>
+        <p className="text-gray-500">
+          Be the first to know about latest trends and promotions.
+        </p>
+        <div className="border-2 border-black rounded-full w-3/4 flex justify-center m-4 dark:border-white">
           <input
             type="email"
             value={email}
-            className="border-none outline-none w-4/5 caret-cyan-600 bg-inherit p-2"
+            className="px-4 py-2 w-3/4 outline-none rounded-l-full caret-cyan-600"
             placeholder="Enter your email"
             onChange={(e) => setEmail(e.target.value)}
-            onKeyDown={(e)=> {
-              if (e.key === "Enter"){
-                handleSearch();
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                handleSubscribe();
               }
             }}
-            required
           />
-          <button onClick={handleSubscribe}>
-            <FontAwesomeIcon className="cursor-pointer" icon={faArrowRight} />
+          <button
+            className="p-2 w-1/4 bg-black text-white rounded-r-full"
+            onClick={handleSubscribe}
+          >
+            Search
           </button>
         </div>
-        {errorMsg && <p className="text-red-600 w-full">{errorMsg}</p>}
+        {errorMsg && <p className="text-red-600">{errorMsg}</p>}
       </div>
       <div>
         {confirmationMsgShow && (
@@ -77,4 +101,4 @@ const Newsletter = () => {
   );
 };
 
-export default Newsletter;
+export default Modal;
