@@ -1,20 +1,16 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCheckCircle,
-  faTimes,
-  faXmark,
-} from "@fortawesome/free-solid-svg-icons";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import SubscriptionAlert from "./SubscriptionAlert";
 
 const Modal = () => {
   const modalRef = useRef();
   const [modalShow, setModalShow] = useState(false);
   const [email, setEmail] = useState("");
-  const [confirmationMsgShow, setConfirmationMsgShow] = useState(false);
+  const [subscriptionMsgShow, setSubscriptionMsgShow] = useState(false);
   const [errorMsg, setErrorMsg] = useState(null);
 
   const handleSubscribe = (e) => {
-    e.preventDefault();
     if (email === "") {
       setErrorMsg("*Please fill out this field!");
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
@@ -24,9 +20,9 @@ const Modal = () => {
       setEmail("");
       setErrorMsg(null);
       setModalShow(false);
-      setConfirmationMsgShow(true);
+      setSubscriptionMsgShow(true);
       setTimeout(() => {
-        setConfirmationMsgShow(false);
+        setSubscriptionMsgShow(false);
       }, 3000);
     }
   };
@@ -34,7 +30,7 @@ const Modal = () => {
   useEffect(() => {
     setTimeout(() => {
       setModalShow(true);
-    }, 5000);
+    }, 10000);
   }, []);
 
   useEffect(() => {
@@ -91,21 +87,9 @@ const Modal = () => {
         </div>
         {errorMsg && <p className="text-red-600">{errorMsg}</p>}
       </div>
-      <div>
-        {confirmationMsgShow && (
-          <div className="bg-green-500 text-white fixed top-5 z-50 w-96 px-2 py-2 left-1/3 newsletter-alert flex items-center justify-between">
-            <div className="flex items-center">
-              <FontAwesomeIcon className="p-3" icon={faCheckCircle} />
-              <span>Thanks for subscribing</span>
-            </div>
-            <FontAwesomeIcon
-              className="p-3 cursor-pointer"
-              icon={faTimes}
-              onClick={() => setConfirmationMsgShow(false)}
-            />
-          </div>
-        )}
-      </div>
+      {subscriptionMsgShow && (
+        <SubscriptionAlert setSubscriptionMsgShow={setSubscriptionMsgShow} />
+      )}
     </div>
   );
 };
