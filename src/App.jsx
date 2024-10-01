@@ -18,18 +18,21 @@ function App() {
         <Route path="/" element={<Home />} />
         {/* @Hussain set routes by yourself  */}
         <Route
-          path="/men/kameez-shalwar"
-          element={<ProductList category="kameez-shalwar" />}
+          path="/products/:category"
+          element={<ProductList/>}
         />
-        <Route path="/men/kurta" element={<ProductList category="kurta" />} />
+        <Route path="/products/:category" element={<ProductList/>} />
         <Route
-          path="/men/waist-coat"
-          element={<ProductList category="waist-coat" />}
+          path="/products/:category"
+          element={<ProductList />}
         />
+        <Route path="/products/:category/:productId" element={<ProductDetail/>}/>
+
         <Route
           path="/women/unstitched"
           element={<ProductList category="unstitched" />}
         />
+        
         <Route
           path="/women/stitched"
           element={<ProductList category="stitched" />}
