@@ -26,11 +26,13 @@ function App() {
           path="/products/:category"
           element={<ProductList />}
         />
-        <Route path="/product-details/:id" element={<ProductDetail/>}/>
+        <Route path="/products/:category/:productId" element={<ProductDetail/>}/>
+
         <Route
           path="/women/unstitched"
           element={<ProductList category="unstitched" />}
         />
+        
         <Route
           path="/women/stitched"
           element={<ProductList category="stitched" />}

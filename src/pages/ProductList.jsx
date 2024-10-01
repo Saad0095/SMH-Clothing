@@ -10,11 +10,12 @@ const ProductList = () => {
 
   return (
     <>
-    <Link to={`product-detail${products.id}`}>
+    
     <div className="flex flex-wrap justify-center mt-12">
       
       {products.map((items) => {
         return (
+          <Link to={`/products/${category}/${items.id}`}>
           <ProductCard
             key={items.id}
             // id={items.id}
@@ -22,11 +23,11 @@ const ProductList = () => {
             name={items.name}
             price={items.price}
           />
-         
+          </Link>
         );
       })}
     </div>
-    </Link>
+    
 
         </>
 

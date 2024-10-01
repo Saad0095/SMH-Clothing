@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductCard = ({id,img,name,price}) => {
+const ProductCard = ({img,name,price}) => {
   return (
     
     <div className=' bg-white p-5 w-[315px] rounded-xl shadow-sm'>
