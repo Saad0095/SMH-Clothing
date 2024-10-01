@@ -2,36 +2,33 @@ import React, { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import SubscriptionAlert from "./SubscriptionAlert";
+import useSubscription from "../hooks/useSubscription";
 
 const Modal = () => {
   const modalRef = useRef();
   const [modalShow, setModalShow] = useState(false);
-  const [email, setEmail] = useState("");
-  const [subscriptionMsgShow, setSubscriptionMsgShow] = useState(false);
-  const [errorMsg, setErrorMsg] = useState(null);
-
-  const handleSubscribe = (e) => {
-    if (email === "") {
-      setErrorMsg("*Please fill out this field!");
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      setErrorMsg("*Invalid Email Address");
-    } else {
-      console.log("Working");
-      setEmail("");
-      setErrorMsg(null);
-      setModalShow(false);
-      setSubscriptionMsgShow(true);
-      setTimeout(() => {
-        setSubscriptionMsgShow(false);
-      }, 3000);
-    }
-  };
+  const {
+    email,
+    setEmail,
+    subscriptionMsgShow,
+    setSubscriptionMsgShow,
+    errorMsg,
+    handleSubscribe,
+  } = useSubscription();
 
   useEffect(() => {
-    setTimeout(() => {
+    const timer = setTimeout(() => {
       setModalShow(true);
-    }, 10000);
+    }, 3000);
+    return () => clearTimeout(timer);
   }, []);
+
+  const handleModalSubscribe = (e) => {
+    if (e) e.preventDefault();
+    if (handleSubscribe()) {
+      setModalShow(false);
+    }
+  };
 
   useEffect(() => {
     document.addEventListener("mousedown", handleOutsideClick);
@@ -74,13 +71,13 @@ const Modal = () => {
             onChange={(e) => setEmail(e.target.value)}
             onKeyDown={(e) => {
               if (e.key === "Enter") {
-                handleSubscribe();
+                handleModalSubscribe();
               }
             }}
           />
           <button
             className="p-2 w-1/4 bg-black text-white rounded-r-full"
-            onClick={handleSubscribe}
+            onClick={handleModalSubscribe}
           >
             Search
           </button>

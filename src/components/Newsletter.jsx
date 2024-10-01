@@ -1,30 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
 import SubscriptionAlert from "./SubscriptionAlert";
+import useSubscription from "../hooks/useSubscription";
 
 const Newsletter = () => {
-  const [email, setEmail] = useState("");
-  const [subscriptionMsgShow, setSubscriptionMsgShow] = useState(false);
-  const [errorMsg, setErrorMsg] = useState(null);
-
-  const handleSubscribe = (e) => {
-    e.preventDefault();
-    if (email === "") {
-      setErrorMsg("*Please fill out this field!");
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      setErrorMsg("*Invalid Email Address");
-    } else {
-      console.log("Working");
-      setEmail("");
-      setErrorMsg(null);
-      setSubscriptionMsgShow(true);
-      setTimeout(() => {
-        setSubscriptionMsgShow(false);
-      }, 3000);
-    }
-  };
+  const {email,setEmail , errorMsg, subscriptionMsgShow, setSubscriptionMsgShow,  handleSubscribe} = useSubscription();
 
   return (
     <div className="w-full ">
@@ -40,7 +21,7 @@ const Newsletter = () => {
             onChange={(e) => setEmail(e.target.value)}
             onKeyDown={(e) => {
               if (e.key === "Enter") {
-                handleSearch();
+                handleSubscribe();
               }
             }}
             required
