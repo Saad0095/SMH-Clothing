@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCheckCircle,
   faTimes,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Modal = () => {
+  const modalRef = useRef();
   const [modalShow, setModalShow] = useState(false);
   const [email, setEmail] = useState("");
   const [confirmationMsgShow, setConfirmationMsgShow] = useState(false);
@@ -21,6 +23,7 @@ const Modal = () => {
       console.log("Working");
       setEmail("");
       setErrorMsg(null);
+      setModalShow(false);
       setConfirmationMsgShow(true);
       setTimeout(() => {
         setConfirmationMsgShow(false);
@@ -28,39 +31,45 @@ const Modal = () => {
     }
   };
 
-  const handleClose = () => {
-    setConfirmationMsgShow(false);
-  };
-
   useEffect(() => {
     setTimeout(() => {
       setModalShow(true);
     }, 5000);
   }, []);
-  //   useEffect(() => {
-  //     document.addEventListener("mousedown", handleOutsideClick);
-  //     return () => document.removeEventListener("mousedown", handleOutsideClick);
-  //   });
 
-  //   const handleOutsideClick = (e) => {
-  //     if (searchRef.current && !searchRef.current.contains(e.target)) {
-  //       setSearchBarShow(false);
-  //     }
-  //   };
+  useEffect(() => {
+    document.addEventListener("mousedown", handleOutsideClick);
+    return () => document.removeEventListener("mousedown", handleOutsideClick);
+  });
+
+  const handleOutsideClick = (e) => {
+    if (modalRef.current && !modalRef.current.contains(e.target)) {
+      setModalShow(false);
+    }
+  };
 
   return (
     <div>
-      <div className="modalOverlay"></div>
+      {modalShow && (
+        <div className="hidden md:block fixed inset-0 bg-black bg-opacity-50 z-40"></div>
+      )}
       <div
-        className={`modal fixed transition -translate-x-1/2 -translate-y-1/2 left-1/2 w-[600px] h-96 bg-white flex flex-col items-center justify-center ${
+        ref={modalRef}
+        className={`hidden fixed transition -translate-x-1/2 -translate-y-1/2 left-1/2 h-80 px-20 bg-white md:flex flex-col items-center justify-center z-50 rounded ${
           modalShow ? "top-1/2" : "-top-96"
         }`}
       >
+        <div
+          className="cursor-pointer absolute right-4 top-4 h-8"
+          onClick={() => setModalShow(false)}
+        >
+          <FontAwesomeIcon icon={faXmark} className="h-7" />
+        </div>
         <h1 className="text-2xl">JOIN OUR MAILING LIST TO</h1>
         <p className="text-gray-500">
           Be the first to know about latest trends and promotions.
         </p>
-        <div className="border-2 border-black rounded-full w-3/4 flex justify-center m-4 dark:border-white">
+        <div className="border-2 border-black rounded-full w-80 flex justify-center m-4 dark:border-white">
           <input
             type="email"
             value={email}
@@ -92,7 +101,7 @@ const Modal = () => {
             <FontAwesomeIcon
               className="p-3 cursor-pointer"
               icon={faTimes}
-              onClick={handleClose}
+              onClick={() => setConfirmationMsgShow(false)}
             />
           </div>
         )}
