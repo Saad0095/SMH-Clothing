@@ -985,7 +985,6 @@ export const women = [
     fabric: "Plain",
     sizes: ["S", "M", "L"],
   },
-<<<<<<< HEAD
   {
     id: Date.now(),
     name: "RED PLAIN KURTI ",
@@ -1126,6 +1125,4 @@ export const women = [
 
 
  
-=======
->>>>>>> product-list
 ];
