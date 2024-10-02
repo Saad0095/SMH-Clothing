@@ -4,8 +4,12 @@ import BannerWomen2 from "../assets/Banner_women2.webp";
 import BannerWomen3 from "../assets/Banner_women3.webp";
 import { useNavigate } from "react-router-dom";
 
-const CateogriesDisplayWomen = () => {
+const WomenSection = () => {
   const navigate = useNavigate();
+
+  const handleShopNow = (category) => {
+    navigate(`/women/${category}`);
+  };
 
   return (
     <div className="container mx-auto my-20">
@@ -28,7 +32,7 @@ const CateogriesDisplayWomen = () => {
               <button
                 type="button"
                 className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-                onClick={() => navigate("/")}
+                onClick={() => handleShopNow("Unstitch")}
               >
                 Shop Now
               </button>
@@ -43,7 +47,7 @@ const CateogriesDisplayWomen = () => {
               <button
                 type="button"
                 className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-                onClick={() => navigate("/")}
+                onClick={() => handleShopNow("Stitch")}
               >
                 Shop Now
               </button>
@@ -62,7 +66,7 @@ const CateogriesDisplayWomen = () => {
               <button
                 type="button"
                 className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-                onClick={() => navigate("/")}
+                onClick={() => handleShopNow("Kurti")}
               >
                 Shop Now
               </button>
@@ -75,4 +79,4 @@ const CateogriesDisplayWomen = () => {
   );
 };
 
-export default CateogriesDisplayWomen;
+export default WomenSection;
