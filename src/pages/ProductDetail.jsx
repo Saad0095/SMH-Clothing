@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { Men } from "../app/data"; // Import your data source
-import Dropdown from "../components/Dropdown";
-// import Size from "./sizes";
+import { Men } from "../app/data";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPlus,
+  faChevronUp,
+  faChevronDown,
+} from "@fortawesome/free-solid-svg-icons";
 
 const ProductDetail = () => {
   const { productId } = useParams();
@@ -11,6 +15,7 @@ const ProductDetail = () => {
   // console.log(product);
   const [activeImg, setActiveImg] = useState(product.image);
   const [size, setSize] = useState("");
+  const [isOpen, setIsOpen] = useState(false);
   if (!product) {
     return <div>Product not found</div>;
   }
@@ -74,6 +79,40 @@ const ProductDetail = () => {
               </div>
               <p className="mt-4 text-gray-600">{product.description}</p>
               <hr className="border border-gray-300 my-4" />
+              <div className="relative">
+                <button
+                  className="w-full text-left p-2 rounded hover:bg-gray-200 transition flex justify-between"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  <span className="font-bold">More Information</span>
+                  <span>
+                    {!isOpen ? (
+                      <FontAwesomeIcon icon={faChevronUp} />
+                    ) : (
+                      <FontAwesomeIcon icon={faChevronDown} />
+                    )}
+                  </span>
+                </button>
+                {isOpen && (
+                  <ul className="flex flex-col p-4 transition ">
+                    <div className="flex  mb-2">
+                      <span className="font-bold">color</span>
+                      <li className="ml-16">{product.color}</li>
+                    </div>
+                    <div className="flex mb-2 ">
+                      <span className="font-bold">Category</span>
+                      <li className="ml-10">{product.category}</li>
+                    </div>
+                    <div className="flex ">
+                      <span className="font-bold">Fabric</span>
+                      <li className="ml-16">{product.fabric}</li>
+                    </div>
+                    
+                  </ul>
+                )}
+                 <hr className="border border-gray-300 my-4" />
+                
+              </div>
             </div>
           </div>
         </div>
