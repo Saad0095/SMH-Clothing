@@ -71,7 +71,7 @@ const ProductDetail = () => {
                           : ""
                       } `}
                       key={index}
-                    >
+                    > 
                       {item}
                     </button>
                   </div>
