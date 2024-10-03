@@ -24,7 +24,7 @@ const OrderPlacement = () => {
       </div>
       <div className='mt-6'>
         <button className=' text-xl bg-green-500 text-white py-2 px-4 hover:bg-green-600 '> Track Order</button>
-        <button className=' text-xl ml-4 bg-red-600 text-white py-2 px-4 hover:bg-red-800'> Continue Shopping</button>
+        <button className=' text-xl ml-4 bg-red-500 text-white py-2 px-4 hover:bg-red-600'> Continue Shopping</button>
       </div>
       
     </div>
