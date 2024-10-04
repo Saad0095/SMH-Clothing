@@ -28,22 +28,21 @@ const Sidebar = ({ isMenuOpen, setIsMenuOpen }) => {
         <Dropdown
           title="Men"
           categories={[
-            { name: "Kameez Shalwar", path: "/" },
-            { name: "Kurta", path: "/" },
-            { name: "Waist-Coat", path: "/" },
+            { name: "Kameez Shalwar", path: "/men/Kameez-shalwar" },
+            { name: "Kurta", path: "/men/Kurta" },
+            { name: "Waist-Coat", path: "/men/Waistcoat" },
           ]}
           setIsMenuOpen={setIsMenuOpen}
         />
         <Dropdown
           title="Women"
           categories={[
-            { name: "Unstitched", path: "/" },
-            { name: "Stitched", path: "/" },
-            { name: "Kurti", path: "/" },
+            { name: "Unstitched", path: "/women/Unstitch" },
+            { name: "Stitched", path: "/women/Stitch" },
+            { name: "Kurti", path: "/women/Kurti" },
           ]}
           setIsMenuOpen={setIsMenuOpen}
         />
-        
       </ul>
     </div>
   );

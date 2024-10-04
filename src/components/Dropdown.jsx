@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
 
 const Dropdown = ({ title, categories, setIsMenuOpen }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,11 +13,15 @@ const Dropdown = ({ title, categories, setIsMenuOpen }) => {
       >
         <span>{title}</span>
         <span>
-          <FontAwesomeIcon icon={faPlus} />
+          <FontAwesomeIcon icon={isOpen ? faMinus : faPlus} />
         </span>
       </button>
-      {isOpen && (
-        <ul className="flex flex-col p-4 transition">
+      <div
+        className={`transition-all duration-700 ease-in-out overflow-hidden ${
+          isOpen ? "max-h-96" : "max-h-0"
+        } `}
+      >
+        <ul className="flex flex-col p-4">
           {categories.map((category, index) => (
             <NavLink
               key={index}
@@ -29,44 +33,9 @@ const Dropdown = ({ title, categories, setIsMenuOpen }) => {
             </NavLink>
           ))}
         </ul>
-      )}
+      </div>
     </div>
   );
 };
 
 export default Dropdown;
-
-// import React, { useState } from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faXmark } from "@fortawesome/free-solid-svg-icons";
-// import { NavLink } from "react-router-dom";
-
-// const DropdownMenu = ({ title, links }) => {
-//   const [isOpen, setIsOpen] = useState(false);
-
-//   return (
-//     <div className="relative">
-//       <button
-//         onClick={() => setIsOpen(!isOpen)}
-//         className="w-full text-left p-2 rounded hover:bg-gray-200 transition"
-//       >
-//         {title}
-//       </button>
-//       {isOpen && (
-//         <ul className="flex flex-col gap-3 p-4 bg-gray-100 rounded shadow-md transition">
-//           {links.map((link, index) => (
-//             <NavLink
-//               key={index}
-//               to={link.path}
-//               className="p-2 rounded hover:bg-gray-200 transition"
-//             >
-//               {link.label}
-//             </NavLink>
-//           ))}
-//         </ul>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default DropdownMenu;
