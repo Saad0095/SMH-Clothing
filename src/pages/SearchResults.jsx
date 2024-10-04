@@ -20,7 +20,6 @@ const SearchResults = () => {
         )
       );
 
-      console.log(allProducts)
       const searchedProducts = allProducts.filter(
         (product) =>
           product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -29,7 +28,6 @@ const SearchResults = () => {
           product.description.toLowerCase().includes(searchQuery.toLowerCase())
       );
 
-    //   console.log(searchedProducts)
       setProducts(searchedProducts);
     }
   }, [searchQuery]);
@@ -38,12 +36,18 @@ const SearchResults = () => {
     <div className="flex flex-wrap justify-center mx-auto my-20">
       {products.length > 0 ? (
         products.map((item) => (
-          <Link key={item.id} to={`/${item.section}/${item.subcategory}/${item.id}`}>
+          <Link
+            key={item.id}
+            to={`/${item.section}/${item.subcategory}/${item.id}`}
+          >
             <ProductCard img={item.image} name={item.name} price={item.price} />
           </Link>
         ))
       ) : (
-        <div className="container mx-auto p-4">Subcategory not found</div>
+        <div className="container mx-auto p-4">
+          No results found for "{searchQuery}". Check the spelling or use a
+          different word or phrase.
+        </div>
       )}
     </div>
   );

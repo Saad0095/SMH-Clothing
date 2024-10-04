@@ -2,17 +2,16 @@ import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { data } from "../app/data";
 import ProductCard from "./ProductCard";
-import { useSearch } from "../context/SearchContext";
 
 const ProductList = () => {
   const { section, subcategory } = useParams();
-  // const { searchQuery } = useSearch();
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
     const category = data.find(
       (category) => category.section.toLowerCase() === section.toLowerCase()
     );
+
     const subCat = category?.subcategories.find(
       (subCat) => subCat.name.toLowerCase() === subcategory.toLowerCase()
     );
@@ -20,12 +19,8 @@ const ProductList = () => {
     setProducts(subCat.items);
   }, [section, subcategory]);
 
-  useEffect(() => {
-    console.log(data);
-  });
-
   return (
-    <div className="flex flex-wrap justify-center mx-auto my-20">
+    <div className="flex flex-wrap justify-center mx-auto py-20">
       {products.length > 0 ? (
         products.map((item) => (
           <Link key={item.id} to={`/${section}/${subcategory}/${item.id}`}>

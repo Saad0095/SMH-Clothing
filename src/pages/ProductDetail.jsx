@@ -28,7 +28,7 @@ const ProductDetail = () => {
   }
 
   return (
-    <div className="mt-16 max-w-screen-2xl container mx-auto xl:px-16 px-4">
+    <div className="max-w-screen-2xl container mx-auto xl:px-16 px-4 py-16 ">
       <div className="p-3 max-w-7xl m-auto">
         <div className="mt-6 sm:mt-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-10 h-max">
