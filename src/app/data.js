@@ -585,7 +585,7 @@ export const data = [
             price: "10,890",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-157_1__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/0001_RSR233P78-052A4591_1800x1800.jpg?v=1723807260",
               "https://www.junaidjamshed.com/media/catalog/product/2/4/24-157_3__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
               "https://www.junaidjamshed.com/media/catalog/product/2/4/24-157_2__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
             ],
@@ -602,7 +602,7 @@ export const data = [
             price: "8,990",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-036_2__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://pk.sapphireonline.pk/cdn/shop/files/00PBDYW24V36_3.jpg?v=1726045880",
               "https://www.junaidjamshed.com/media/catalog/product/2/4/24-036_3__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
               "https://www.junaidjamshed.com/media/catalog/product/2/4/24-036_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=69&width=88",
             ],
@@ -619,7 +619,7 @@ export const data = [
             price: "7,990",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-027s_1__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://www.sanasafinaz.com/media/catalog/product/n/2/n243-007-c1_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/2/4/24-027s_3__1_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
               "https://www.junaidjamshed.com/media/catalog/product/2/4/24-027s_2__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
             ],
