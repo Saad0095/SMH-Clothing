@@ -12,7 +12,7 @@ export const data = [
             name: "NAVY BLUE COTTON KAMEEZ SHALWAR ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "PKR 8,990",
+            price: "8,990",
 
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32983_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
@@ -29,7 +29,7 @@ export const data = [
             name: "BLACK COTTON KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this black cotton casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
-            price: "PKR 6,990.00",
+            price: "6,990.00",
             image: [
               " https://www.junaidjamshed.com/media/catalog/product/4/7/47268_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               " https://www.junaidjamshed.com/media/catalog/product/4/7/47268_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -45,7 +45,7 @@ export const data = [
             name: "BROWN BLENDED KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this brown blended casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
-            price: "PKR 8,990.00",
+            price: "8,990.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32965-1_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32965-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -62,7 +62,7 @@ export const data = [
             name: "LIGHT BROWN COTTON KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this light brown cotton casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
-            price: "PKR 8,990.00",
+            price: "8,990.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7014_2__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
               "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7014_3__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
@@ -78,7 +78,7 @@ export const data = [
             name: "WHITE BLENDED KAMEEZ SHALWAR",
             description:
               "With subtle detailing and a refined silhouette, this white blended semi-formal kameez shalwar embodies understated elegance, perfect for gatherings and events.",
-            price: "PKR 7,990.00",
+            price: "7,990.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/4/7/47263_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/4/7/47263_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
@@ -94,7 +94,7 @@ export const data = [
             name: "STONE GREY BLENDED KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this stone grey blended casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
-            price: "PKR 8,490.00",
+            price: "8,490.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32980_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
               " https://www.junaidjamshed.com/media/catalog/product/3/2/32980_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -110,7 +110,7 @@ export const data = [
             name: "ASH GREY BLENDED KAMEEZ SHALWAR",
             description:
               "With subtle detailing and a refined silhouette, this white blended semi-formal kameez shalwar embodies understated elegance, perfect for gatherings and events.",
-            price: "PKR 8,490.00",
+            price: "8,490.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32982_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32982_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
@@ -127,7 +127,7 @@ export const data = [
             name: "CALGARY - BLACK BLENDED KAMEEZ SHALWAR",
             description:
               "Shirt Collar With Round Edge Cuffs. Embroidery on Front, Button Placket, Collar Back, Back Yoke, Sleeve Vent And Cuffs. Square Hem.",
-            price: "PKR 10,990.00",
+            price: "10,990.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/c/a/calgary_black_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
               " https://www.junaidjamshed.com/media/catalog/product/c/a/calgary_black_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -143,7 +143,7 @@ export const data = [
             name: "LONDON - LIGHT BEIGE BLENDED KAMEEZ SHALWAR",
             description:
               "Shirt Collar With Round Edge Cuffs. Embroidery at Front, Collar Back, Back Yoke, Sleeve Vent And Cuffs. Square Hem.",
-            price: "PKR 11,990.00",
+            price: "11,990.00",
             image: [
               " https://www.junaidjamshed.com/media/catalog/product/l/o/london_light_beige_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/l/o/london_light_beige_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
@@ -159,7 +159,7 @@ export const data = [
             name: "MAAMBA - FOREST GREY BLENDED KAMEEZ SHALWAR",
             description:
               "Shirt Collar With Square Edge Cuffs. Embroidery at Front, Back Yoke, Back, Sleeve Vent And Cuffs. Square Hem.",
-            price: "PKR 10,990.00",
+            price: "10,990.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/m/a/maamba_forest_grey_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
               "https://www.junaidjamshed.com/media/catalog/product/m/a/maamba_forest_grey_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
@@ -174,7 +174,7 @@ export const data = [
             name: "MAAMBA - OFF WHITE BLENDED KAMEEZ SHALWAR",
             description:
               "Shirt Collar With Square Edge Cuffs. Embroidery at Front, Back Yoke, Back, Sleeve Vent And Cuffs. Square Hem.",
-            price: "PKR 10,990.00",
+            price: "10,990.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/m/a/maamba_offwhite_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
               " https://www.junaidjamshed.com/media/catalog/product/m/a/maamba_offwhite_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -214,7 +214,7 @@ export const data = [
             name: "CHARCOAL COTTON KURTA",
             description:
               "With subtle detailing and a refined silhouette, this charcoal cotton semi-formal kurta embodies understated elegance, perfect for gatherings and events.",
-            price: "PKR 4,490.00",
+            price: "4,490.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/7/37899-1_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/3/7/37899-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -233,7 +233,7 @@ export const data = [
             name: "APPLE GREEN COTTON KURTA",
             description:
               "This apple green cotton semi-formal kurta exudes understated elegance, striking the perfect balance between traditional charm and contemporary sophistication.",
-            price: "PKR 3,890.00",
+            price: "3,890.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32979_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32979_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -252,7 +252,7 @@ export const data = [
             name: "GREY COTTON KURTA ",
             description:
               "This grey cotton semi-formal kurta exudes understated elegance, striking the perfect balance between traditional charm and contemporary sophistication.",
-            price: "PKR 3,890.00",
+            price: "3,890.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32984_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32984_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -270,7 +270,7 @@ export const data = [
             name: "CREAM COTTON KURTA ",
             description:
               "With subtle detailing and a refined silhouette, this cream cotton semi-formal kurta embodies understated elegance, perfect for gatherings and events.",
-            price: "PKR 4,490.00",
+            price: "4,490.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32970-1_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32970-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -288,7 +288,7 @@ export const data = [
             name: "MAROON COTTON KURTA ",
             description:
               "This Men's maroon cotton formal kurta epitomizes traditional charm and modern sophistication, featuring timeless designs, exquisite fabrics, and meticulous craftsmanship, perfect for adding a touch of cultural refinement to any occasion",
-            price: "PKR 7,990.00",
+            price: "7,990.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/4/7/47259_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/4/7/47259_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -306,7 +306,7 @@ export const data = [
             name: "BOTTLE GREEN BLENDED KURTA",
             description:
               "With subtle detailing and a refined silhouette, this bottle green blended semi-formal kurta embodies understated elegance, perfect for gatherings and events.",
-            price: "PKR 3,690.00",
+            price: "3,690.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/4/34704-1_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/3/4/34704-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -324,7 +324,7 @@ export const data = [
             name: "RED COTTON KURTA ",
             description:
               "With subtle detailing and a refined silhouette, this red cotton semi-formal kurta embodies understated elegance, perfect for gatherings and events.",
-            price: "PKR 4,610.00",
+            price: "4,610.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/7/37886-1_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/3/7/37886-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -342,7 +342,7 @@ export const data = [
             name: "BLACK BLENDED SPECIAL KURTA ",
             description:
               "Adorned with embroidery on the collar, front, and sleeves, adding intricate detailing.Perfect for formal occasions, offering a distinguished and elegant look",
-            price: "PKR 25,660.00",
+            price: "25,660.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/j/j/jjk-sp-a-48110_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/j/j/jjk-sp-a-48110_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -360,7 +360,7 @@ export const data = [
             name: "BROWN COTTON KURTA ",
             description:
               "This brown cotton semi-formal kurta strikes a delicate balance between traditional grace and modern refinement, ideal for semi-formal occasions.",
-            price: "PKR 3,890.00",
+            price: "3,890.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/9/0/90440_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/9/0/90440_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -398,7 +398,7 @@ export const data = [
 
             name: "NAVY LINEN WAISTCOAT",
             description: "",
-            price: "PKR 16,990.00",
+            price: "16,990.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/c/c/ccvc-39344-c5_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/c/c/ccvc-39344-c5_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -415,7 +415,7 @@ export const data = [
             name: "OLIVE LINEN WAISTCOAT",
             description:
               "Complete Your Traditional Outfit With This Stylish Waistcoat It Adds a Touch of Class and Complements Your Look Perfectly ",
-            price: "PKR 16,990.00",
+            price: "16,990.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/b/a/baku_brown_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "",
@@ -432,7 +432,7 @@ export const data = [
             name: "GREY SUITING WAIST COAT",
             description:
               "Complete Your Traditional Outfit With This Stylish Waistcoat. It Adds a Touch of Class and Complements Your Look Perfectly.",
-            price: "PKR 7,890.00",
+            price: "7,890.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/2/7/27385-r10_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/2/7/27385-r10_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -449,7 +449,7 @@ export const data = [
 
             name: "Red Waistcoat ",
             description: "",
-            price: "PKR  6,392",
+            price: " 6,392",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/r/e/red_waistcoat_wc-pd24-033_2_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/r/e/red_waistcoat_wc-pd24-033_3_.jpg?optimize=medium&fit=bounds&height=&width=",
@@ -467,7 +467,7 @@ export const data = [
             name: "Off White Waistcoat",
             description:
               "Regular Fit Model Specs: The model is 6ft and wearing size Medium",
-            price: "PKR  5,592",
+            price: " 5,592",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/o/f/off_white_waistcoat_wc-pd24-030_2_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/o/f/off_white_waistcoat_wc-pd24-030_3_.jpg?optimize=medium&fit=bounds&height=&width=",
@@ -485,7 +485,7 @@ export const data = [
             name: "Grey Waistcoat",
             description:
               "Top your traditional wear with an exquisite waistcoat from Ideas.Regular Fit Model Specs: The model is 6ft and wearing size Medium",
-            price: "PKR  5,738",
+            price: " 5,738",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/g/r/grey_waistcoat_wc-pd24-031_2_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/g/r/grey_waistcoat_wc-pd24-031_3_.jpg?optimize=medium&fit=bounds&height=&width=",
@@ -503,7 +503,7 @@ export const data = [
             name: "Mink Grey Basic Waist Coat",
             description:
               "Top your traditional wear with an exquisite waistcoat from Ideas.BlendedRegular Fit Model Specs: The model is 5’8 and wearing size Medium",
-            price: "PKR 5,892",
+            price: "5,892",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/m/i/mink_grey_basic_waist_coat_wc-pd23-006_7_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/m/i/mink_grey_basic_waist_coat_wc-pd23-006_3_.jpg?optimize=medium&fit=bounds&height=&width=",
@@ -521,7 +521,7 @@ export const data = [
             name: "Black Basic Waist Coat ",
             description:
               "Top your traditional wear with an exquisite waistcoat from Ideas.BlendedRegular Fit Model Specs: The model is 6ft 2in and wearing size Medium",
-            price: "PKR  5,738",
+            price: " 5,738",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/b/l/black_basic_waist_coat_wc-pd24-019_4_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/b/l/black_basic_waist_coat_wc-pd24-019_5_.jpg?optimize=medium&fit=bounds&height=&width=",
@@ -539,7 +539,7 @@ export const data = [
             name: "Brown Basic Waistcoat",
             description:
               "Top your traditional wear with an exquisite waistcoat from Ideas.Blended Regular Fit Model Specs: The model is 6ft and wearing size Medium",
-            price: "PKR  5,738",
+            price: " 5,738",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/b/r/brown_basic_waistcoat_wc-pd24-017_5_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/b/r/brown_basic_waistcoat_wc-pd24-017_5_.jpg?optimize=medium&fit=bounds&height=&width=",
@@ -557,7 +557,7 @@ export const data = [
             name: "Blue Basic Waistcoat ",
             description:
               "Top your traditional wear with an exquisite waistcoat from Ideas.Blended Regular Fit Model Specs: The model is 6ft and wearing size Medium",
-            price: "PKR  5,738",
+            price: " 5,738",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/b/l/blue_basic_waistcoat_wc-pd24-021_7_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/b/l/blue_basic_waistcoat_wc-pd24-021_7_.jpg?optimize=medium&fit=bounds&height=&width=",
