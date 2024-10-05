@@ -64,10 +64,8 @@ const ProductDetail = () => {
               <h2 className="text-gray-500">IN STOCK</h2>
               <h1 className="font-bold text-4xl">{product.price}</h1>
               <hr className="border border-gray-500 my-4" />
-              <h1 className="mb-2 ml-1 font-semibold">Size</h1>
-              <div className="flex space-x-4 mb-6">
-                
-              </div>
+             
+             
               <div>
                 
               <div className="mb-6">
@@ -75,7 +73,7 @@ const ProductDetail = () => {
                   Add To Bag
                 </button>
               </div>
-              <p className="mt-4 text-gray-600">{product.description}</p>
+             
               <h1 className="mb-2 ml-1 font-semibold">Size</h1>
               <div className="flex space-x-4 mb-6 ">
                 {product.sizes.map((item, index) => (
@@ -134,6 +132,7 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
