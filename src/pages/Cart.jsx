@@ -1,21 +1,23 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import EmptyCart from "../assets/empty.webp"; // Uncomment this if you have the image
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
+import { removeFromCart } from '../app/cartSlice';
 
 
 const Cart = () => {
   const cart = useSelector(state => state.cart);
   const dispatch = useDispatch();
-  useEffect(() => {
-    console.log('Cart component mounted');
-    console.log('Cart items on mount:', cart.cartItems);
-  }, []);
+  console.log(cart)
   
-  // const handleRemoveFromCart = (productId) => {
-  //   dispatch(removeFromCart({ id: productId }));
-  // };
+  
+  
+  
+  const handleRemoveFromCart = (productId) => {
+    dispatch(removeFromCart({ id: productId }));
+  };
 
   // const handleQuantityChange = (productId, increase) => {
   //   if (increase) {
@@ -43,9 +45,11 @@ const Cart = () => {
                 </div>
               </div>
               {cart.cartItems.map((product) => (
+                 
                 <div key={product.id} className='flex items-center justify-between p-3 border-b'>
                   <div className='md:flex items-center space-x-4'>
                     <div>
+            
                       <img 
                         src={product.image[0]} // Change this according to your image structure
                         alt={product.name} 
@@ -56,7 +60,7 @@ const Cart = () => {
                       </div>
                     </div>
                     <div className='flex space-x-12 items-center'>
-                      <p>${product.price.toFixed(2)}</p>
+                      <p>${product.price}</p>
                       <div className='flex items-center justify-center border'>
                         <button 
                           className='text-xl font-bold px-1.5 border-r'
@@ -68,7 +72,9 @@ const Cart = () => {
                           onClick={() => handleQuantityChange(product.id, true)} // Increase quantity
                         >+</button>
                       </div>
-                      <p>${(product.quantity * product.price).toFixed(2)}</p>
+                      
+
+                      <p>$ {parseFloat(product.price.replace(/,/g, '')).toFixed(2)*parseFloat(product.quantity)}</p>
                       <button 
                         className='text-red-500 hover:text-red-700'
                         onClick={() => handleRemoveFromCart(product.id)}
@@ -86,12 +92,13 @@ const Cart = () => {
                 <span className='text-sm'>TOTAL ITEMS:</span>
                 <span>{cart.cartItems.length}</span>
               </div>
-              <div className='mb-4 border-b pb-2'>
+              {/* {/* shipping address */}
+               {/* <div className='mb-4 border-b pb-2'>
                 <p>Shipping:</p>
                 <p className='ml-2'>Shipping to:</p>
-                <span className='text-us font-bold'> {/* Address goes here */} </span>
+                <span className='text-us font-bold'> { Address goes here </span> }
                 <button className='text-blue-500 hover:underline mt-1 ml-2'>Change address</button>
-              </div>
+              </div>  */}
               <div className='flex justify-between mb-4'>
                 <span>TOTAL PRICE:</span>
                 <span>
