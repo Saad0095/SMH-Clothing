@@ -27,8 +27,8 @@ const Checkout = () => {
                 className='w-full px-3 py-2 border'
               />
             </div>
-          </div>
-          <div>
+{/*  */}
+<div>
             <div>
               <label htmlFor="">Email</label>
               <input type="email"
@@ -44,6 +44,10 @@ const Checkout = () => {
               className='w-full px-3 py-2 border'/>
             </div>
           </div>
+
+
+          </div>
+         
         </div>
 
       {/* Shipping */}
@@ -62,8 +66,9 @@ const Checkout = () => {
                 className='w-full px-3 py-2 border'
               />
             </div>
-          </div>
-          <div>
+
+            {/*  */}
+            <div>
             <div>
               <label htmlFor="">City</label>
               <input type="email"
@@ -79,6 +84,8 @@ const Checkout = () => {
               className='w-full px-3 py-2 border'/>
             </div>
           </div>
+          </div>
+        
         </div>
       {/* payment Method */}
       <div className='border p-2 mb-6'>
@@ -125,7 +132,7 @@ const Checkout = () => {
          )}
         </div>
         </div>
-        <div className='md:w-1/3 bg-white p-6 rounded-lg shadow-md border'></div>
+        <div className='md:w-1/3 max-h-96 bg-white p-6 rounded-lg shadow-md border'></div>
       </div>
       
     </div>
