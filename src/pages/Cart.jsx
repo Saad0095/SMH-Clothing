@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import EmptyCart from "../assets/empty.webp"; // Uncomment this if you have the image
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
-import { removeFromCart } from '../app/cartSlice';
+import { removeFromCart , increaseQuantity,decreaseQuantity} from '../app/cartSlice';
 
 
 const Cart = () => {
@@ -19,14 +19,13 @@ const Cart = () => {
     dispatch(removeFromCart({ id: productId }));
   };
 
-  // const handleQuantityChange = (productId, increase) => {
-  //   if (increase) {
-  //     dispatch(increaseQuantity({ id: productId })); // Increase quantity
-  //   }
-  //   //  else {
-  //   //   dispatch(decreaseQuantity({ id: productId })); // Decrease quantity
-  //   // }
-  // };
+  const handleQuantityChange = (productId, increase) => {
+    if (increase) {
+      dispatch(increaseQuantity({ id: productId })); // Increase quantity
+    } else {
+      dispatch(decreaseQuantity({ id: productId })); // Decrease quantity
+    }
+  };
 
   return (
     <div className='container mx-auto py-8 min-h-96 px-4 md:px-16 lg:px-24 mt-20'>
@@ -64,12 +63,12 @@ const Cart = () => {
                       <div className='flex items-center justify-center border'>
                         <button 
                           className='text-xl font-bold px-1.5 border-r'
-                          onClick={() => handleQuantityChange(product.id, false)} // Decrease quantity
+                          onClick={() => handleQuantityChange(product.id, false)}
                         >-</button>
                         <p className='text-xl px-2'>{product.quantity}</p>
                         <button 
                           className='text-xl px-1 border-l'
-                          onClick={() => handleQuantityChange(product.id, true)} // Increase quantity
+                          onClick={() => handleQuantityChange(product.id, true)} 
                         >+</button>
                       </div>
                       
@@ -102,7 +101,7 @@ const Cart = () => {
               <div className='flex justify-between mb-4'>
                 <span>TOTAL PRICE:</span>
                 <span>
-                  ${cart.cartItems.reduce((total, product) => total + (product.price * product.quantity), 0).toFixed(2)}
+                  ${cart.cartItems.reduce((total, product) => parseInt(total,10) + (product.price.replace(/,/g, '') * product.quantity), 0).toFixed(2)}
                 </span>
               </div>
               <button className='w-full bg-red-600 text-white py-2 hover:bg-red-800'>Checkout</button>
