@@ -10,8 +10,10 @@ import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import { SearchProvider } from "./context/SearchContext";
 import SearchResults from "./pages/SearchResults";
+import { useState } from "react";
 
 function App() {
+  const [order,setOrder] = useState(null)
   return (
     <div className="bg-white text-black dark:bg-black dark:text-white">
       {/* Incomplete ==> Lazy Loading will be applied at end */}
@@ -26,8 +28,8 @@ function App() {
             element={<ProductDetail />}
           />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/checkout" element={<Checkout />} />
-          <Route path="/orderplacement" element={<OrderPlacement />} />
+          <Route path="/checkout" element={<Checkout setOrder={setOrder} />} />
+          <Route path="/orderplacement" element={<OrderPlacement order={order} />} />
         </Routes>
         <ScrollToTop />
         <Footer />

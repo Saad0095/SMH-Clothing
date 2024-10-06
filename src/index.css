@@ -115,3 +115,37 @@ body {
 .trackOrderBTn{
   width: 180px;
 }
+
+
+
+/*order summary  */
+.ordersummaryContainer{
+min-height: 300px;
+height: max-content;
+}
+.orderSummarInnerContainer{
+  padding: 20px;
+  max-height: 300px;
+  overflow-y: scroll;
+
+}
+
+::-webkit-scrollbar {
+  width: 12px;  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;  /* Scrollbar track (background) */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;  /* Scrollbar thumb (handle) */
+  border-radius: 10px;  /* Roundness of the scrollbar thumb */
+  border: 2px solid #f1f1f1;  /* Border around the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;  /* Darker color when hovering */
+}
+
+/* price caret page */
