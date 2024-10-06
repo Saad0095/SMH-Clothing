@@ -44,11 +44,11 @@ const Modal = () => {
   return (
     <div>
       {modalShow && (
-        <div className="hidden md:block fixed inset-0 bg-black bg-opacity-50 z-40"></div>
+        <div className="hidden md:block fixed inset-0 bg-black bg-opacity-50 dark:bg-white dark:bg-opacity-30 z-40"></div>
       )}
       <div
         ref={modalRef}
-        className={`hidden fixed transition -translate-x-1/2 -translate-y-1/2 left-1/2 h-80 px-20 bg-white md:flex flex-col items-center justify-center z-50 rounded ${
+        className={`hidden fixed transition -translate-x-1/2 -translate-y-1/2 left-1/2 h-80 px-20 bg-white text-black dark:bg-black dark:text-white md:flex flex-col items-center justify-center z-50 rounded ${
           modalShow ? "top-1/2" : "-top-96"
         }`}
       >
@@ -66,7 +66,7 @@ const Modal = () => {
           <input
             type="email"
             value={email}
-            className="px-4 py-2 w-3/4 outline-none rounded-l-full caret-cyan-600"
+            className="px-4 py-2 w-3/4 outline-none rounded-l-full caret-cyan-600 dark:bg-black"
             placeholder="Enter your email"
             onChange={(e) => setEmail(e.target.value)}
             onKeyDown={(e) => {

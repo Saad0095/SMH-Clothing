@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { data } from "../app/data";
-import ProductCard from "./ProductCard";
+import ProductCard from "../components/ProductCard";
 import { useSearch } from "../context/SearchContext";
 
 const SearchResults = () => {

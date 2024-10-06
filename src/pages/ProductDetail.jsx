@@ -5,7 +5,6 @@ import { data } from "../app/data";
 const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
 
-
   const category = data.find(
     (category) => category.section.toLowerCase() === section.toLowerCase()
   );
@@ -66,7 +65,7 @@ const ProductDetail = () => {
                 ))}
               </div>
               <div>
-                <button className="flex justify-center items-center gap-2 w-full py-3 px-3 border border-black rounded-md ease-in-out shadow-slate-600 lg:m-0 md:px-6 hover:bg-black hover:text-white">
+                <button className="flex justify-center items-center gap-2 w-full py-3 px-3 border transition border-black rounded-md ease-in-out shadow-slate-600 lg:m-0 md:px-6 hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black">
                   Add To Bag
                 </button>
               </div>
