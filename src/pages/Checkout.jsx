@@ -1,5 +1,6 @@
 import React, {useState}from 'react'
-//import {FaAngleDown ,FaAngleUp} from "react-icons/fa";
+import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Checkout = () => {
   const [billingToggle, setBillingToggle] = useState(true)
@@ -16,7 +17,7 @@ const Checkout = () => {
           <div className='flex items-center justify-between'
             onClick={() => setBillingToggle(!billingToggle)}>
             <h3 className='text-lg font-semibold mb-4'>Billing Information</h3>
-            {/* {billingToggle ? <FaAngleDown /> : <FaAngleUp />} */}
+            {billingToggle ?<FontAwesomeIcon icon={faAngleUp} />: <FontAwesomeIcon icon={faAngleDown} />}
           </div>
           <div className={`space-y-4 ${billingToggle ? "" : "hidden"}` }>
             <div>
@@ -55,7 +56,8 @@ const Checkout = () => {
           <div className='flex items-center justify-between'
             onClick={() => setshippingToggle(!shippingToggle)}>
             <h3 className='text-lg font-semibold mb-2'>Shipping Information</h3>
-            {/* {shippingToggle ? <FaAngleDown /> : <FaAngleUp />} */}
+            {shippingToggle ?<FontAwesomeIcon icon={faAngleUp} />: <FontAwesomeIcon icon={faAngleDown} />}
+
           </div>
           <div className={`space-y-4 ${shippingToggle ? "" : "hidden"}` }>
             <div>
@@ -92,7 +94,8 @@ const Checkout = () => {
           <div className='flex items-center justify-between'
             onClick={() => setPaymentToggle(!payementToggle)}>
             <h3 className='text-lg font-semibold mb-2'>Payement Information</h3>
-            {/* {billingToggle ? <FaAngleDown /> : <FaAngleUp />} */}
+            {payementToggle ?<FontAwesomeIcon icon={faAngleUp} />: <FontAwesomeIcon icon={faAngleDown} />}
+
           </div>
           <div className={`space-y-4 ${payementToggle ? "" : "hidden"}` }>
             <div className='flex item-center mb-2'>
@@ -105,8 +108,8 @@ const Checkout = () => {
               <label className='block text-gray-700 ml-2'>Debit Card</label>
              
             </div>
-          </div>
-          
+            {/*  */}
+                 
          {paymentMethod === "dc" && (
           <div className='bg-gray-100 p-40 rounded-lg mb-4'>
             <h3 className='text-xl font-semibold mb-4'>Debit Card Information </h3>
@@ -130,6 +133,9 @@ const Checkout = () => {
             </div>
           </div>
          )}
+
+          </div>
+     
         </div>
         </div>
         <div className='md:w-1/3 max-h-96 bg-white p-6 rounded-lg shadow-md border'></div>
