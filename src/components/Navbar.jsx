@@ -24,7 +24,7 @@ const Navbar = () => {
           className={`h-16 absolute top-0 left-0 px-6 w-full -z-10 bg-white transition-all duration-300 transform dark:bg-black ${
             isColored
               ? "translate-y-0 shadow-2xl shadow-gray-200 dark:shadow-gray-950"
-              : "-translate-y-20"
+              : "-translate-y-20 "
           }`}
         ></div>
         <div className="flex justify-between items-center gap-6">

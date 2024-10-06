@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { data } from "../app/data";
 import ProductCard from "./ProductCard";
+import { useSearch } from "../context/SearchContext";
 
 const ProductList = () => {
   const { section, subcategory } = useParams();
+  // const { searchQuery } = useSearch();
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -12,33 +14,27 @@ const ProductList = () => {
       (category) => category.section.toLowerCase() === section.toLowerCase()
     );
     const subCat = category?.subcategories.find(
-      (subCategory) =>
-        subCategory.name.toLowerCase() === subcategory.toLowerCase()
+      (subCat) => subCat.name.toLowerCase() === subcategory.toLowerCase()
     );
 
-    if (subCat) {
-      setProducts(subCat.items);
-    }
+    setProducts(subCat.items);
   }, [section, subcategory]);
 
+  useEffect(() => {
+    console.log(data);
+  });
+
   return (
-    <div className="container mx-auto p-4">
-      <h2 className="text-2xl font-bold mb-4">{subcategory}</h2>
-      <div className="flex flex-wrap justify-center mt-12">
-        {products.length > 0 ? (
-          products.map((item) => (
-            <Link key={item.id} to={`/${section}/${subcategory}/${item.id}`}>
-              <ProductCard
-                img={item.image}
-                name={item.name}
-                price={item.price}
-              />
-            </Link>
-          ))
-        ) : (
-          <div className="container mx-auto p-4">Subcategory not found</div>
-        )}
-      </div>
+    <div className="flex flex-wrap justify-center mx-auto my-20">
+      {products.length > 0 ? (
+        products.map((item) => (
+          <Link key={item.id} to={`/${section}/${subcategory}/${item.id}`}>
+            <ProductCard img={item.image} name={item.name} price={item.price} />
+          </Link>
+        ))
+      ) : (
+        <div className="container mx-auto p-4">Subcategory not found</div>
+      )}
     </div>
   );
 };

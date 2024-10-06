@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { data } from "../app/data";
-
+import { useDispatch } from "react-redux"; 
+import { addToCart } from '../app/cartSlice'; 
 const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
+  const dispatch = useDispatch();
 
 
   const category = data.find(
@@ -22,6 +24,11 @@ const ProductDetail = () => {
       setActiveImg(product.image[0]);
     }
   }, [product]);
+
+  const handleAddToCart = () => {
+    console.log('Adding to cart:', product);
+    dispatch(addToCart({ id: product.id, name: product.name, price: product.price, image: product.image, quantity: 1 }));
+  };
 
   if (!product) {
     return <div>Product not found</div>;
@@ -66,7 +73,7 @@ const ProductDetail = () => {
                 ))}
               </div>
               <div>
-                <button className="flex justify-center items-center gap-2 w-full py-3 px-3 border border-black rounded-md ease-in-out shadow-slate-600 lg:m-0 md:px-6 hover:bg-black hover:text-white">
+                <button onClick={handleAddToCart} className="flex justify-center items-center gap-2 w-full py-3 px-3 border border-black rounded-md ease-in-out shadow-slate-600 lg:m-0 md:px-6 hover:bg-black hover:text-white">
                   Add To Bag
                 </button>
               </div>
