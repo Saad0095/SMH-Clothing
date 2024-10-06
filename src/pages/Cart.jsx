@@ -1,17 +1,18 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import EmptyCart from "../assets/empty.webp"; // Uncomment this if you have the image
+import EmptyCart from "../assets/emptycart.png"; // Uncomment this if you have the image
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 import { removeFromCart , increaseQuantity,decreaseQuantity} from '../app/cartSlice';
+import { useNavigate } from 'react-router-dom';
 
 
 const Cart = () => {
   const cart = useSelector(state => state.cart);
   const dispatch = useDispatch();
   console.log(cart)
-  
+  const navigate = useNavigate()
   
   
   
@@ -45,51 +46,56 @@ const Cart = () => {
               </div>
               {cart.cartItems.map((product) => (
                  
-                <div key={product.id} className='flex items-center justify-between p-3 border-b'>
-                  <div className='md:flex items-center space-x-4'>
-                    <div>
-            
-                      <img 
-                        src={product.image[0]} // Change this according to your image structure
-                        alt={product.name} 
-                        className='w-16 h-16 object-contain rounded' 
-                      />
-                      <div className='flex-1 ml-4'>
-                        <h3 className='text-lg font-semibold'>{product.name}</h3>
-                      </div>
-                    </div>
-                    <div className='flex space-x-12 items-center'>
-                      <p>${product.price}</p>
-                      <div className='flex items-center justify-center border'>
-                        <button 
-                          className='text-xl font-bold px-1.5 border-r'
-                          onClick={() => handleQuantityChange(product.id, false)}
-                        >-</button>
-                        <p className='text-xl px-2'>{product.quantity}</p>
-                        <button 
-                          className='text-xl px-1 border-l'
-                          onClick={() => handleQuantityChange(product.id, true)} 
-                        >+</button>
-                      </div>
-                      
+                 <div key={product.id} className='flex items-center justify-between p-3 border-b'>
+                 <div className=' md:flex items-center space-x-4  '>
+                   <div>
+           
+                     <img 
+                       src={product.image[0]} // Change this according to your image structure
+                       alt={product.name} 
+                       className='w-16 h-16 object-contain rounded' 
+                     />
+                    
+                   </div>
+                     
+                   <div className='flex space-x-14 items-center '>
+                   <div className='flex-1  '>
+                       <h3 className='text-lg font-semibold'>{product.name}</h3>
+                     </div>
+                     <div className="priceContainer ">
+                     <p className='text-lg-3xl font-semi-bold '>$ {product.price}</p>
+                     </div>
+                     <div className='flex items-center  justify-center border'>
+                       <button 
+                         className='text-xl font-bold px-1.5 border-r '
+                         onClick={() => handleQuantityChange(product.id, false)}
+                       >-</button>
+                       <p className='text-xl px-2'>{product.quantity}</p>
+                       <button 
+                         className='text-xl font-bold px-1.5 border-l'
+                         onClick={() => handleQuantityChange(product.id, true)} 
+                       >+</button>
+                     </div>
+                     
 
-                      <p>$ {parseFloat(product.price.replace(/,/g, '')).toFixed(2)*parseFloat(product.quantity)}</p>
-                      <button 
-                        className='text-red-500 hover:text-red-700'
-                        onClick={() => handleRemoveFromCart(product.id)}
-                      >
-                        <FontAwesomeIcon icon={faTrashAlt} />
-                      </button>
-                    </div>
-                  </div>
-                </div>
+                     <p>$ {parseFloat(product.price.replace(/,/g, '')).toFixed(2)*parseFloat(product.quantity)}</p>
+                     <button 
+                       className='text-red-500 hover:text-red-700 '
+                       onClick={() => handleRemoveFromCart(product.id)}
+                     >
+                       <FontAwesomeIcon icon={faTrashAlt} />
+                     </button>
+                   </div>
+                
+                 </div>
+               </div>
               ))}
             </div>
             <div className='md:w-1/3 bg-white p-6 rounded-lg shadow-md border'>
               <h3 className='text-sm font-semibold mb-5'>CART TOTAL</h3>
               <div className='flex justify-between mb-5 border-b pb-1'>
                 <span className='text-sm'>TOTAL ITEMS:</span>
-                <span>{cart.cartItems.length}</span>
+                <span>{cart.cartItems.reduce((totalQuantity, product) => totalQuantity + product.quantity, 0)}</span>
               </div>
               {/* {/* shipping address */}
                {/* <div className='mb-4 border-b pb-2'>
@@ -104,7 +110,7 @@ const Cart = () => {
                   ${cart.cartItems.reduce((total, product) => parseInt(total,10) + (product.price.replace(/,/g, '') * product.quantity), 0).toFixed(2)}
                 </span>
               </div>
-              <button className='w-full bg-red-600 text-white py-2 hover:bg-red-800'>Checkout</button>
+              <button className='w-full bg-red-600 text-white py-2 hover:bg-red-800' onClick={() => navigate('/checkout')}>Checkout</button>
             </div>
           </div>
         </div>
