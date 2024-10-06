@@ -8,10 +8,10 @@ const OrderPlacement = () => {
       <div className='mt-10 p-6 border rounded-lg bg-gray-100'>
       <h3 className='text-lg font semibold mb-4'> Order Summary:</h3>
       <p className='text-lg'>Order Number:</p>
-      <div className='mt-4'>
+      {/* <div className='mt-4'>
       <h4 className='text-lg font-semibold mb-2'> Shipping Information:</h4>
 
-      </div>
+      </div> */}
       <div className='mt-4'>
         <h4 className='text-lg font-semibold mb-2'>Item Ordered:</h4>
         <div className='flex justify-between mt-2 '></div>
@@ -23,8 +23,8 @@ const OrderPlacement = () => {
       </div>
       </div>
       <div className='mt-6'>
-        <button className=' text-xl bg-green-500 text-white py-2 px-4 hover:bg-green-600 '> Track Order</button>
-        <button className=' text-xl ml-4 bg-red-500 text-white py-2 px-4 hover:bg-red-600'> Continue Shopping</button>
+        <button className='mt-3 text-xl ml-4  bg-green-500 text-white py-2 px-4 trackOrderBTn hover:bg-green-600 '> Track Order</button>
+        <button className=' mt-3 text-xl ml-4 bg-red-500 text-white py-2 px-4 hover:bg-red-600'> Continue Shopping</button>
       </div>
       
     </div>
