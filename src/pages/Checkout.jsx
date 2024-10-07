@@ -2,11 +2,14 @@ import React, { useState } from "react";
 import { faAngleDown, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import { addDetails } from "../app/slices/orderSlice";
 import { useNavigate } from "react-router-dom";
 
 const Checkout = () => {
   const cart = useSelector((state) => state.cart);
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const [billingToggle, setBillingToggle] = useState(true);
   const [shippingToggle, setShippingToggle] = useState(false);
@@ -46,24 +49,27 @@ const Checkout = () => {
       setErrorMsg("*Invalid Email Address");
     } else {
       setErrorMsg(null);
-      const newOrder = {
-        products: cart.products,
-        orderNumber: "12345",
-        shippingInformation: formData,
-        totalPrice: cart.cartItems
-          .reduce(
-            (total, product) =>
-              parseFloat(total) +
-              parseFloat(product.price.replace(/,/g, "")) * product.quantity,
-            0
-          )
-          .toFixed(2),
-        totalItems: cart.cartItems.reduce(
-          (totalQuantity, product) => totalQuantity + product.quantity,
-          0
-        ),
-      };
-      navigate("/orderplacement", { state: { order: newOrder } });
+      dispatch(addDetails(formData));
+      navigate("/orderplacement");
+
+      // const newOrder = {
+      //   products: cart.products,
+      //   orderNumber: "12345",
+      //   shippingInformation: formData,
+      //   totalPrice: cart.cartItems
+      //     .reduce(
+      //       (total, product) =>
+      //         parseFloat(total) +
+      //         parseFloat(product.price.replace(/,/g, "")) * product.quantity,
+      //       0
+      //     )
+      //     .toFixed(2),
+      //   totalItems: cart.cartItems.reduce(
+      //     (totalQuantity, product) => totalQuantity + product.quantity,
+      //     0
+      //   ),
+      // };
+      // navigate("/orderplacement", { state: { order: newOrder } });
     }
   };
 
