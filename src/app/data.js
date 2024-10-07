@@ -791,12 +791,12 @@ export const data = [
             price: "",
 
             image: [
-              "",
-              "",
-              "",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P003_1_1800x1800.jpg?v=1727697617",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P003_2_1800x1800.jpg?v=1727697617",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P003_2_1800x1800.jpg?v=1727697617",
             ],
             category: "Unstitched 2 Piece ",
-            color: "",
+            color: "RED",
             fabric: "Lawn",
             sizes: ["XS", "S", "M", "L"],
           },
@@ -808,9 +808,9 @@ export const data = [
             price: "3,090",
 
             image: [
-              "",
-              "",
-              "",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P012_1_1800x1800.jpg?v=1727697605",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P012_2_1800x1800.jpg?v=1727697605",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P012_5_1800x1800.jpg?v=1727697605",
             ],
             category: "Unstitched 2 Piece ",
             color: "",
@@ -819,18 +819,18 @@ export const data = [
           },
           {
             id: uuidv4(),
-            name: " UNSTITCHED   ",
+            name: "  UNSTITCHED   ",
             description:
             "",
             price: "3,090",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7004_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7004_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7004_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P042_1_500x.jpg?v=1727697593",
+              "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P042_2_1800x1800.jpg?v=1727697593",
+              "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P042_2_1800x1800.jpg?v=1727697593",
             ],
             category: "Unstitched 2 Piece ",
-            color: "Off White",
+            color: "",
             fabric: "Lawn",
             sizes: ["XS", "S", "M", "L"],
           },
@@ -842,9 +842,9 @@ export const data = [
             price: "4,190",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7015_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7015_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7015_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P004_1_500x.jpg?v=1727697581",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P004_2_1800x1800.jpg?v=1727697581",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P004_2_1800x1800.jpg?v=1727697581",
             ],
             category: "Unstitched 2 Piece ",
             color: "Blue",
@@ -859,9 +859,9 @@ export const data = [
             price: "3,890",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7010_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7010_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7010_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P001_1_500x.jpg?v=1727697569",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P001_2_1800x1800.jpg?v=1727697569",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P001_3_1800x1800.jpg?v=1727697569",
             ],
             category: "Unstitched 2 Piece ",
             color: "Pink",
@@ -876,9 +876,9 @@ export const data = [
             price: "4,190",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/0/2011_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/0/2011_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/0/2011_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P040_1_500x.jpg?v=1727697558",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P040_2_1800x1800.jpg?v=1727697558",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P040_4_1800x1800.jpg?v=1727697558"
             ],
             category: "Unstitched 2 Piece ",
             color: "Purple",
@@ -893,9 +893,9 @@ export const data = [
             price: "3,090",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7007_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7007_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7007_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P044_1_1800x1800.jpg?v=1727697547",
+              "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P044_2_1800x1800.jpg?v=1727697547",
+              "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P044_3_1800x1800.jpg?v=1727697547",
             ],
             category: "Unstitched 2 Piece ",
             color: "BEIGE",
@@ -910,10 +910,11 @@ export const data = [
             price: " 3,070",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/j/d/jds-24-1128-111_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/d/jds-24-1128-111_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/d/jds-24-1128-111_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-            ],
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P027_1_500x.jpg?v=1727697531",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P027_2_1800x1800.jpg?v=1727697531",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P027_2_1800x1800.jpg?v=1727697531",
+
+           ],
             category: "Unstitched 2 Piece ",
             color: "Black",
             fabric: "Lawn",
@@ -927,9 +928,9 @@ export const data = [
             price: " 3,070",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-1129_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-1129_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-1129_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P002_1_500x.jpg?v=1727697521",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P002_2_1800x1800.jpg?v=1727697521",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P002_3_1800x1800.jpg?v=1727697521",
             ],
             category: "Unstitched 2 Piece ",
             color: "PINK",
@@ -944,9 +945,9 @@ export const data = [
             price: " 3,590",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1673_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1673_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1673_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P005_5_500x.jpg?v=1727697508",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P005_3_1800x1800.jpg?v=1727697508",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P005_1_1800x1800.jpg?v=1727697508",
             ],
             category: "Unstitched 2 Piece ",
             color: "Green",
@@ -961,9 +962,9 @@ export const data = [
             price: " 3,590",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1666_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1666_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1666_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24BP3P06_3_1800x1800.jpg?v=1727697491",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24BP3P06_1_1800x1800.jpg?v=1727697491",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24BP3P06_2_1800x1800.jpg?v=1727697491",
             ],
             category: "Unstitched 2 Piece ",
             color: "Yellow",
