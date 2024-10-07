@@ -10,7 +10,7 @@ import {
 
 const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
-
+console.log("id",productId)
   const category = data.find(
     (category) => category.section.toLowerCase() === section.toLowerCase()
   );
@@ -18,8 +18,8 @@ const ProductDetail = () => {
     (subCategory) =>
       subCategory.name.toLowerCase() === subcategory.toLowerCase()
   );
-  const product = subCat?.items.find((item) => item.id === productId);
-
+  // const product = subCat?.items.find((item) => item.id === productId);
+  const product = subCat?.items.find((item) => item.id === productId)
   const [activeImg, setActiveImg] = useState(product?.image[0]);
   const [size, setSize] = useState("");
   const [isOpen, setIsOpen] = useState(false);

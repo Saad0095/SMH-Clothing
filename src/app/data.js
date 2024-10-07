@@ -8,7 +8,7 @@ export const data = [
         name: "Kameez-shalwar",
         items: [
           {
-            id: uuidv4(),
+            id: "1",
             name: "NAVY BLUE COTTON KAMEEZ SHALWAR ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -24,7 +24,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "2",
             name: "BLACK COTTON KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this black cotton casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
@@ -40,7 +40,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "3",
             name: "BROWN BLENDED KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this brown blended casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
@@ -57,7 +57,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "4",
             name: "LIGHT BROWN COTTON KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this light brown cotton casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
@@ -73,7 +73,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "5",
             name: "WHITE BLENDED KAMEEZ SHALWAR",
             description:
               "With subtle detailing and a refined silhouette, this white blended semi-formal kameez shalwar embodies understated elegance, perfect for gatherings and events.",
@@ -89,7 +89,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "6",
             name: "STONE GREY BLENDED KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this stone grey blended casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
@@ -105,7 +105,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "7",
             name: "ASH GREY BLENDED KAMEEZ SHALWAR",
             description:
               "With subtle detailing and a refined silhouette, this white blended semi-formal kameez shalwar embodies understated elegance, perfect for gatherings and events.",
@@ -122,7 +122,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "8",
             name: "CALGARY - BLACK BLENDED KAMEEZ SHALWAR",
             description:
               "Shirt Collar With Round Edge Cuffs. Embroidery on Front, Button Placket, Collar Back, Back Yoke, Sleeve Vent And Cuffs. Square Hem.",
@@ -138,7 +138,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "9",
             name: "LONDON - LIGHT BEIGE BLENDED KAMEEZ SHALWAR",
             description:
               "Shirt Collar With Round Edge Cuffs. Embroidery at Front, Collar Back, Back Yoke, Sleeve Vent And Cuffs. Square Hem.",
@@ -154,7 +154,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "10",
             name: "MAAMBA - FOREST GREY BLENDED KAMEEZ SHALWAR",
             description:
               "Shirt Collar With Square Edge Cuffs. Embroidery at Front, Back Yoke, Back, Sleeve Vent And Cuffs. Square Hem.",
@@ -169,7 +169,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "11",
             name: "MAAMBA - OFF WHITE BLENDED KAMEEZ SHALWAR",
             description:
               "Shirt Collar With Square Edge Cuffs. Embroidery at Front, Back Yoke, Back, Sleeve Vent And Cuffs. Square Hem.",
@@ -190,7 +190,7 @@ export const data = [
         name: "Kurta",
         items: [
           {
-            id: uuidv4(),
+            id: "21",
             name: "White Cotton Kurta",
             description:
               "This Men's white cotton formal kurta epitomizes traditional charm and modern sophistication, featuring timeless designs, exquisite fabrics, and meticulous craftsmanship, perfect for adding a touch of cultural refinement to any occasion",
@@ -208,7 +208,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "22",
 
             name: "CHARCOAL COTTON KURTA",
             description:
@@ -227,7 +227,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "23",
 
             name: "APPLE GREEN COTTON KURTA",
             description:
@@ -246,7 +246,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "24",
 
             name: "GREY COTTON KURTA ",
             description:
@@ -264,7 +264,7 @@ export const data = [
             category: "Formal Kurta",
           },
           {
-            id: uuidv4(),
+            id: "25",
 
             name: "CREAM COTTON KURTA ",
             description:
@@ -282,7 +282,7 @@ export const data = [
             category: "Formal Kurta",
           },
           {
-            id: uuidv4(),
+            id: "26",
 
             name: "MAROON COTTON KURTA ",
             description:
@@ -300,7 +300,7 @@ export const data = [
             category: "Formal Kurta",
           },
           {
-            id: uuidv4(),
+            id: "27",
 
             name: "BOTTLE GREEN BLENDED KURTA",
             description:
@@ -318,7 +318,7 @@ export const data = [
             category: "Formal Kurta",
           },
           {
-            id: uuidv4(),
+            id: "28",
 
             name: "RED COTTON KURTA ",
             description:
@@ -336,7 +336,7 @@ export const data = [
             category: "Formal Kurta",
           },
           {
-            id: uuidv4(),
+            id: "29",
 
             name: "BLACK BLENDED SPECIAL KURTA ",
             description:
@@ -354,7 +354,7 @@ export const data = [
             category: "Formal Kurta",
           },
           {
-            id: uuidv4(),
+            id: "30",
 
             name: "BROWN COTTON KURTA ",
             description:
@@ -377,7 +377,7 @@ export const data = [
         name: "Waistcoat",
         items: [
           {
-            id: uuidv4(),
+            id: "41",
             name: "GREY SUITING WAIST COAT",
             description:
               "Complete Your Traditional Outfit With This Stylish Waistcoat. It Adds a Touch of Class and Complements Your Look Perfectly.",
@@ -393,7 +393,7 @@ export const data = [
             category: "Waist Coat",
           },
           {
-            id: uuidv4(),
+            id: "42",
 
             name: "NAVY LINEN WAISTCOAT",
             description: "",
@@ -409,7 +409,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "43",
 
             name: "OLIVE LINEN WAISTCOAT",
             description:
@@ -426,7 +426,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "44",
 
             name: "GREY SUITING WAIST COAT",
             description:
@@ -444,7 +444,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "45",
 
             name: "Red Waistcoat ",
             description: "",
@@ -461,7 +461,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "46",
 
             name: "Off White Waistcoat",
             description:
@@ -479,7 +479,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "47",
 
             name: "Grey Waistcoat",
             description:
@@ -497,7 +497,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "48",
 
             name: "Mink Grey Basic Waist Coat",
             description:
@@ -515,7 +515,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "49",
 
             name: "Black Basic Waist Coat ",
             description:
@@ -533,7 +533,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "50",
 
             name: "Brown Basic Waistcoat",
             description:
@@ -551,7 +551,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "51",
 
             name: "Blue Basic Waistcoat ",
             description:
@@ -578,7 +578,7 @@ export const data = [
         name: "Stitch",
         items: [
           {
-            id: uuidv4(),
+            id: "61",
             name: "MAJESTIC GREY - 3 PC",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities ensuring a timeless and versatile garment",
@@ -595,7 +595,7 @@ export const data = [
             sizes: ["S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "62",
             name: "WHITE-DOBBY-1 PIECE  STITCHED",
             description:"Shirt: Dyed Golden Dobby Zari Stitch Round Daman Shirt, Long Cuff Sleeves, Contrast Triangles On Placket.",
             price: "2,460 ",
@@ -611,7 +611,7 @@ export const data = [
             sizes: ["XS", "S", "M"],
           },
           {
-            id: uuidv4(),
+            id: "63",
             name: "WHITE-YARN DYED-2 PIECE STITCHED ",
             description:"Shirt:Yarn Dyed Kurta. Trouser: Dyed Cambric Trouser.",
             price: " 5,160",
@@ -627,7 +627,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "64",
             name: "BLUE-CAMBRIC-3 PIECE STITCHED  ",
             description:
             "Shirt:Printed Cambric Straight Shirt With Embellishment Details.Dupatta:Printed Lawn Dupatta.Shalwar:Printed Cambric Narrow Culotte Trouser.",
@@ -644,7 +644,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "65",
             name: "PEACH-JACQUARD-3 PIECE STITCHED ",
             description:
               "Shirt:Dyed Self Jacquard Chikankari Shirt.Dupatta:Dyed Fancy Net Dupatta.Trouser:Dyed Cambric Chikankari Culotte Trouser.",
@@ -660,7 +660,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "66",
             name: "PINK-CAMBRIC-3 PIECE STITCHED  ",
             description:
             "Shirt:Dyed Cambric Embroidered Shirt.Dupatta:Yarn Dyed Dupatta.Trouser:Dyed Cambric Trouser.",
@@ -677,7 +677,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "67",
             name: "N-BLUE-LAWN-2 PIECE STITCHED  ",
             description:
             "Shirt:Digital Printed Lawn Kurta Finished With Pearls & Tassels.Dupatta:Printed Lawn Dupatta.",
@@ -694,7 +694,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "68",
             name: "BLACK-VISCOSE-3 PIECE STITCHED ",
             description:
             "Shirt:Leather Foil Printed Viscose Shirt.Dupatta:Banarsi Fancy Lurex Dupatta.Trouser:Dyed Viscose Trouser.",
@@ -711,7 +711,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "69",
             name: "RED-DYED-3 PIECE STITCHED ",
             description:
             "Shirt:Dyed Embroidered Organza Shirt With Inner.Dupatta:Dyed Chiffon Embroidered Dupatta.Trouser:Dyed Raw Silk Trouser.",
@@ -728,7 +728,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "70",
             name: "YELLOW-LAWN-2 PIECE STITCHED ",
             description:
             "Shirt:Printed Lawn Shirt With Lace & Buttons Details.Trouser:Printed Cambric Culotte Trouser.",
@@ -745,7 +745,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L", "XL", "XXL"],
           },
           {
-            id: uuidv4(),
+            id: "71",
             name: "BEIGE-CAMBRIC-3 3PC STITCHED ",
             description:
             "Shirt:Dyed Cambric Shirt Contrasting Finishing & Buttons.Dupatta:Fancy Dupatta.Trouser:Dyed Cambric Trouser.",
@@ -762,7 +762,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "72",
             name: "BEIGE LAWN 3PC STITCHED ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -784,11 +784,11 @@ export const data = [
         name: "Unstitch",
         items: [
           {
-            id: uuidv4(),
-            name: "UNSTITCHED",
+            id: "81",
+            name: "RASBERRY SORBET - 3 PC UNSTITCHED",
             description:
             "",
-            price: "",
+            price: "4,280",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P003_1_1800x1800.jpg?v=1727697617",
@@ -801,7 +801,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "82",
             name: "UNSTITCHED 2PC   ",
             description:
             "",
@@ -818,7 +818,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "83",
             name: "  UNSTITCHED   ",
             description:
             "",
@@ -835,7 +835,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "83",
             name: "BLUE LAWN EMBROIDERED UNSTITCHED 2PC   ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -852,7 +852,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "84",
             name: "PINK DOBBY PRINTED UNSTITCHED 2PC   ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -869,7 +869,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "85",
             name: "PURPLE LAWN EMBROIDERED UNSTITCHED 2PC",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -886,7 +886,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "86",
             name: "BEIGE LAWN PRINTED UNSTITCHED 2PC",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -903,7 +903,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "87",
             name: "BLACK LAWN UNSTITCHED 2PC",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -921,7 +921,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "88",
             name: "PINK LAWN UNSTITCHED 2PC",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -938,16 +938,16 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "89",
             name: "GREEN LAWN UNSTITCHED 2PC",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
             price: " 3,590",
 
             image: [
-              "",
-              "",
-              "",
+              "https://bonanzasatrangi.com/cdn/shop/files/0048_1S24P3P420-052A9698_c93647c0-477e-49ec-aeca-880b2ef00b7a_1800x1800.jpg?v=1726313272",
+              "https://bonanzasatrangi.com/cdn/shop/files/0051_1S24P3P420-052A9678_ea3255c2-2654-4414-9bd2-64fb0fc3d568_1800x1800.jpg?v=1726313272",
+              "https://bonanzasatrangi.com/cdn/shop/files/0050_1S24P3P420-052A9681_79aba824-003b-41c9-902f-8a1b9b9f1d84_1800x1800.jpg?v=1726313269",
             ],
             category: "Unstitched 2 Piece ",
             color: "Green",
@@ -955,16 +955,16 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "90",
             name: "YELLOW LAWN UNSTITCHED 2PC",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
             price: " 3,590",
 
             image: [
-              "",
-              "",
-              "",
+              "https://bonanzasatrangi.com/cdn/shop/files/0015_1S24P3P066-052A3837_500x.jpg?v=1723807190",
+              "https://bonanzasatrangi.com/cdn/shop/files/0014_1S24P3P066-052A3837_1800x1800.jpg?v=1723807190",
+              "https://bonanzasatrangi.com/cdn/shop/files/0015_1S24P3P066-052A3835_1800x1800.jpg?v=1723807190",
             ],
             category: "Unstitched 2 Piece ",
             color: "Yellow",
@@ -977,7 +977,7 @@ export const data = [
         name: "Kurti",
         items: [
           {
-            id: uuidv4(),
+            id: "101",
             name: "Dobby Dyed Embroidered Shirt  ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -995,7 +995,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "102",
             name: "BLACK ORGANZA KURTI  ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -1012,7 +1012,7 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "103",
             name: "GREEN COTTON NET KURTI  ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -1029,7 +1029,7 @@ export const data = [
             sizes: ["S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "104",
             name: "RED PLAIN KURTI ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -1046,7 +1046,7 @@ export const data = [
             sizes: ["S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "105",
             name: "RED PLAIN KURTI ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -1063,7 +1063,7 @@ export const data = [
             sizes: ["S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "106",
             name: "WHITE PLAIN KURTI ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -1080,7 +1080,7 @@ export const data = [
             sizes: ["S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "107",
             name: "ORANGE PRINTED KURTI ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -1097,7 +1097,7 @@ export const data = [
             sizes: ["S", "M", "L"],
           },
           {
-            id: uuidv4(),
+            id: "108",
             name: "GREY PLAIN KURTI ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -1114,7 +1114,7 @@ export const data = [
             sizes: ["S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "109",
             name: "LIGHT BLUE PLAIN KURTI ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -1131,7 +1131,7 @@ export const data = [
             sizes: ["S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "110",
             name: "MAROON STITCHED KURTI ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -1148,7 +1148,7 @@ export const data = [
             sizes: ["S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "111",
             name: "SKIN STITCHED KURTI ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -1165,7 +1165,7 @@ export const data = [
             sizes: ["S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "112",
             name: "BLUE STITCHED KURTI ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
