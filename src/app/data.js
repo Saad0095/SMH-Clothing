@@ -945,9 +945,9 @@ export const data = [
             price: " 3,590",
 
             image: [
-              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P005_5_500x.jpg?v=1727697508",
-              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P005_3_1800x1800.jpg?v=1727697508",
-              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P005_1_1800x1800.jpg?v=1727697508",
+              "",
+              "",
+              "",
             ],
             category: "Unstitched 2 Piece ",
             color: "Green",
@@ -962,9 +962,9 @@ export const data = [
             price: " 3,590",
 
             image: [
-              "https://bonanzasatrangi.com/cdn/shop/files/2W24BP3P06_3_1800x1800.jpg?v=1727697491",
-              "https://bonanzasatrangi.com/cdn/shop/files/2W24BP3P06_1_1800x1800.jpg?v=1727697491",
-              "https://bonanzasatrangi.com/cdn/shop/files/2W24BP3P06_2_1800x1800.jpg?v=1727697491",
+              "",
+              "",
+              "",
             ],
             category: "Unstitched 2 Piece ",
             color: "Yellow",
@@ -978,15 +978,16 @@ export const data = [
         items: [
           {
             id: uuidv4(),
-            name: "RUST PAPER COTTON KURTI ",
+            name: "Dobby Dyed Embroidered Shirt  ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
             price: "6,150",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-24-411_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-24-411_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-24-411_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+             
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43240_1_.jpg?optimize=medium&fit=bounds&height=1000&width=666",
+             "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43240_4_.jpg?optimize=medium&fit=bounds&height=1000&width=666",
+             "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43240_5_.jpg?optimize=medium&fit=bounds&height=1000&width=666"
             ],
             category: "Ladies Kurti ",
             color: "Orange",
@@ -1001,9 +1002,9 @@ export const data = [
             price: "7,480",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-413_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-413_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-413_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43104_1_.jpg?optimize=medium&fit=bounds&height=1000&width=666",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43104_9_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43104_6_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Black",
@@ -1018,9 +1019,9 @@ export const data = [
             price: "8,200",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-414_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-414_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-414_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43102_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43102_10_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43102_5_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Green",
@@ -1035,9 +1036,9 @@ export const data = [
             price: "4,010",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-23-398_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-23-398_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-23-398_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43100_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43100_10_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43100_4_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Red",
@@ -1052,9 +1053,9 @@ export const data = [
             price: "4,010",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-23-398_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-23-398_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-23-398_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43049_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43049_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43049_3_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Red",
@@ -1069,9 +1070,9 @@ export const data = [
             price: "799",
 
             image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0032_40b2cfea-2b51-4a8b-ab6c-c07a63f36c48_medium.jpg?v=1696828628",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0033_1a7a02ff-305d-48d2-9801-d9f83d03b254_medium.jpg?v=1696828628",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0032_40b2cfea-2b51-4a8b-ab6c-c07a63f36c48_medium.jpg?v=1696828628",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43045_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43045_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43045_5_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "White",
@@ -1086,9 +1087,9 @@ export const data = [
             price: "799",
 
             image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0001_61e1332b-a5c4-4e6e-b942-2f39c502723f_medium.jpg?v=1701319942",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0002_323b1455-e34b-42a9-a504-fc7ce9181b8d_medium.jpg?v=1701319942",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0003_fea74e80-6c80-4c99-b36d-499cdbbf7353_medium.jpg?v=1701319942",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43024_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43024_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43024_3_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Orange",
@@ -1103,9 +1104,9 @@ export const data = [
             price: "799",
 
             image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0171_2ca5c6c0-05d9-493c-973c-10f7ab65fe09_medium.jpg?v=1701320357",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0173_4efe9446-5fae-48c4-9904-5842d207c71d_medium.jpg?v=1701320357",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0171_2ca5c6c0-05d9-493c-973c-10f7ab65fe09_medium.jpg?v=1701320357",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43022_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43022_6_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43022_3_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Grey",
@@ -1120,9 +1121,9 @@ export const data = [
             price: "799",
 
             image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0163_ce7d8f34-5164-49a0-9129-6296f4a1e640_medium.jpg?v=1701320354",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0165_a5416ea4-feb8-4ec1-be40-506709feac2e_medium.jpg?v=1701320354",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0163_ce7d8f34-5164-49a0-9129-6296f4a1e640_medium.jpg?v=1701320354",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43021_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43021_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43021_4_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Light blue",
@@ -1137,9 +1138,9 @@ export const data = [
             price: "1,199",
 
             image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0437_c0671a4b-af63-47c6-9b92-88d559a116f9_medium.jpg?v=1704803554",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0440_216294ca-6a94-4653-ba18-415b36715e9d_medium.jpg?v=1704803554",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0439_52ba8636-1f41-41b2-a2dc-6c8c4644cc0d_medium.jpg?v=1704803554",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43020_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43020_6_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43020_4_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Maroon",
@@ -1154,9 +1155,9 @@ export const data = [
             price: "1,199",
 
             image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0431_669be61d-3c80-47c4-9b32-96475d35a272_medium.jpg?v=1704803319",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0435_778eee39-480e-4723-9de6-7c0543a23e79_medium.jpg?v=1704803319",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0434_a855092a-7448-4855-aa64-27d11c5fbe10_medium.jpg?v=1704803319",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43019_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43019_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43019_3_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Skin",
@@ -1171,9 +1172,9 @@ export const data = [
             price: "1,199",
 
             image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0426_ecd9da79-11e2-4a76-86ae-bf21b896b83c_medium.jpg?v=1704803532",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0429_cc1fdc3b-d497-4bf0-b7d5-ad69d655e5f9_medium.jpg?v=1704803532",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0428_2dc218d8-0e7f-46a9-8754-d2d5ef29e8e1_medium.jpg?v=1704803532",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43018_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43018_3_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43018_4_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Blue",

@@ -66,12 +66,12 @@ const ProductDetail = () => {
              
              
               <div>
-                <button className="flex justify-center items-center gap-2 w-full py-3 px-3 border transition border-black rounded-md ease-in-out shadow-slate-600 lg:m-0 md:px-6 hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black">
+                <button className="flex justify-center  items-center gap-2 w-full py-3 px-3 border transition border-black rounded-md ease-in-out shadow-slate-600 lg:m-0 md:px-6 hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black">
                   Add To Bag
                 </button>
               </div>
              
-              <h1 className="mb-2 ml-1 font-semibold">Size</h1>
+              <h1 className="mb-2 mt-4 ml-1 font-semibold">Size</h1>
               <div className="flex space-x-4 mb-6 ">
                 {product.sizes.map((item, index) => (
                   <div className="">
