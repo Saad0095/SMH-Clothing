@@ -34,7 +34,7 @@ const Navbar = () => {
             onClick={() => setIsMenuOpen(true)}
           />
           <div
-            className="logo text-xl md:text-2xl font-bold cursor-pointer"
+            className="logo text-xl md:text-2xl font-bold cursor-pointer dark:drop-shadow-lg"
             onClick={() => navigate("/")}
           >
             SMH Clothing
@@ -42,11 +42,11 @@ const Navbar = () => {
         </div>
         <div className="flex justify-between items-center gap-6">
           <FontAwesomeIcon
-            className="cursor-pointer"
+            className="cursor-pointer dark:drop-shadow-lg"
             icon={faSearch}
             onClick={() => setSearchBarShow(!searchBarShow)}
           />
-          <FontAwesomeIcon className="cursor-pointer" icon={faBagShopping} />
+          <FontAwesomeIcon className="cursor-pointer dark:drop-shadow-lg" icon={faBagShopping} onClick={()=> navigate("/cart")}/>
           <ThemeChanger />
         </div>
       </nav>

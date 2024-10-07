@@ -7,16 +7,18 @@ import {
   faChevronUp,
   faChevronDown,
 } from "@fortawesome/free-solid-svg-icons";
+import { useDispatch } from "react-redux"; 
+import { addToCart } from '../app/cartSlice'; 
 
 const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
+  const dispatch = useDispatch();
 
   const category = data.find(
     (category) => category.section.toLowerCase() === section.toLowerCase()
   );
   const subCat = category?.subcategories.find(
-    (subCategory) =>
-      subCategory.name.toLowerCase() === subcategory.toLowerCase()
+    (subCategory) => subCategory.name.toLowerCase() === subcategory.toLowerCase()
   );
   const product = subCat?.items.find((item) => item.id === productId);
 
@@ -30,12 +32,23 @@ const ProductDetail = () => {
   }, [product]);
 
  
+  const handleAddToCart = () => {
+    console.log('Adding to cart:', product);
+    dispatch(addToCart({
+      id: product.id,
+      name: product.name,
+      price: product.price,
+      image: product.image,
+      quantity: 1,
+    }));
+  };
+
   if (!product) {
     return <div>Product not found</div>;
   }
 
   return (
-    <div className="max-w-screen-2xl container mx-auto xl:px-16 px-4 py-16 ">
+    <div className="py-16 max-w-screen-2xl container mx-auto xl:px-16 px-4">
       <div className="p-3 max-w-7xl m-auto">
         <div className="mt-6 sm:mt-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-10 h-max">
@@ -66,7 +79,10 @@ const ProductDetail = () => {
              
              
               <div>
-                <button className="flex justify-center items-center gap-2 w-full py-3 px-3 border transition border-black rounded-md ease-in-out shadow-slate-600 lg:m-0 md:px-6 hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black">
+                <button
+                  onClick={handleAddToCart}
+                  className="flex justify-center items-center gap-2 w-full py-3 px-3 border transition border-black rounded-md ease-in-out shadow-slate-600 lg:m-0 md:px-6 hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black"
+                >
                   Add To Bag
                 </button>
               </div>

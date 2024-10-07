@@ -33,7 +33,7 @@ const SearchResults = () => {
   }, [searchQuery]);
 
   return (
-    <div className="flex flex-wrap justify-center mx-auto my-20">
+    <div className="flex flex-wrap justify-center mx-auto py-20">
       {products.length > 0 ? (
         products.map((item) => (
           <Link
