@@ -16,7 +16,7 @@ const ThemeChanger = () => {
     localStorage.setItem("dark-theme", JSON.stringify(darkTheme));
   }, [darkTheme]);
 
-  return <button onClick={() => setDarkTheme(!darkTheme)}><FontAwesomeIcon icon={darkTheme ? faSun : faMoon}/></button>;
+  return <button onClick={() => setDarkTheme(!darkTheme)}><FontAwesomeIcon className="cursor-pointer dark:drop-shadow-lg" icon={darkTheme ? faSun : faMoon}/></button>;
 };
 
 export default ThemeChanger;
