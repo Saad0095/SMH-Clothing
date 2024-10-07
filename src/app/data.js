@@ -8,7 +8,7 @@ export const data = [
         name: "Kameez-shalwar",
         items: [
           {
-            id: uuidv4(),
+            id: "1",
             name: "NAVY BLUE COTTON KAMEEZ SHALWAR ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -24,7 +24,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "2",
             name: "BLACK COTTON KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this black cotton casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
@@ -40,7 +40,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "3",
             name: "BROWN BLENDED KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this brown blended casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
@@ -57,7 +57,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "4",
             name: "LIGHT BROWN COTTON KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this light brown cotton casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
@@ -73,7 +73,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "5",
             name: "WHITE BLENDED KAMEEZ SHALWAR",
             description:
               "With subtle detailing and a refined silhouette, this white blended semi-formal kameez shalwar embodies understated elegance, perfect for gatherings and events.",
@@ -89,7 +89,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "6",
             name: "STONE GREY BLENDED KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this stone grey blended casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
@@ -105,7 +105,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "7",
             name: "ASH GREY BLENDED KAMEEZ SHALWAR",
             description:
               "With subtle detailing and a refined silhouette, this white blended semi-formal kameez shalwar embodies understated elegance, perfect for gatherings and events.",
@@ -122,7 +122,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "8",
             name: "CALGARY - BLACK BLENDED KAMEEZ SHALWAR",
             description:
               "Shirt Collar With Round Edge Cuffs. Embroidery on Front, Button Placket, Collar Back, Back Yoke, Sleeve Vent And Cuffs. Square Hem.",
@@ -138,7 +138,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "9",
             name: "LONDON - LIGHT BEIGE BLENDED KAMEEZ SHALWAR",
             description:
               "Shirt Collar With Round Edge Cuffs. Embroidery at Front, Collar Back, Back Yoke, Sleeve Vent And Cuffs. Square Hem.",
@@ -154,7 +154,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "10",
             name: "MAAMBA - FOREST GREY BLENDED KAMEEZ SHALWAR",
             description:
               "Shirt Collar With Square Edge Cuffs. Embroidery at Front, Back Yoke, Back, Sleeve Vent And Cuffs. Square Hem.",
@@ -169,7 +169,7 @@ export const data = [
             sizes: ["M", "L", "S"],
           },
           {
-            id: uuidv4(),
+            id: "11",
             name: "MAAMBA - OFF WHITE BLENDED KAMEEZ SHALWAR",
             description:
               "Shirt Collar With Square Edge Cuffs. Embroidery at Front, Back Yoke, Back, Sleeve Vent And Cuffs. Square Hem.",
@@ -190,7 +190,7 @@ export const data = [
         name: "Kurta",
         items: [
           {
-            id: uuidv4(),
+            id: "21",
             name: "White Cotton Kurta",
             description:
               "This Men's white cotton formal kurta epitomizes traditional charm and modern sophistication, featuring timeless designs, exquisite fabrics, and meticulous craftsmanship, perfect for adding a touch of cultural refinement to any occasion",
@@ -208,7 +208,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "22",
 
             name: "CHARCOAL COTTON KURTA",
             description:
@@ -227,7 +227,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "23",
 
             name: "APPLE GREEN COTTON KURTA",
             description:
@@ -246,7 +246,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "24",
 
             name: "GREY COTTON KURTA ",
             description:
@@ -264,7 +264,7 @@ export const data = [
             category: "Formal Kurta",
           },
           {
-            id: uuidv4(),
+            id: "25",
 
             name: "CREAM COTTON KURTA ",
             description:
@@ -282,7 +282,7 @@ export const data = [
             category: "Formal Kurta",
           },
           {
-            id: uuidv4(),
+            id: "26",
 
             name: "MAROON COTTON KURTA ",
             description:
@@ -300,7 +300,7 @@ export const data = [
             category: "Formal Kurta",
           },
           {
-            id: uuidv4(),
+            id: "27",
 
             name: "BOTTLE GREEN BLENDED KURTA",
             description:
@@ -318,7 +318,7 @@ export const data = [
             category: "Formal Kurta",
           },
           {
-            id: uuidv4(),
+            id: "28",
 
             name: "RED COTTON KURTA ",
             description:
@@ -336,7 +336,7 @@ export const data = [
             category: "Formal Kurta",
           },
           {
-            id: uuidv4(),
+            id: "29",
 
             name: "BLACK BLENDED SPECIAL KURTA ",
             description:
@@ -354,7 +354,7 @@ export const data = [
             category: "Formal Kurta",
           },
           {
-            id: uuidv4(),
+            id: "30",
 
             name: "BROWN COTTON KURTA ",
             description:
@@ -377,7 +377,7 @@ export const data = [
         name: "Waistcoat",
         items: [
           {
-            id: uuidv4(),
+            id: "41",
             name: "GREY SUITING WAIST COAT",
             description:
               "Complete Your Traditional Outfit With This Stylish Waistcoat. It Adds a Touch of Class and Complements Your Look Perfectly.",
@@ -393,7 +393,7 @@ export const data = [
             category: "Waist Coat",
           },
           {
-            id: uuidv4(),
+            id: "42",
 
             name: "NAVY LINEN WAISTCOAT",
             description: "",
@@ -409,7 +409,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "43",
 
             name: "OLIVE LINEN WAISTCOAT",
             description:
@@ -426,7 +426,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "44",
 
             name: "GREY SUITING WAIST COAT",
             description:
@@ -444,7 +444,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "45",
 
             name: "Red Waistcoat ",
             description: "",
@@ -461,7 +461,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "46",
 
             name: "Off White Waistcoat",
             description:
@@ -479,7 +479,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "47",
 
             name: "Grey Waistcoat",
             description:
@@ -497,7 +497,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "48",
 
             name: "Mink Grey Basic Waist Coat",
             description:
@@ -515,7 +515,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "49",
 
             name: "Black Basic Waist Coat ",
             description:
@@ -533,7 +533,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "50",
 
             name: "Brown Basic Waistcoat",
             description:
@@ -551,7 +551,7 @@ export const data = [
           },
 
           {
-            id: uuidv4(),
+            id: "51",
 
             name: "Blue Basic Waistcoat ",
             description:
@@ -575,197 +575,196 @@ export const data = [
     section: "Women",
     subcategories: [
       {
-        name: "Unstitch",
+        name: "Stitch",
         items: [
           {
-            id: uuidv4(),
-            name: "OFF WHITE LAWN 3PC WOVEN STITCHED",
+            id: "61",
+            name: "MAJESTIC GREY - 3 PC",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities ensuring a timeless and versatile garment",
             price: "10,890",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/0001_RSR233P78-052A4591_1800x1800.jpg?v=1723807260",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-157_3__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-157_2__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/0003_RSR233P78-052A4584_1800x1800.jpg?v=1723807260",
+              "https://bonanzasatrangi.com/cdn/shop/files/0000_RSR233P78-052A4570_1800x1800.jpg?v=1723807260",
             ],
             category: "3 Piece Stitched",
-            color: "Off White",
+            color: "GREY",
             fabric: "Lawn",
             sizes: ["S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
-            name: "BLUE LAWN 3PC EMBROIDERED STITCHED",
+            id: "62",
+            name: "WHITE-DOBBY-1 PIECE  STITCHED",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "8,990",
+              "Shirt: Dyed Golden Dobby Zari Stitch Round Daman Shirt, Long Cuff Sleeves, Contrast Triangles On Placket.",
+            price: "2,460 ",
 
             image: [
-              "https://pk.sapphireonline.pk/cdn/shop/files/00PBDYW24V36_3.jpg?v=1726045880",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-036_3__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-036_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=69&width=88",
+              "https://bonanzasatrangi.com/cdn/shop/products/SSS231P10_1_1800x1800.jpg?v=1686636772",
+              "https://bonanzasatrangi.com/cdn/shop/products/SSS231P10_5_1800x1800.jpg?v=1686636772",
+              "https://bonanzasatrangi.com/cdn/shop/products/SSS231P10_5_1800x1800.jpg?v=1686636772",
             ],
-            category: "3 Piece Stitched",
-            color: "Blue",
+            category: "1 Piece Stitched",
+            color: "WHITE",
             fabric: "Lawn",
             sizes: ["XS", "S", "M"],
           },
           {
-            id: uuidv4(),
-            name: "BLUE DORIA 3PC PRINTED STITCHED ",
+            id: "63",
+            name: "WHITE-YARN DYED-2 PIECE STITCHED ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "7,990",
+              "Shirt:Yarn Dyed Kurta. Trouser: Dyed Cambric Trouser.",
+            price: " 5,160",
 
             image: [
-              "https://www.sanasafinaz.com/media/catalog/product/n/2/n243-007-c1_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-027s_3__1_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-027s_2__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/BS7242P26_1_1800x1800.jpg?v=1724416570",
+              "https://bonanzasatrangi.com/cdn/shop/files/BS7242P26_2_1800x1800.jpg?v=1724416570",
+              "https://bonanzasatrangi.com/cdn/shop/files/BS7242P26_2_1800x1800.jpg?v=1724416570",
             ],
-            category: "3 Piece Stitched",
-            color: "Blue",
+            category: "2 Piece Stitched",
+            color: "WHITE",
             fabric: "Cotton",
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
-            name: "BEIGE JACQUARD 3PC EMBROIDERED STITCHED  ",
+            id: "64",
+            name: "BLUE-CAMBRIC-3 PIECE STITCHED  ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
+              "Shirt:Printed Cambric Straight Shirt With Embellishment Details.Dupatta:Printed Lawn Dupatta.Shalwar:Printed Cambric Narrow Culotte Trouser.",
             price: "9,490",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-013_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-013_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-013_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/BPS6243P06_1_500x.jpg?v=1722259253",
+              "https://bonanzasatrangi.com/cdn/shop/files/BPS6243P06_2_596909b8-e907-457f-b02a-f74351b0f7b8_1800x1800.jpg?v=1722259253",
+              "https://bonanzasatrangi.com/cdn/shop/files/BPS6243P06_5_1800x1800.jpg?v=1722259253",
             ],
             category: "3 Piece Stitched",
-            color: "BEIGE",
+            color: "BLUE-CAMBRIC",
             fabric: "Jacquard",
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
-            name: "BLACK KHADDAR 3PC EMBROIDERED STITCHED  ",
+            id: "65",
+            name: "PEACH-JACQUARD-3 PIECE STITCHED ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "7,890",
-
+              "Shirt:Dyed Self Jacquard Chikankari Shirt.Dupatta:Dyed Fancy Net Dupatta.Trouser:Dyed Cambric Chikankari Culotte Trouser.",
+            price: " 8,910",
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-010s_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-010s_3__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-010s_2__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/BS2243P12_1_1800x1800.jpg?v=1722950430",
+              "https://bonanzasatrangi.com/cdn/shop/files/BS2243P12_1_1800x1800.jpg?v=1722950430",
+              "https://bonanzasatrangi.com/cdn/shop/files/BS2243P12_1_1800x1800.jpg?v=1722950430",
             ],
             category: "3 Piece Stitched",
-            color: "Black",
+            color: "PEACH",
             fabric: "Khaddar",
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
-            name: "YELLOW LINEN 3PC EMBROIDERED STITCHED  ",
+            id: "66",
+            name: "PINK-CAMBRIC-3 PIECE STITCHED  ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "8,490",
+              "Shirt:Dyed Cambric Embroidered Shirt.Dupatta:Yarn Dyed Dupatta.Trouser:Dyed Cambric Trouser.",
+            price: "6,885 ",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-004s_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-004s_2_-_copy.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-004s_2__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/BS2243P18_1_500x.jpg?v=1717672121",
+              "https://bonanzasatrangi.com/cdn/shop/files/BS2243P18_1_500x.jpg?v=1717672121",
+              "https://bonanzasatrangi.com/cdn/shop/files/BS2243P18_1_500x.jpg?v=1717672121",
             ],
             category: "3 Piece Stitched",
-            color: "Yellow",
+            color: "PINK",
             fabric: "	Linen",
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
-            name: "YELLOW LIMINAL 3PC EMBROIDERED STITCHED  ",
+            id: "67",
+            name: "N-BLUE-LAWN-2 PIECE STITCHED  ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "7,690",
+              "Shirt:Digital Printed Lawn Kurta Finished With Pearls & Tassels.Dupatta:Printed Lawn Dupatta.",
+            price: " 5,160 ",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-007s_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-007s_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-007s_2__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/BPS2242P05-0_0003_1Z7A6701_1800x1800.jpg?v=1723803946",
+              "https://bonanzasatrangi.com/cdn/shop/files/BPS2242P05-0_0003_1Z7A6701_1800x1800.jpg?v=1723803946",
+              "https://bonanzasatrangi.com/cdn/shop/files/BPS2242P05-0_0003_1Z7A6701_1800x1800.jpg?v=1723803946",
             ],
-            category: "3 Piece Stitched",
-            color: "Yellow",
+            category: "2 Piece Stitched",
+            color: "N-BLUE",
             fabric: "	Liminal",
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
-            name: "GREEN LINEN 3PC EMBROIDERED STITCHED ",
+            id: "68",
+            name: "BLACK-VISCOSE-3 PIECE STITCHED ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "8,490",
+              "Shirt:Leather Foil Printed Viscose Shirt.Dupatta:Banarsi Fancy Lurex Dupatta.Trouser:Dyed Viscose Trouser.",
+            price: "11,310",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-002s_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-002s_3__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-002s_2__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/BPS5243P42_1_500x.jpg?v=1720607196",
+              "https://bonanzasatrangi.com/cdn/shop/files/BPS5243P42_2_1800x1800.jpg?v=1720607195",
+              "https://bonanzasatrangi.com/cdn/shop/files/BPS5243P42_3_1800x1800.jpg?v=1720607196",
             ],
             category: "3 Piece Stitched",
-            color: "Green",
+            color: "BLACK",
             fabric: "	Linen",
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
-            name: "BLUE LAWN 3PC EMBROIDERED STITCHED ",
+            id: "69",
+            name: "RED-DYED-3 PIECE STITCHED ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "7,690",
+              "Shirt:Dyed Embroidered Organza Shirt With Inner.Dupatta:Dyed Chiffon Embroidered Dupatta.Trouser:Dyed Raw Silk Trouser.",
+            price: "9,660",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-006s_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-006s_2__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-006s_3__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/BS5243P19_1_1800x1800.jpg?v=1725971926",
+              "https://bonanzasatrangi.com/cdn/shop/files/BS5243P19_3_1800x1800.jpg?v=1725971926",
+              "https://bonanzasatrangi.com/cdn/shop/files/BS5243P19_4_1800x1800.jpg?v=1725971926",
             ],
             category: "3 Piece Stitched",
-            color: "	Blue",
+            color: "RED",
             fabric: "	Lawn",
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
-            name: "BLACK LINEN 3PC PRINTED STITCHED ",
+            id: "70",
+            name: "YELLOW-LAWN-2 PIECE STITCHED ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "7,990",
+              "Shirt:Printed Lawn Shirt With Lace & Buttons Details.Trouser:Printed Cambric Culotte Trouser.",
+            price: "5,235",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-020_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-020_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-020_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/0_0067_BPS1242P16-052A7773-1_500x.jpg?v=1723728784",
+              "https://bonanzasatrangi.com/cdn/shop/files/0_0063_BPS1242P16-052A7801-2_1800x1800.jpg?v=1723728785",
+              "https://bonanzasatrangi.com/cdn/shop/files/0_0063_BPS1242P16-052A7801-2_1800x1800.jpg?v=1723728785",
             ],
-            category: "3 Piece Stitched",
-            color: "	Black",
+            category: "2 Piece Stitched",
+            color: "	YELLOW",
             fabric: "	Linen",
             sizes: ["XS", "S", "M", "L", "XL", "XXL"],
           },
           {
-            id: uuidv4(),
-            name: "ORANGE LAWN 3PC STITCHED ",
+            id: "71",
+            name: "BEIGE-CAMBRIC-3 3PC STITCHED ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "6,970",
+              "Shirt:Dyed Cambric Shirt Contrasting Finishing & Buttons.Dupatta:Fancy Dupatta.Trouser:Dyed Cambric Trouser.",
+            price: "7,110 ",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-526_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-526_2__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-526_3__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/BPS1243P20_1_1800x1800.jpg?v=1725971731",
+              "https://bonanzasatrangi.com/cdn/shop/files/BPS1243P20_1_1800x1800.jpg?v=1725971731",
+              "https://bonanzasatrangi.com/cdn/shop/files/BPS1243P20_1_1800x1800.jpg?v=1725971731",
             ],
             category: "3 Piece Stitched",
-            color: "	Orange",
+            color: "	BEIGE",
             fabric: "	Lawn",
             sizes: ["XS", "S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
+            id: "72",
             name: "BEIGE LAWN 3PC STITCHED ",
             description:
               "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
@@ -784,192 +783,210 @@ export const data = [
         ],
       },
       {
-        name: "Stitch",
+        name: "Unstitch",
         items: [
           {
-            id: uuidv4(),
-            name: "BLACK LAWN EMBROIDERED UNSTITCHED 2PC   ",
+            id: "81",
+            name: "RASBERRY SORBET - 3 PC UNSTITCHED",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "4,190",
+              "Shirt:Digital Printed Textured Cambric 1.75M Dupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
+            price: "4,280",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/7/0/7013_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/7/0/7013_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/7/0/7013_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P003_1_1800x1800.jpg?v=1727697617",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P003_2_1800x1800.jpg?v=1727697617",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P003_5_1800x1800.jpg?v=1727697617",
             ],
-            category: "Unstitched 2 Piece ",
-            color: "Black",
+            category: "Unstitched 3 Piece ",
+            color: "RED",
             fabric: "Lawn",
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
-            name: "PINK LAWN PRINTED UNSTITCHED 2PC   ",
+            id: "82",
+            name: " MIRAKI - 3 PC UNSTITCHED   ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "3,090",
+              "Shirt:Digital Printed Textured Cambric 1.75MDupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
+            price: "4,280",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7006_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7006_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7006_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P012_1_1800x1800.jpg?v=1727697605",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P012_2_1800x1800.jpg?v=1727697605",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P012_5_1800x1800.jpg?v=1727697605",
             ],
-            category: "Unstitched 2 Piece ",
-            color: "Pink",
+            category: "Unstitched 3 Piece ",
+            color: "GREEN",
             fabric: "Lawn",
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
-            name: "OFF WHITE LAWN PRINTED UNSTITCHED 2PC  ",
+            id: "83",
+            name: " ROMA - 3 PC UNSTITCHED   ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "3,090",
+              "Shirt:Digital Printed Textured Cambric 1.75MDupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
+            price: "4,280",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7004_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7004_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7004_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P042_1_500x.jpg?v=1727697593",
+              "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P042_2_1800x1800.jpg?v=1727697593",
+              "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P042_3_1800x1800.jpg?v=1727697593",
             ],
             category: "Unstitched 2 Piece ",
-            color: "Off White",
+            color: "TEAL",
             fabric: "Lawn",
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
-            name: "BLUE LAWN EMBROIDERED UNSTITCHED 2PC   ",
+            id: "84",
+            name: "SPRINKLE - 3 PC UNSTITCHED    ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "4,190",
+            "Shirt:Digital Printed Textured Cambric 1.75MDupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
+            price: "4,280",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7015_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7015_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7015_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P004_1_500x.jpg?v=1727697581",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P004_2_1800x1800.jpg?v=1727697581",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P004_3_1800x1800.jpg?v=1727697581"
             ],
             category: "Unstitched 2 Piece ",
-            color: "Blue",
+            color: "PURPLE",
             fabric: "Lawn",
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
-            name: "PINK DOBBY PRINTED UNSTITCHED 2PC   ",
+            id: "85",
+            name: "VINTAGE FLOWER - 3 PC UNSTITCHED    ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
+            "Shirt:Digital Printed Textured Cambric 1.75M Dupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
             price: "3,890",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7010_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7010_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7010_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P001_1_500x.jpg?v=1727697569",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P001_2_1800x1800.jpg?v=1727697569",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P001_3_1800x1800.jpg?v=1727697569",
             ],
-            category: "Unstitched 2 Piece ",
-            color: "Pink",
+            category: "Unstitched 3 Piece ",
+            color: "L-GREEN",
             fabric: "Dobby",
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
-            name: "PURPLE LAWN EMBROIDERED UNSTITCHED 2PC",
+            id: "86",
+            name: "TURKISH DELIGHT - 3 PC UNSTITCHED ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "4,190",
+            "Shirt:Digital Printed Textured Cambric 1.75M Dupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
+            price: "4,280",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/0/2011_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/0/2011_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/0/2011_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P040_1_500x.jpg?v=1727697558",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P040_2_1800x1800.jpg?v=1727697558",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P040_4_1800x1800.jpg?v=1727697558",
             ],
-            category: "Unstitched 2 Piece ",
-            color: "Purple",
+            category: "Unstitched 3 Piece ",
+            color: "MUSTARD",
             fabric: "Lawn",
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
-            name: "BEIGE LAWN PRINTED UNSTITCHED 2PC",
+            id: "87",
+            name: "COBALT - 3 PC UNSTITCHED ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "3,090",
+            "Shirt:Digital Printed Textured Cambric 1.75M Dupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
+            price: "4,280",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7007_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7007_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-7007_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P044_1_1800x1800.jpg?v=1727697547",
+              "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P044_2_1800x1800.jpg?v=1727697547",
+              "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P044_3_1800x1800.jpg?v=1727697547",
             ],
-            category: "Unstitched 2 Piece ",
+            category: "Unstitched 3 Piece ",
             color: "BEIGE",
             fabric: "Lawn",
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
-            name: "BLACK LAWN UNSTITCHED 2PC",
+            id: "88",
+            name: "GLASS GREEN - 3 PC UNSTITCHED ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: " 3,070",
+            "Shirt:Digital Printed Textured Cambric 1.75M Dupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
+            price: " 4,280",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/j/d/jds-24-1128-111_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/d/jds-24-1128-111_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/d/jds-24-1128-111_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P027_1_500x.jpg?v=1727697531",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P027_2_1800x1800.jpg?v=1727697531",
+              "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P027_3_1800x1800.jpg?v=1727697531",
             ],
-            category: "Unstitched 2 Piece ",
-            color: "Black",
+            category: "Unstitched 3 Piece ",
+            color: "MT-GREEN",
             fabric: "Lawn",
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
-            name: "PINK LAWN UNSTITCHED 2PC",
+            id: "89",
+            name: "OAK BUFF - 3 PC UNSTITCHED ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: " 3,070",
+            "Shirt:Digital Printed Textured Cambric 1.75M Dupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
+
+            price: " 4,280",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-1129_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-1129_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-1129_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P002_1_500x.jpg?v=1727697521",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P002_2_1800x1800.jpg?v=1727697521",
+              "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P002_3_1800x1800.jpg?v=1727697521",
+            ],
+            category: "Unstitched 3 Piece ",
+            color: "BEIGE",
+            fabric: "Lawn",
+            sizes: ["XS", "S", "M", "L"],
+          },
+          {
+            id: "90",
+            name: "SEED PEARL - 3 PCUNSTITCHED ",
+            description:
+            "Shirt:Digital Printed Lawn 1.75M Dupatta:Digital Printed Organza 2.5M Trouser Digital Printed Cambric Trouser 1.8M",
+            price: " 3,590",
+
+            image: [
+              "https://bonanzasatrangi.com/cdn/shop/files/0048_1S24P3P420-052A9698_c93647c0-477e-49ec-aeca-880b2ef00b7a_1800x1800.jpg?v=1726313272",
+              "https://bonanzasatrangi.com/cdn/shop/files/0051_1S24P3P420-052A9678_ea3255c2-2654-4414-9bd2-64fb0fc3d568_1800x1800.jpg?v=1726313272",
+              "https://bonanzasatrangi.com/cdn/shop/files/0050_1S24P3P420-052A9681_79aba824-003b-41c9-902f-8a1b9b9f1d84_1800x1800.jpg?v=1726313269",
+            ],
+            category: "Unstitched 3 Piece ",
+            color: "CREAM",
+            fabric: "Lawn",
+            sizes: ["XS", "S", "M", "L"],
+          },
+          {
+            id: "91",
+            name: "FORMAL GARDEN - 3 PC UNSTITCHED ",
+            description:
+            "Shirt:Digital Printed Lawn 1.75M Dupatta:Digital Printed Lawn 2.5M Trouser: Dyed Cambric Trouser 1.8M",
+            price: " 3,276",
+
+            image: [
+              "https://bonanzasatrangi.com/cdn/shop/files/0015_1S24P3P066-052A3837_500x.jpg?v=1723807190",
+              "https://bonanzasatrangi.com/cdn/shop/files/0014_1S24P3P066-052A3837_1800x1800.jpg?v=1723807190",
+              "https://bonanzasatrangi.com/cdn/shop/files/0015_1S24P3P066-052A3835_1800x1800.jpg?v=1723807190",
             ],
             category: "Unstitched 2 Piece ",
+            color: "MULTI",
+            fabric: "Lawn",
+            sizes: ["XS", "S", "M", "L"],
+          },
+          {
+            id: "92",
+            name: "BARBERRY - 3 PC UNSTITCHED ",
+            description:
+            "Shirt:Digital Printed Lawn 1.75M Dupatta:Digital Printed Lawn 2.5M Trouser: Dyed Cambric Trouser 1.8M",
+            price: " 3,276",
+
+            image: [
+              "https://bonanzasatrangi.com/cdn/shop/files/0014_1S24P3P568-052A6855_1800x1800.jpg?v=1723883465",
+              "https://bonanzasatrangi.com/cdn/shop/files/0012_1S24P3P568-052A6826_1800x1800.jpg?v=1723883465",
+              "https://bonanzasatrangi.com/cdn/shop/files/0013_1S24P3P568-052A6820_1800x1800.jpg?v=1723883465",
+            ],
+            category: "Unstitched 3 Piece ",
             color: "PINK",
-            fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
-          },
-          {
-            id: uuidv4(),
-            name: "GREEN LAWN UNSTITCHED 2PC",
-            description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: " 3,590",
-
-            image: [
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1673_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1673_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1673_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-            ],
-            category: "Unstitched 2 Piece ",
-            color: "Green",
-            fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
-          },
-          {
-            id: uuidv4(),
-            name: "YELLOW LAWN UNSTITCHED 2PC",
-            description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: " 3,590",
-
-            image: [
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1666_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1666_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jst-24-1666_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-            ],
-            category: "Unstitched 2 Piece ",
-            color: "Yellow",
             fabric: "Lawn",
             sizes: ["XS", "S", "M", "L"],
           },
@@ -979,16 +996,15 @@ export const data = [
         name: "Kurti",
         items: [
           {
-            id: uuidv4(),
-            name: "RUST PAPER COTTON KURTI ",
-            description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "6,150",
+            id: "101",
+            name: "Dobby Dyed Embroidered  Shirt  ",
+            description:"Size And Fit:Model height is 5'6.Model is wearing Small size",
+            price: "2,579 ",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-24-411_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-24-411_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-24-411_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43240_1_.jpg?optimize=medium&fit=bounds&height=1000&width=666",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43240_4_.jpg?optimize=medium&fit=bounds&height=1000&width=666",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43240_5_.jpg?optimize=medium&fit=bounds&height=1000&width=666",
             ],
             category: "Ladies Kurti ",
             color: "Orange",
@@ -996,16 +1012,16 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
-            name: "BLACK ORGANZA KURTI  ",
+            id: "102",
+            name: "Cambric Printed Tunic KJ-43011 KURTI  ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "7,480",
+            "ize And Fit: Model height is 5'6.Model is wearing Small size",
+            price: "1,933",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-413_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-413_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-413_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43104_1_.jpg?optimize=medium&fit=bounds&height=1000&width=666",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43104_9_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43104_6_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Black",
@@ -1013,173 +1029,175 @@ export const data = [
             sizes: ["XS", "S", "M", "L"],
           },
           {
-            id: uuidv4(),
-            name: "GREEN COTTON NET KURTI  ",
+            id: "103",
+            name: "Cambric Printed Tunic KJ-43012 KURTI  ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "8,200",
+            "Size And Fit:Model height is 5' 6.Model is wearing Small size",
+            price: "1,933",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-414_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-414_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/2/4/24-414_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43102_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43102_10_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43102_5_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
-            color: "Green",
+            color: "Multi",
             fabric: "Cotton",
             sizes: ["S", "M", "L"],
           },
           {
-            id: uuidv4(),
-            name: "RED PLAIN KURTI ",
+            id: "104",
+            name: "Cambric Printed Tunic KJ-43013 KURTI ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "4,010",
+            "Size And Fit:Model height is 5' 5.Model is wearing Small size",
+            price: "1,933",
 
             image: [
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-23-398_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-23-398_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-23-398_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43100_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43100_10_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43100_4_.jpg?optimize=medium&fit=bounds&height=&width=",
+            ],
+            category: "Ladies Kurti ",
+            color: "Multi",
+            fabric: "Cambric",
+            sizes: ["S", "M", "L"],
+          },
+          {
+            id: "105",
+            name: "Yarn Dyed Tunic KJ-43014 KURTI ",
+            description:
+            "Size And Fit:Model height is 5' 6.Model is wearing Small size",
+            price: "1,645",
+
+            image: [
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43049_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43049_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43049_3_.jpg?optimize=medium&fit=bounds&height=&width=",
+            ],
+            category: "Ladies Kurti ",
+            color: "Pink",
+            fabric: "Yarn Dyed",
+            sizes: ["S", "M", "L"],
+          },
+          {
+            id: "106",
+            name: "Yarn Dyed Tunic KJ-43045 KURTI ",
+            description:
+            "Size And Fit:Model height is 5' 6.Model is wearing Small size",
+            price: "1,799",
+
+            image: [
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43045_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43045_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43045_5_.jpg?optimize=medium&fit=bounds&height=&width=",
+            ],
+            category: "Ladies Kurti ",
+            color: "Purple",
+            fabric: "Yarn Dyed",
+            sizes: ["S", "M", "L", "XL"],
+          },
+          {
+            id: "107",
+            name: "Yarn Dyed Tunic KJ-43024 KURTI ",
+            description:
+            "Size And Fit:Model height is 5' 6.Model is wearing Small size",
+            price: "799",
+
+            image: [
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43024_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43024_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43024_3_.jpg?optimize=medium&fit=bounds&height=&width=",
+            ],
+            category: "Ladies Kurti ",
+            color: "Navy",
+            fabric: "Yarn Dyed",
+            sizes: ["S", "M", "L"],
+          },
+          {
+            id: "108",
+            name: "Yarn Dyed Tunic KJ-43022 KURTI ",
+            description:
+            "Size And Fit:Model height is 5' 6.Model is wearing Small size",
+            
+            price: "1,599",
+
+            image: [
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43022_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43022_6_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43022_3_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Red",
-            fabric: "Plain",
-            sizes: ["S", "M", "L"],
-          },
-          {
-            id: uuidv4(),
-            name: "RED PLAIN KURTI ",
-            description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "4,010",
-
-            image: [
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-23-398_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-23-398_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-              "https://www.junaidjamshed.com/media/catalog/product/j/s/jss-23-398_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=110&width=86",
-            ],
-            category: "Ladies Kurti ",
-            color: "Red",
-            fabric: "Plain",
-            sizes: ["S", "M", "L"],
-          },
-          {
-            id: uuidv4(),
-            name: "WHITE PLAIN KURTI ",
-            description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "799",
-
-            image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0032_40b2cfea-2b51-4a8b-ab6c-c07a63f36c48_medium.jpg?v=1696828628",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0033_1a7a02ff-305d-48d2-9801-d9f83d03b254_medium.jpg?v=1696828628",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0032_40b2cfea-2b51-4a8b-ab6c-c07a63f36c48_medium.jpg?v=1696828628",
-            ],
-            category: "Ladies Kurti ",
-            color: "White",
-            fabric: "Plain",
+            fabric: "Yarn Dyed",
             sizes: ["S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
-            name: "ORANGE PRINTED KURTI ",
+            id: "109",
+            name: "Yarn Dyed Tunic KJ-43021 KURTI ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "799",
+            "Size And Fit:Model height is 5' 6.Model is wearing Small size",
+
+            price: "1,629",
 
             image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0001_61e1332b-a5c4-4e6e-b942-2f39c502723f_medium.jpg?v=1701319942",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0002_323b1455-e34b-42a9-a504-fc7ce9181b8d_medium.jpg?v=1701319942",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0003_fea74e80-6c80-4c99-b36d-499cdbbf7353_medium.jpg?v=1701319942",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43021_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43021_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43021_4_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
-            color: "Orange",
-            fabric: "Printed",
-            sizes: ["S", "M", "L"],
-          },
-          {
-            id: uuidv4(),
-            name: "GREY PLAIN KURTI ",
-            description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "799",
-
-            image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0171_2ca5c6c0-05d9-493c-973c-10f7ab65fe09_medium.jpg?v=1701320357",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0173_4efe9446-5fae-48c4-9904-5842d207c71d_medium.jpg?v=1701320357",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0171_2ca5c6c0-05d9-493c-973c-10f7ab65fe09_medium.jpg?v=1701320357",
-            ],
-            category: "Ladies Kurti ",
-            color: "Grey",
-            fabric: "Plain",
+            color: "Green",
+            fabric: "Yarn Dyed",
             sizes: ["S", "M", "L", "XL"],
           },
           {
-            id: uuidv4(),
-            name: "LIGHT BLUE PLAIN KURTI ",
+            id: "110",
+            name: "Seersucker Belted Dress KURTI ",
             description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "799",
-
-            image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0163_ce7d8f34-5164-49a0-9129-6296f4a1e640_medium.jpg?v=1701320354",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0165_a5416ea4-feb8-4ec1-be40-506709feac2e_medium.jpg?v=1701320354",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0163_ce7d8f34-5164-49a0-9129-6296f4a1e640_medium.jpg?v=1701320354",
-            ],
-            category: "Ladies Kurti ",
-            color: "Light blue",
-            fabric: "Plain",
-            sizes: ["S", "M", "L", "XL"],
-          },
-          {
-            id: uuidv4(),
-            name: "MAROON STITCHED KURTI ",
-            description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
+            "Size And Fit:Model height is 5' 6.Model is wearing Small size",
             price: "1,199",
 
             image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0437_c0671a4b-af63-47c6-9b92-88d559a116f9_medium.jpg?v=1704803554",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0440_216294ca-6a94-4653-ba18-415b36715e9d_medium.jpg?v=1704803554",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0439_52ba8636-1f41-41b2-a2dc-6c8c4644cc0d_medium.jpg?v=1704803554",
-            ],
-            category: "Ladies Kurti ",
-            color: "Maroon",
-            fabric: "Stitched",
-            sizes: ["S", "M", "L", "XL"],
-          },
-          {
-            id: uuidv4(),
-            name: "SKIN STITCHED KURTI ",
-            description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "1,199",
-
-            image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0431_669be61d-3c80-47c4-9b32-96475d35a272_medium.jpg?v=1704803319",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0435_778eee39-480e-4723-9de6-7c0543a23e79_medium.jpg?v=1704803319",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0434_a855092a-7448-4855-aa64-27d11c5fbe10_medium.jpg?v=1704803319",
-            ],
-            category: "Ladies Kurti ",
-            color: "Skin",
-            fabric: "Stitched",
-            sizes: ["S", "M", "L", "XL"],
-          },
-          {
-            id: uuidv4(),
-            name: "BLUE STITCHED KURTI ",
-            description:
-              "Crafted with simplicity and elegance in mind, this navy blue cotton casual kameez shalwar men's kameez shalwar combines traditional aesthetics with modern sensibilities, ensuring a timeless and versatile garment",
-            price: "1,199",
-
-            image: [
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0426_ecd9da79-11e2-4a76-86ae-bf21b896b83c_medium.jpg?v=1704803532",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0429_cc1fdc3b-d497-4bf0-b7d5-ad69d655e5f9_medium.jpg?v=1704803532",
-              "https://chasevalue.pk/cdn/shop/files/DZ7A0428_2dc218d8-0e7f-46a9-8754-d2d5ef29e8e1_medium.jpg?v=1704803532",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43020_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43020_6_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43020_4_.jpg?optimize=medium&fit=bounds&height=&width=",
             ],
             category: "Ladies Kurti ",
             color: "Blue",
+            fabric: "Seersucker",
+            sizes: ["S", "M", "L", "XL"],
+          },
+          {
+            id: "111",
+            name: "Yarn Dyed Tunic KJ-43019 KURTI ",
+            description:
+            "Size And Fit:Model height is 5' 5.Model is wearing Medium size",
+            price: "1,199",
+
+            image: [
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43019_1_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43019_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43019_3_.jpg?optimize=medium&fit=bounds&height=&width=",
+            ],
+            category: "Ladies Kurti ",
+            color: "Peach",
             fabric: "Stitched",
+            sizes: ["S", "M", "L", "XL"],
+          },
+          {
+            id: "112",
+            name: "Yarn Dyed Shirt KJ-43018 KURTI ",
+            description:
+            "Size And Fit:Model height is 5' 5.Model is wearing Large size",
+            price: "2,148 ",
+
+            image: [
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43018_2_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43018_3_.jpg?optimize=medium&fit=bounds&height=&width=",
+              "https://www.gulahmedshop.com/media/catalog/product/k/j/kj-43018_4_.jpg?optimize=medium&fit=bounds&height=&width=",
+            ],
+            category: "Ladies Kurti ",
+            color: "Grey",
+            fabric: "Yarn Dyed",
             sizes: ["S", "M", "L", "XL"],
           },
         ],

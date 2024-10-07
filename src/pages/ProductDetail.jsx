@@ -14,14 +14,15 @@ const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
   const dispatch = useDispatch();
 
+console.log("id",productId)
   const category = data.find(
     (category) => category.section.toLowerCase() === section.toLowerCase()
   );
   const subCat = category?.subcategories.find(
     (subCategory) => subCategory.name.toLowerCase() === subcategory.toLowerCase()
   );
-  const product = subCat?.items.find((item) => item.id === productId);
-
+  // const product = subCat?.items.find((item) => item.id === productId);
+  const product = subCat?.items.find((item) => item.id === productId)
   const [activeImg, setActiveImg] = useState(product?.image[0]);
   const [size, setSize] = useState("");
   const [isOpen, setIsOpen] = useState(false);
@@ -87,7 +88,7 @@ const ProductDetail = () => {
                 </button>
               </div>
              
-              <h1 className="mb-2 ml-1 font-semibold">Size</h1>
+              <h1 className="mb-2 mt-4 ml-1 font-semibold">Size</h1>
               <div className="flex space-x-4 mb-6 ">
                 {product.sizes.map((item, index) => (
                   <div className="">
