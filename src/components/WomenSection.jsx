@@ -21,7 +21,7 @@ const WomenSection = () => {
         <span className="w-1/5 sm:w-1/3 bg-black h-1 dark:bg-white"></span>
       </div>
       <div className="flex justify-center items-center flex-wrap">
-        <div className="h-[400px] md:w-96 md:h-[500px] p-4 m-4">
+        <div className="h-[450px] w-full md:w-96 md:h-[550px] p-4 m-4">
           <div className="relative group h-full w-full">
             <img
               src={BannerWomen1}
@@ -40,7 +40,7 @@ const WomenSection = () => {
           </div>
           <h4 className="text-center font-semibold text-xl p-4">Unstitched</h4>
         </div>
-        <div className="h-[400px] md:w-96 md:h-[500px] p-4 m-4">
+        <div className="h-[450px] w-full md:w-96 md:h-[550px] p-4 m-4">
           <div className="relative group h-full w-full">
             <img src={BannerWomen2} alt="Kurta" className="w-full h-full" />
             <div className="overlay absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
@@ -55,7 +55,7 @@ const WomenSection = () => {
           </div>
           <h4 className="text-center font-semibold text-xl p-4">Stitched</h4>
         </div>
-        <div className="h-[400px] md:w-96 md:h-[500px] p-4 m-4">
+        <div className="h-[450px] w-full md:w-96 md:h-[550px] p-4 m-4">
           <div className="relative group h-full w-full">
             <img
               src={BannerWomen3}

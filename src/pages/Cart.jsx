@@ -20,8 +20,8 @@ const Cart = () => {
       {cart.cartItems.length > 0 ? (
         <div className="py-10">
           <h3 className="text-2xl font-semibold mb-4">SHOPPING CART</h3>
-          <div className="flex flex-col md:flex-row justify-between space-x-10 mt-8">
-            <div className="md:w-2/3">
+          <div className="flex flex-col md:flex-row justify-between space-x-10 mt-8 gap-4">
+            <div className="w-[90%] md:w-2/3">
               <div className="flex justify-between border-b items-center mb-4 text-us font-bold">
                 <p>PRODUCT</p>
                 <div className="flex space-x-8">
