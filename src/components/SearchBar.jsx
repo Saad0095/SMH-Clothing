@@ -36,7 +36,7 @@ const SearchBar = ({ setSearchBarShow }) => {
       <input
         type="text"
         value={searchInp}
-        className="px-4 py-2 outline-none rounded-full w-56 sm:w-96 caret-cyan-600 drop-shadow-lg"
+        className="px-4 py-2 outline-none rounded-full w-56 sm:w-96 caret-cyan-600 drop-shadow-lg dark:text-black"
         placeholder="Search"
         onChange={(e) => setSearchInp(e.target.value)}
         onKeyDown={(e) => {
