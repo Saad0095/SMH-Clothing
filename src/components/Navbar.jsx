@@ -10,12 +10,15 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 import useScroll from "../hooks/useScroll";
+import { useSelector } from "react-redux";
 
 const Navbar = () => {
   const navigate = useNavigate();
+  const {cartItems} = useSelector((state) => state.cart);
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchBarShow, setSearchBarShow] = useState(false);
-  const isColored = useScroll(150);
+  const isColored = useScroll(120);
 
   return (
     <div>
@@ -41,16 +44,27 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex justify-between items-center gap-6">
-          <FontAwesomeIcon
-            className="cursor-pointer dark:drop-shadow-lg"
-            icon={faSearch}
-            onClick={() => setSearchBarShow(!searchBarShow)}
-          />
-          <FontAwesomeIcon className="cursor-pointer dark:drop-shadow-lg" icon={faBagShopping} onClick={()=> navigate("/cart")}/>
-          <ThemeChanger />
+          <div>
+            <FontAwesomeIcon
+              className="cursor-pointer dark:drop-shadow-lg"
+              icon={faSearch}
+              onClick={() => setSearchBarShow(!searchBarShow)}
+            />
+          </div>
+          <div className="relative">
+            <FontAwesomeIcon
+              className="cursor-pointer dark:drop-shadow-lg"
+              icon={faBagShopping}
+              onClick={() => navigate("/cart")}
+            />
+            <span className="absolute top-0 -right-3 z-50 bg-cyan-600  text-white font-bold text-xs rounded-full w-4 h-4 flex justify-center items-center">{cartItems.length}</span>
+          </div>
+          <div>
+            <ThemeChanger />
+          </div>
         </div>
       </nav>
-      {searchBarShow && <SearchBar setSearchBarShow={setSearchBarShow}/>}
+      {searchBarShow && <SearchBar setSearchBarShow={setSearchBarShow} />}
       <Sidebar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
     </div>
   );

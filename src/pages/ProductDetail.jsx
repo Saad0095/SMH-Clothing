@@ -8,7 +8,7 @@ import {
   faChevronDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { useDispatch } from "react-redux"; 
-import { addToCart } from '../app/cartSlice'; 
+import { addToCart } from '../app/slices/cartSlice'; 
 
 const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
@@ -34,7 +34,6 @@ console.log("id",productId)
 
  
   const handleAddToCart = () => {
-    console.log('Adding to cart:', product);
     dispatch(addToCart({
       id: product.id,
       name: product.name,
