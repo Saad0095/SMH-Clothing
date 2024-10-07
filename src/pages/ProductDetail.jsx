@@ -1,12 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { data } from "../app/data";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPlus,
-  faChevronUp,
-  faChevronDown,
-} from "@fortawesome/free-solid-svg-icons";
 import { useDispatch } from "react-redux"; 
 import { addToCart } from '../app/slices/cartSlice'; 
 
@@ -14,25 +8,22 @@ const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
   const dispatch = useDispatch();
 
-console.log("id",productId)
   const category = data.find(
     (category) => category.section.toLowerCase() === section.toLowerCase()
   );
   const subCat = category?.subcategories.find(
     (subCategory) => subCategory.name.toLowerCase() === subcategory.toLowerCase()
   );
-  // const product = subCat?.items.find((item) => item.id === productId);
-  const product = subCat?.items.find((item) => item.id === productId)
+  const product = subCat?.items.find((item) => item.id === productId);
+
   const [activeImg, setActiveImg] = useState(product?.image[0]);
-  const [size, setSize] = useState("");
-  const [isOpen, setIsOpen] = useState(false);
+
   useEffect(() => {
     if (product) {
       setActiveImg(product.image[0]);
     }
   }, [product]);
 
- 
   const handleAddToCart = () => {
     dispatch(addToCart({
       id: product.id,
@@ -66,18 +57,25 @@ console.log("id",productId)
                 ))}
               </div>
             </div>
-
             <div>
-              
-              <h1 className="title text-left text-xl font-medium ">
+              <h1 className="title text-left text-xl font-medium">
                 {product.name}
               </h1>
               <span className="text-gray-400">SKU#: J-10000077382</span>
               <h2 className="text-gray-500">IN STOCK</h2>
               <h1 className="font-bold text-4xl">{product.price}</h1>
               <hr className="border border-gray-500 my-4" />
-             
-             
+              <h1 className="mb-2 ml-1 font-semibold">Size</h1>
+              <div className="flex space-x-4 mb-6">
+                {product.sizes.map((size, index) => (
+                  <div
+                    key={index}
+                    className="bg-white text-black p-4 rounded-full border border-black shadow-lg flex items-center justify-center w-8 h-8 hover:bg-black hover:text-white"
+                  >
+                    <span className="text-lg font-bold">{size}</span>
+                  </div>
+                ))}
+              </div>
               <div>
                 <button
                   onClick={handleAddToCart}
@@ -86,61 +84,7 @@ console.log("id",productId)
                   Add To Bag
                 </button>
               </div>
-             
-              <h1 className="mb-2 mt-4 ml-1 font-semibold">Size</h1>
-              <div className="flex space-x-4 mb-6 ">
-                {product.sizes.map((item, index) => (
-                  <div className="">
-                    <button
-                      onClick={() => setSize(item)}
-                      className={`text-lg font-bold  p-4 rounded-full border  shadow-lg flex items-center justify-center w-8 h-8 hover:bg-black hover:text-white  ${
-                        item === size
-                          ? "  border-current bg-black text-white"
-                          : ""
-                      } `}
-                      key={index}
-                    > 
-                      {item}
-                    </button>
-                  </div>
-                ))}
-              </div>
               <p className="mt-4 text-gray-600">{product.description}</p>
-              <hr className="border border-gray-300 my-4" />
-              <div className="relative">
-                <button
-                  className="w-full text-left p-2 rounded hover:bg-gray-200 transition flex justify-between"
-                  onClick={() => setIsOpen(!isOpen)}
-                >
-                  <span className="font-bold">More Information</span>
-                  <span>
-                    {!isOpen ? (
-                      <FontAwesomeIcon icon={faChevronUp} />
-                    ) : (
-                      <FontAwesomeIcon icon={faChevronDown} />
-                    )}
-                  </span>
-                </button>
-                {isOpen && (
-                  <ul className="flex flex-col p-4 transition ">
-                    <div className="flex  mb-2">
-                      <span className="font-bold">color</span>
-                      <li className="ml-16">{product.color}</li>
-                    </div>
-                    <div className="flex mb-2 ">
-                      <span className="font-bold">Category</span>
-                      <li className="ml-10">{product.category}</li>
-                    </div>
-                    <div className="flex ">
-                      <span className="font-bold">Fabric</span>
-                      <li className="ml-16">{product.fabric}</li>
-                    </div>
-                    
-                  </ul>
-                )}
-                 <hr className="border border-gray-300 my-4" />
-                
-              </div>
             </div>
           </div>
         </div>

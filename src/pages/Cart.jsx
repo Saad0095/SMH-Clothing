@@ -46,11 +46,16 @@ const Cart = () => {
                     </div>
                     <div className="flex space-x-14 items-center">
                       <div className="flex-1">
-                        <h3 className="text-lg font-semibold">{product.name}</h3>
+                        <h3 className="text-lg font-semibold">
+                          {product.name}
+                        </h3>
                       </div>
                       <div className="priceContainer">
                         <p className="text-lg-3xl font-semi-bold">
-                          Rs {parseFloat(product.price).toLocaleString()}
+                          Rs{" "}
+                          {parseFloat(
+                            product.price.replace(/,/g, "")
+                          ).toLocaleString()}
                         </p>
                       </div>
                       <div className="flex items-center justify-center border">
