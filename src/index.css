@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply transition-colors duration-75;
+}
+
 @layer base {
   html {
     font-family: "Roboto Condensed", system-ui;
@@ -36,7 +40,7 @@ body {
 .carousel .img {
   background-size: cover;
   background-position: top center;
-  
+
   width: 100%;
   height: 642px;
 }
@@ -53,19 +57,18 @@ body {
   background-image: url("assets/CarouselImg3.webp");
 }
 
-@media screen and (max-width:720px) {
-  
-.carousel .img1 {
-  background-image: url("assets/CarouselImg_mobile1.webp");
-}
+@media screen and (max-width: 720px) {
+  .carousel .img1 {
+    background-image: url("assets/CarouselImg_mobile1.webp");
+  }
 
-.carousel .img2 {
-  background-image: url("assets/CarouselImg_mobile2.webp");
-}
+  .carousel .img2 {
+    background-image: url("assets/CarouselImg_mobile2.webp");
+  }
 
-.carousel .img3 {
-  background-image: url("assets/CarouselImg_mobile3.webp");
-}
+  .carousel .img3 {
+    background-image: url("assets/CarouselImg_mobile3.webp");
+  }
 }
 
 .carousel .slick-dots {

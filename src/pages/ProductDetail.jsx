@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { data } from "../app/data";
 import { useDispatch } from "react-redux"; 
-import { addToCart } from '../app/cartSlice'; 
+import { addToCart } from '../app/slices/cartSlice'; 
 
 const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
@@ -25,7 +25,6 @@ const ProductDetail = () => {
   }, [product]);
 
   const handleAddToCart = () => {
-    console.log('Adding to cart:', product);
     dispatch(addToCart({
       id: product.id,
       name: product.name,

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 
-const Checkout = ({ setOrder }) => {
+const Checkout = () => {
   const [billingToggle, setBillingToggle] = useState(true)
   const [shippingToggle, setShippingToggle] = useState(false)
   const [paymentToggle, setPaymentToggle] = useState(false)
