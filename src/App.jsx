@@ -1,4 +1,3 @@
-//app.jsx
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -17,7 +16,6 @@ function App() {
   const [order,setOrder] = useState(null)
   return (
     <div className="bg-white text-black dark:bg-black dark:text-white">
-      {/* Incomplete ==> Lazy Loading will be applied at end */}
       <SearchProvider>
         <Navbar />
         <Routes>

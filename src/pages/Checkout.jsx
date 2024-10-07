@@ -1,4 +1,3 @@
-//checkout
 import React, { useState } from 'react'
 import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -26,14 +25,15 @@ const Checkout = ({ setOrder }) => {
       totalPrice: cart.cartItems.reduce((total, product) => parseInt(total,10) + (product.price.replace(/,/g, '') * product.quantity), 0).toFixed(2),
       totalItems: cart.cartItems.reduce((totalQuantity, product) => totalQuantity + product.quantity, 0),
     }
-    // Navigate to the OrderPlacement route and pass order data as state
     navigate('/orderplacement', { state: { order: newOrder } })
   }
+
   return (
-    <div className='container mx-auto py-8 min-h-96 px-4 md:px-16 lg:px-24 mt-20'>
+    <div className='container mx-auto px-4 md:px-16 lg:px-24 pt-32 pb-14'>
       <h3 className='text-3xl font-semibold mb-4'>CHECKOUT</h3>
       <div className='flex flex-col md:flex-row justify-between space-x-10 mt-8'>
         <div className='md:w-2/3'>
+
           {/* Billing Information */}
           <div className='border p-2 mb-6'>
             <div className='flex items-center justify-between' onClick={() => setBillingToggle(!billingToggle)}>
@@ -43,15 +43,15 @@ const Checkout = ({ setOrder }) => {
             <div className={`space-y-4 ${billingToggle ? "" : "hidden"}`}>
               <div>
                 <label className='block text-gray-700'>Name</label>
-                <input type="text" name="name" placeholder='Enter the Name' className='w-full px-3 py-2 border' />
+                <input type="text" name="name" placeholder='Enter the Name' className='w-full px-3 py-2 border bg-inherit' />
               </div>
               <div>
                 <label>Email</label>
-                <input type="email" placeholder='Enter Your Email' className='w-full px-3 py-2 border' />
+                <input type="email" placeholder='Enter Your Email' className='w-full px-3 py-2 border bg-inherit' />
               </div>
               <div>
                 <label>Phone</label>
-                <input type="number" placeholder='Enter Phone Number' className='w-full px-3 py-2 border' />
+                <input type="number" placeholder='Enter Phone Number' className='w-full px-3 py-2 border bg-inherit' />
               </div>
             </div>
           </div>
@@ -64,22 +64,22 @@ const Checkout = ({ setOrder }) => {
             </div>
             <div className={`space-y-4 ${shippingToggle ? "" : "hidden"}`}>
               <div>
-                <label className='block text-gray-700'>Address</label>
+                <label className='block text-gray-700 '>Address</label>
                 <input
                   type="text"
                   name="address"
                   placeholder="Enter Your Address"
-                  className="w-full px-3 py-2 border"
+                  className="w-full px-3 py-2 border bg-inherit"
                   onChange={(e) => setShippingInfo({ ...shippingInfo, address: e.target.value })}
                 />
               </div>
               <div>
-                <label className='block text-gray-700'>City</label>
+                <label className='block text-gray-700 '>City</label>
                 <input
                   type="text"
                   name="city"
                   placeholder="Enter Your City"
-                  className="w-full px-3 py-2 border"
+                  className="w-full px-3 py-2 border bg-inherit"
                   onChange={(e) => setShippingInfo({ ...shippingInfo, city: e.target.value })}
                 />
               </div>
@@ -89,7 +89,7 @@ const Checkout = ({ setOrder }) => {
                   type="number"
                   name="zip"
                   placeholder="Enter Your Zip Code"
-                  className="w-full px-3 py-2 border"
+                  className="w-full px-3 py-2 border bg-inherit"
                   onChange={(e) => setShippingInfo({ ...shippingInfo, zip: e.target.value })}
                 />
               </div>
@@ -117,20 +117,20 @@ const Checkout = ({ setOrder }) => {
                   <h3 className='text-lg font-semibold mb-4'>Debit Card Information</h3>
                   <div className='mb-4'>
                     <label className='block text-gray-700 font-semibold mb-2'>Card Number</label>
-                    <input type='text' placeholder='Enter Card Number' className='border p-2 w-full rounded' required />
+                    <input type='text' placeholder='Enter Card Number' className='border p-2 w-full rounded bg-inherit' required />
                   </div>
                   <div className='mb-4'>
                     <label className='block text-gray-700 font-semibold mb-2'>Card Holder Name</label>
-                    <input type='text' placeholder='Enter Card Holder Name' className='border p-2 w-full rounded' required />
+                    <input type='text' placeholder='Enter Card Holder Name' className='border p-2 w-full rounded bg-inherit' required />
                   </div>
                   <div className='flex justify-between mb-4'>
                     <div className='w-1/2 mr-2'>
                       <label className='block text-gray-700 font-semibold mb-2'>Expiry Date</label>
-                      <input type="text" placeholder='MM/YY' className='border p-2 w-full rounded' required />
+                      <input type="text" placeholder='MM/YY' className='border p-2 w-full rounded bg-inherit' required />
                     </div>
                     <div>
                       <label className='block text-gray-700 font-semibold mb-2'>CVV</label>
-                      <input type="text" placeholder='CVV' className='border p-2 w-full rounded' required />
+                      <input type="text" placeholder='CVV' className='border p-2 w-full rounded bg-inherit' required />
                     </div>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ const Checkout = ({ setOrder }) => {
         </div>
 
         {/* Order Summary */}
-        <div className='md:w-1/3 ordersummaryContainer bg-white p-6 rounded-lg shadow-md border'>
+        <div className='md:w-1/3 ordersummaryContainer p-6 rounded-lg shadow-md border min-h-[300px] flex-shrink-0'>
           <h3 className='text-lg font-semibold mb-4'>Order Summary</h3>
           <div className='space-y-4 orderSummarInnerContainer'>
             {cart.cartItems && cart.cartItems.map((product) => (

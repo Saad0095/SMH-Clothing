@@ -1,21 +1,20 @@
-//orderplacement
 import React from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 
 const OrderPlacement = () => {
   const navigate = useNavigate()
   const location = useLocation()
-  const order = location.state?.order // Access the order data from the state
+  const order = location.state?.order 
 
   if (!order) {
     return <p>No order details found.</p>
   }
 
   return (
-    <div className='container mx-auto py-8 px-4 md:px-16 lg:px-28 mt-20'>
+    <div className='container mx-auto px-4 md:px-16 lg:px-28 pt-32 pb-20'>
       <h2 className='text-4xl font-semibold mb-4'>Thank you For your Order</h2>
       <p className='text-2xl font-semibold mb-4'>Your order has been placed successfully. You will receive an email confirmation shortly.</p>
-      <div className='mt-10 p-6 border rounded-lg bg-gray-100'>
+      <div className='mt-10 p-6 border rounded-lg'>
         <h3 className='text-lg font-semibold mb-4'>Order Summary:</h3>
         <p className='text-lg'>Order Number: {order.orderNumber}</p>
         <div className='mt-4'>

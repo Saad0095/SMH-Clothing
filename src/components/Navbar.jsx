@@ -46,7 +46,7 @@ const Navbar = () => {
             icon={faSearch}
             onClick={() => setSearchBarShow(!searchBarShow)}
           />
-          <FontAwesomeIcon className="cursor-pointer dark:drop-shadow-lg" icon={faBagShopping} />
+          <FontAwesomeIcon className="cursor-pointer dark:drop-shadow-lg" icon={faBagShopping} onClick={()=> navigate("/cart")}/>
           <ThemeChanger />
         </div>
       </nav>
