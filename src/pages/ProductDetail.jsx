@@ -7,6 +7,7 @@ import { addToCart } from '../app/slices/cartSlice';
 const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
   const dispatch = useDispatch();
+  const [size, setSize] = useState("");
 
   const category = data.find(
     (category) => category.section.toLowerCase() === section.toLowerCase()
@@ -65,17 +66,25 @@ const ProductDetail = () => {
               <h2 className="text-gray-500">IN STOCK</h2>
               <h1 className="font-bold text-4xl">{product.price}</h1>
               <hr className="border border-gray-500 my-4" />
-              <h1 className="mb-2 ml-1 font-semibold">Size</h1>
-              <div className="flex space-x-4 mb-6">
-                {product.sizes.map((size, index) => (
-                  <div
-                    key={index}
-                    className="bg-white text-black p-4 rounded-full border border-black shadow-lg flex items-center justify-center w-8 h-8 hover:bg-black hover:text-white"
-                  >
-                    <span className="text-lg font-bold">{size}</span>
+              <h1 className="mb-2 mt-4 ml-1 font-semibold">Size</h1>
+              <div className="flex space-x-4 mb-6 ">
+                {product.sizes.map((item, index) => (
+                  <div className="">
+                    <button
+                      onClick={() => setSize(item)}
+                      className={`text-lg font-bold  p-4 rounded-full border  shadow-lg flex items-center justify-center w-8 h-8 hover:bg-black hover:text-white  ${
+                        item === size
+                          ? "  border-current bg-black text-white"
+                          : ""
+                      } `}
+                      key={index}
+                    > 
+                      {item}
+                    </button>
                   </div>
                 ))}
               </div>
+
               <div>
                 <button
                   onClick={handleAddToCart}
