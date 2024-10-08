@@ -9,6 +9,7 @@ const Home = lazy(() => import("./pages/Home"));
 const SearchResults = lazy(() => import("./pages/SearchResults"));
 const ProductList = lazy(() => import("./pages/ProductList"));
 const ProductDetail = lazy(() => import("./pages/ProductDetail"));
+const Contact = lazy(() => import("./pages/Contact"));
 const Cart = lazy(() => import("./pages/Cart"));
 const Checkout = lazy(() => import("./pages/Checkout"));
 const OrderPlacement = lazy(() => import("./pages/OrderPlacement"));
@@ -27,6 +28,7 @@ function App() {
               path="/:section/:subcategory/:productId"
               element={<ProductDetail />}
             />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/orderplacement" element={<OrderPlacement />} />
