@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -9,7 +9,19 @@ const Footer = () => {
         SMH CLOTHING
       </h1>
       <h1 className="font-bold text-xl p-2">CUSTOMER SUPPORT </h1>
-      <p className="flex flex-col md:flex-row gap-4 p-2 flex-wrap items-center"><span className="cursor-pointer" onClick={()=> navigate("/contact")}>Contact Us </span><span className="hidden md:block">|</span><span>saadbinkhalid1895@gmail.com </span><span className="hidden md:block">|</span><span>021-37175353</span></p>
+      <p className="flex flex-col md:flex-row gap-4 p-2 flex-wrap items-center">
+        <span className="cursor-pointer" onClick={() => navigate("/contact")}>
+          Contact Us{" "}
+        </span>
+        <span className="hidden md:block">|</span>
+        <a href="mailto:saadbinkhalid1895@gmail.com">
+          saadbinkhalid1895@gmail.com
+        </a>
+        <span className="hidden md:block">|</span>
+        <a href="tel:+923170218290" className="cursor-pointer">
+          +92 317 0218290
+        </a>
+      </p>
       <p className="p-4">COPYRIGHT © 2024 SMH CLOTHING</p>
     </div>
   );
