@@ -3,8 +3,9 @@ import { lazy, Suspense } from "react";
 import { SearchProvider } from "./context/SearchContext";
 import Navbar from "./components/Navbar";
 import Loading from "./components/Loading";
-import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTopBtn from "./components/ScrollToTopBtn";
 const Home = lazy(() => import("./pages/Home"));
 const SearchResults = lazy(() => import("./pages/SearchResults"));
 const ProductList = lazy(() => import("./pages/ProductList"));
@@ -19,7 +20,7 @@ function App() {
     <div className="bg-white text-black dark:bg-black dark:text-white">
       <SearchProvider>
         <Navbar />
-        <Suspense fallback={<Loading/>}>
+        <Suspense fallback={<Loading />}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/searchResults" element={<SearchResults />} />
@@ -34,6 +35,7 @@ function App() {
             <Route path="/orderplacement" element={<OrderPlacement />} />
           </Routes>
         </Suspense>
+        <ScrollToTopBtn />
         <ScrollToTop />
         <Footer />
       </SearchProvider>
