@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
@@ -11,6 +11,7 @@ const OrderPlacement = () => {
   const dispatch = useDispatch();
   const order = useSelector((state) => state.order);
   const { cartItems } = useSelector((state) => state.cart);
+  const [displayCartItems, setDisplayCartItems] = useState([])
 
   const handleContinue = () => {
     dispatch(removeDetails());
@@ -18,6 +19,7 @@ const OrderPlacement = () => {
   };
 
   useEffect(() => {
+    setDisplayCartItems(cartItems);
     dispatch(clearCart());
   }, []);
 
@@ -44,7 +46,7 @@ const OrderPlacement = () => {
           <h1 className="font-bold">
             Selected Products:{" "}
             <span className="font-normal">
-              {cartItems.map((item) => (
+              {displayCartItems.map((item) => (
                 <p key={item.id}>
                   {item.quantity} x {item.name}
                 </p>
@@ -55,7 +57,7 @@ const OrderPlacement = () => {
       </div>
       <div className="mt-6">
         <button
-          className="mt-3 text-xl ml-4 bg-red-500 text-white py-2 px-4 hover:bg-red-600"
+          className="mt-3 text-xl ml-4 text-white py-2 px-4   bg-gradient-to-r from-red-600 to-red-800 hover:bg-gradient-to-b"
           onClick={handleContinue}
         >
           Continue Shopping

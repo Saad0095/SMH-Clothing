@@ -26,13 +26,12 @@ const ProductDetail = () => {
 
   const [activeImg, setActiveImg] = useState(product?.image[0]);
   const [error,setError] = useState('')
+
   useEffect(() => {
     if (product) {
       setActiveImg(product.image[0]);
     }
   }, [product]);
-  
-
 
   const handleAddToCart = () => {
     if(!size){
@@ -89,9 +88,9 @@ const ProductDetail = () => {
                    <div className="" key={index}>
                    <button
                      onClick={() => setSize(item)}
-                     className={`text-lg font-bold  p-4 rounded-full border  shadow-lg flex items-center justify-center w-8 h-8 hover:bg-black hover:text-white  ${
+                     className={`text-lg font-bold  p-4 rounded-full border  shadow-lg flex items-center justify-center w-8 h-8 hover:bg-black hover:text-white hover:dark:bg-white hover:dark:text-black ${
                        item === size
-                         ? "  border-current bg-black text-white"
+                         ? "border-current bg-black text-white dark:bg-white dark:text-black"
                          : ""
                      } `}
                      key={index}
@@ -120,25 +119,25 @@ const ProductDetail = () => {
                   <span className="font-bold">More Information</span>
                   <span>
                     {!isOpen ? (
-                      <FontAwesomeIcon icon={faChevronUp} />
-                    ) : (
                       <FontAwesomeIcon icon={faChevronDown} />
+                    ) : (
+                      <FontAwesomeIcon icon={faChevronUp} />
                     )}
                   </span>
                 </button>
                 {isOpen && (
                   <ul className="flex flex-col p-4 transition ">
-                    <div className="flex  mb-2">
-                      <span className="font-bold">color</span>
+                    <div className="flex mb-2">
+                      <span className="font-bold">Color:</span>
                       <li className="ml-16">{product.color}</li>
                     </div>
                     <div className="flex mb-2 ">
-                      <span className="font-bold">Category</span>
+                      <span className="font-bold">Category:</span>
                       <li className="ml-10">{product.category}</li>
                     </div>
-                    <div className="flex ">
-                      <span className="font-bold">Fabric</span>
-                      <li className="ml-16">{product.fabric}</li>
+                    <div className="flex mb-2">
+                      <span className="font-bold pr-1">Fabric:</span>
+                      <li className="ml-14">{product.fabric}</li>
                     </div>
                     
                   </ul>

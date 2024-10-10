@@ -51,25 +51,6 @@ const Checkout = () => {
       setErrorMsg(null);
       dispatch(addDetails(formData));
       navigate("/orderplacement");
-
-      // const newOrder = {
-      //   products: cart.products,
-      //   orderNumber: "12345",
-      //   shippingInformation: formData,
-      //   totalPrice: cart.cartItems
-      //     .reduce(
-      //       (total, product) =>
-      //         parseFloat(total) +
-      //         parseFloat(product.price.replace(/,/g, "")) * product.quantity,
-      //       0
-      //     )
-      //     .toFixed(2),
-      //   totalItems: cart.cartItems.reduce(
-      //     (totalQuantity, product) => totalQuantity + product.quantity,
-      //     0
-      //   ),
-      // };
-      // navigate("/orderplacement", { state: { order: newOrder } });
     }
   };
 
@@ -86,7 +67,7 @@ const Checkout = () => {
     });
 
   return (
-    <div className="container   md:px-10 px-4 lg:px-22  pt-32 pb-14">
+    <div className="checkout container md:px-10 px-4 lg:px-22  pt-32 pb-14">
       <h3 className="text-3xl font-semibold mb-4">CHECKOUT</h3>
       {errorMsg && (
         <p className="text-red-500 text-center text-sm mb-4">{errorMsg}</p>
@@ -259,7 +240,7 @@ const Checkout = () => {
               <h4 className="font-semibold">Rs {totalPrice}</h4>
             </div>
             <button
-              className="w-full text-white bg-gradient-to-r from-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center  me-2 mb-2"
+                className="w-full text-white bg-gradient-to-r from-red-600 to-red-800 hover:bg-gradient-to-b font-medium rounded-lg text-sm px-5 py-2.5 text-center  me-2 mb-2"
               onClick={handleOrder}
             >
               Place Order
