@@ -18,14 +18,14 @@ const Navbar = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchBarShow, setSearchBarShow] = useState(false);
-  const isColored = useScroll(120);
+  const isScrolled = useScroll(120);
 
   return (
     <div>
       <nav className="flex justify-between items-center h-16 text-xl fixed w-full top-0 left-0 z-10 px-4 md:px-10">
         <div
           className={`h-16 absolute top-0 left-0 px-6 w-full -z-10 bg-white transition-all duration-300 transform dark:bg-black ${
-            isColored
+            isScrolled
               ? "translate-y-0 shadow-2xl shadow-gray-200 dark:shadow-gray-950"
               : "-translate-y-20 "
           }`}

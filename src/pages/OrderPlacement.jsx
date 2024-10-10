@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
@@ -11,13 +12,14 @@ const OrderPlacement = () => {
   const order = useSelector((state) => state.order);
   const { cartItems } = useSelector((state) => state.cart);
 
-  console.log(order);
-
   const handleContinue = () => {
-    dispatch(clearCart());
     dispatch(removeDetails());
-    navigate("/")
+    navigate("/");
   };
+
+  useEffect(() => {
+    dispatch(clearCart());
+  }, []);
 
   if (!order) {
     return <p>No order details found.</p>;
