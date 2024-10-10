@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Pagination = ({
   totalPosts,
@@ -23,7 +23,9 @@ const Pagination = ({
         return (
           <button
             className={`text-xl border-2 border-cyan-500 px-4 py-1 cursor-pointer transition-all ${
-              page === currentPage ? "bg-cyan-500 font-bold text-white" : " text-cyan-500"
+              page === currentPage
+                ? "bg-cyan-500 font-bold text-white"
+                : " text-cyan-500"
             }`}
             key={index}
             onClick={() => handlePageChange(page)}
