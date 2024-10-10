@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect,useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
@@ -11,16 +11,22 @@ const OrderPlacement = () => {
   const dispatch = useDispatch();
   const order = useSelector((state) => state.order);
   const { cartItems } = useSelector((state) => state.cart);
-  const [displayCartItems, setDisplayCartItems] = useState([])
+  const [displayCartItems, setDisplayCartItems] = useState([]);
 
   const handleContinue = () => {
     dispatch(removeDetails());
     navigate("/");
+    setDisplayCartItems([]);
   };
 
   useEffect(() => {
     setDisplayCartItems(cartItems);
-    dispatch(clearCart());
+    setTimeout(() => {
+      dispatch(clearCart());
+    }, 1000);
+    setTimeout(() => {
+      handleContinue();
+    }, 8000);
   }, []);
 
   if (!order) {
