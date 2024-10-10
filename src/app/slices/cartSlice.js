@@ -10,7 +10,7 @@ const cartSlice = createSlice({
   reducers: {
     addToCart: (state, action) => {
       const existingProduct = state.cartItems.find(
-        (item) => item.id === action.payload.id
+        (item) => item.id === action.payload.id && item.size === action.payload.size
       );
       if (existingProduct) {
         existingProduct.quantity += 1;
@@ -21,7 +21,7 @@ const cartSlice = createSlice({
     },
     removeFromCart: (state, action) => {
       state.cartItems = state.cartItems.filter(
-        (item) => item.id !== action.payload.id
+        (item) => item.id !== action.payload.id || item.size !== action.payload.size
       );
       localStorage.setItem("cartItems", JSON.stringify(state.cartItems));
     },

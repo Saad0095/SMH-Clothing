@@ -3,12 +3,19 @@ import { useParams } from "react-router-dom";
 import { data } from "../app/data";
 import { useDispatch } from "react-redux"; 
 import { addToCart } from '../app/slices/cartSlice'; 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faPlus,
+  faChevronUp,
+  faChevronDown,
+} from "@fortawesome/free-solid-svg-icons";
 
 const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
   const dispatch = useDispatch();
   const [size, setSize] = useState("");
-
+  const [isOpen, setIsOpen] = useState(false);
   const category = data.find(
     (category) => category.section.toLowerCase() === section.toLowerCase()
   );
@@ -18,21 +25,31 @@ const ProductDetail = () => {
   const product = subCat?.items.find((item) => item.id === productId);
 
   const [activeImg, setActiveImg] = useState(product?.image[0]);
-
+  const [error,setError] = useState('')
   useEffect(() => {
     if (product) {
       setActiveImg(product.image[0]);
     }
   }, [product]);
+  
+
 
   const handleAddToCart = () => {
+    if(!size){
+      setError('please select a size .')
+      return;
+    }
+
     dispatch(addToCart({
       id: product.id,
       name: product.name,
       price: product.price,
       image: product.image,
+      size: size,
       quantity: 1,
     }));
+
+   setError('')
   };
 
   if (!product) {
@@ -66,25 +83,25 @@ const ProductDetail = () => {
               <h2 className="text-gray-500">IN STOCK</h2>
               <h1 className="font-bold text-4xl">{product.price}</h1>
               <hr className="border border-gray-500 my-4" />
-              <h1 className="mb-2 mt-4 ml-1 font-semibold">Size</h1>
-              <div className="flex space-x-4 mb-6 ">
+              <h1 className="mb-2 ml-1 font-semibold">Size</h1>
+              <div className="flex space-x-4 mb-6">
                 {product.sizes.map((item, index) => (
-                  <div className="">
-                    <button
-                      onClick={() => setSize(item)}
-                      className={`text-lg font-bold  p-4 rounded-full border  shadow-lg flex items-center justify-center w-8 h-8 hover:bg-black hover:text-white  ${
-                        item === size
-                          ? "  border-current bg-black text-white"
-                          : ""
-                      } `}
-                      key={index}
-                    > 
-                      {item}
-                    </button>
-                  </div>
+                   <div className="" key={index}>
+                   <button
+                     onClick={() => setSize(item)}
+                     className={`text-lg font-bold  p-4 rounded-full border  shadow-lg flex items-center justify-center w-8 h-8 hover:bg-black hover:text-white  ${
+                       item === size
+                         ? "  border-current bg-black text-white"
+                         : ""
+                     } `}
+                     key={index}
+                   > 
+                     {item}
+                   </button>
+                 </div>
                 ))}
               </div>
-
+              {error && <p className="text-red-500">{error}</p>}
               <div>
                 <button
                   onClick={handleAddToCart}
@@ -94,6 +111,40 @@ const ProductDetail = () => {
                 </button>
               </div>
               <p className="mt-4 text-gray-600">{product.description}</p>
+              <hr className="border border-gray-300 my-4" />
+              <div className="relative">
+                <button
+                  className="w-full text-left p-2 rounded hover:bg-gray-200 transition flex justify-between"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  <span className="font-bold">More Information</span>
+                  <span>
+                    {!isOpen ? (
+                      <FontAwesomeIcon icon={faChevronUp} />
+                    ) : (
+                      <FontAwesomeIcon icon={faChevronDown} />
+                    )}
+                  </span>
+                </button>
+                {isOpen && (
+                  <ul className="flex flex-col p-4 transition ">
+                    <div className="flex  mb-2">
+                      <span className="font-bold">color</span>
+                      <li className="ml-16">{product.color}</li>
+                    </div>
+                    <div className="flex mb-2 ">
+                      <span className="font-bold">Category</span>
+                      <li className="ml-10">{product.category}</li>
+                    </div>
+                    <div className="flex ">
+                      <span className="font-bold">Fabric</span>
+                      <li className="ml-16">{product.fabric}</li>
+                    </div>
+                    
+                  </ul>
+                )}
+                 <hr className="border border-gray-300 my-4" />
+            </div>
             </div>
           </div>
         </div>
