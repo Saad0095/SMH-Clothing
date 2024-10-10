@@ -37,8 +37,9 @@ const Cart = () => {
                            ).toLocaleString()}
                          
                     </p>
-                    <p className="px-2 sm:px-3 sm:py-1 border bg-slate-50">s</p>
+                   
                   </div>
+                  <p > Size: {product.size}</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-center sm:mt-0  mt-5 ">
@@ -63,7 +64,7 @@ const Cart = () => {
                          <button
                          className="text-red-500  text-sm hover:text-red-700 w-4 mr-4 sm:w-5 cursor-pointer "
                          onClick={() =>
-                           dispatch(removeFromCart({ id: product.id }))
+                           dispatch(removeFromCart({ id: product.id , size: product.size }))
                          }
                        >
                          <FontAwesomeIcon icon={faTrashAlt} />
