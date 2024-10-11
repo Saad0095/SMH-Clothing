@@ -26,7 +26,7 @@ const OrderPlacement = () => {
     }, 1000);
     setTimeout(() => {
       handleContinue();
-    }, 8000);
+    }, 20000);
   }, []);
 
   if (!order) {
