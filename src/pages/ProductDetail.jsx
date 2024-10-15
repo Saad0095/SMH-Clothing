@@ -4,12 +4,7 @@ import { data } from "../app/data";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../app/slices/cartSlice";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import {
-  faPlus,
-  faChevronUp,
-  faChevronDown,
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
@@ -35,7 +30,7 @@ const ProductDetail = () => {
   }, [product]);
 
   const handleAddToCart = () => {
-    if (!size) {
+    if (product.sizes && !size) {
       setError("please select a size .");
       return;
     }
