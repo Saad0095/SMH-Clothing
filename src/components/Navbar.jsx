@@ -37,7 +37,7 @@ const Navbar = () => {
             onClick={() => setIsMenuOpen(true)}
           />
           <div
-            className="logo text-xl md:text-2xl font-bold cursor-pointer dark:drop-shadow-lg"
+            className="logo text-xl md:text-3xl font-bold cursor-pointer dark:drop-shadow-lg"
             onClick={() => navigate("/")}
           >
             SMH Clothing
