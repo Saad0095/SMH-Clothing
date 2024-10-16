@@ -91,7 +91,7 @@ export const data = [
             name: "STONE GREY BLENDED KAMEEZ SHALWAR",
             description:
               "Simple yet stylish, this stone grey blended casual kameez shalwar offers timeless elegance and versatility, perfect for a range of occasions and settings.",
-            price: "8,490.00",
+            price: "9,490.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32980_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
               " https://www.junaidjamshed.com/media/catalog/product/3/2/32980_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -107,7 +107,7 @@ export const data = [
             name: "ASH GREY BLENDED KAMEEZ SHALWAR",
             description:
               "With subtle detailing and a refined silhouette, this white blended semi-formal kameez shalwar embodies understated elegance, perfect for gatherings and events.",
-            price: "8,490.00",
+            price: "9,590.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32982_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
               "https://www.junaidjamshed.com/media/catalog/product/3/2/32982_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width= ",
@@ -303,7 +303,7 @@ export const data = [
             name: "BOTTLE GREEN BLENDED KURTA",
             description:
               "With subtle detailing and a refined silhouette, this bottle green blended semi-formal kurta embodies understated elegance, perfect for gatherings and events.",
-            price: "3,690.00",
+            price: "4,690.00",
             image: [
               "https://www.junaidjamshed.com/media/catalog/product/3/4/34704-1_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
               "https://www.junaidjamshed.com/media/catalog/product/3/4/34704-1_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=",
@@ -446,7 +446,7 @@ export const data = [
 
             name: "Red Waistcoat ",
             description: "",
-            price: " 6,392",
+            price: "6,392",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/r/e/red_waistcoat_wc-pd24-033_2_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/r/e/red_waistcoat_wc-pd24-033_3_.jpg?optimize=medium&fit=bounds&height=&width=",
@@ -464,7 +464,7 @@ export const data = [
             name: "Off White Waistcoat",
             description:
               "Regular Fit Model Specs: The model is 6ft and wearing size Medium",
-            price: " 5,592",
+            price: "5,592",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/o/f/off_white_waistcoat_wc-pd24-030_2_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/o/f/off_white_waistcoat_wc-pd24-030_3_.jpg?optimize=medium&fit=bounds&height=&width=",
@@ -482,7 +482,7 @@ export const data = [
             name: "Grey Waistcoat",
             description:
               "Top your traditional wear with an exquisite waistcoat from Ideas.Regular Fit Model Specs: The model is 6ft and wearing size Medium",
-            price: " 5,738",
+            price: "5,738",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/g/r/grey_waistcoat_wc-pd24-031_2_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/g/r/grey_waistcoat_wc-pd24-031_3_.jpg?optimize=medium&fit=bounds&height=&width=",
@@ -518,7 +518,7 @@ export const data = [
             name: "Black Basic Waist Coat ",
             description:
               "Top your traditional wear with an exquisite waistcoat from Ideas.BlendedRegular Fit Model Specs: The model is 6ft 2in and wearing size Medium",
-            price: " 5,738",
+            price: "6,900",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/b/l/black_basic_waist_coat_wc-pd24-019_4_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/b/l/black_basic_waist_coat_wc-pd24-019_5_.jpg?optimize=medium&fit=bounds&height=&width=",
@@ -536,7 +536,7 @@ export const data = [
             name: "Brown Basic Waistcoat",
             description:
               "Top your traditional wear with an exquisite waistcoat from Ideas.Blended Regular Fit Model Specs: The model is 6ft and wearing size Medium",
-            price: " 5,738",
+            price: "7,738",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/b/r/brown_basic_waistcoat_wc-pd24-017_5_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/b/r/brown_basic_waistcoat_wc-pd24-017_5_.jpg?optimize=medium&fit=bounds&height=&width=",
@@ -554,7 +554,7 @@ export const data = [
             name: "Blue Basic Waistcoat ",
             description:
               "Top your traditional wear with an exquisite waistcoat from Ideas.Blended Regular Fit Model Specs: The model is 6ft and wearing size Medium",
-            price: " 5,738",
+            price: "4,100",
             image: [
               "https://www.gulahmedshop.com/media/catalog/product/b/l/blue_basic_waistcoat_wc-pd24-021_7_.jpg?optimize=medium&fit=bounds&height=&width=",
               "https://www.gulahmedshop.com/media/catalog/product/b/l/blue_basic_waistcoat_wc-pd24-021_7_.jpg?optimize=medium&fit=bounds&height=&width=",
@@ -614,7 +614,7 @@ export const data = [
             name: "WHITE-YARN DYED-2 PIECE STITCHED ",
             description:
               "Shirt:Yarn Dyed Kurta. Trouser: Dyed Cambric Trouser.",
-            price: " 5,160",
+            price: "5,160",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/BS7242P26_1_1800x1800.jpg?v=1724416570",
@@ -648,7 +648,7 @@ export const data = [
             name: "PEACH-JACQUARD-3 PIECE STITCHED ",
             description:
               "Shirt:Dyed Self Jacquard Chikankari Shirt.Dupatta:Dyed Fancy Net Dupatta.Trouser:Dyed Cambric Chikankari Culotte Trouser.",
-            price: " 8,910",
+            price: "8,910",
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/BS2243P12_1_1800x1800.jpg?v=1722950430",
               "https://bonanzasatrangi.com/cdn/shop/files/BS2243P12_1_1800x1800.jpg?v=1722950430",
@@ -681,7 +681,7 @@ export const data = [
             name: "N-BLUE-LAWN-2 PIECE STITCHED  ",
             description:
               "Shirt:Digital Printed Lawn Kurta Finished With Pearls & Tassels.Dupatta:Printed Lawn Dupatta.",
-            price: " 5,160 ",
+            price: "5,160 ",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/BPS2242P05-0_0003_1Z7A6701_1800x1800.jpg?v=1723803946",
@@ -788,7 +788,7 @@ export const data = [
             name: "RASBERRY SORBET - 3 PC UNSTITCHED",
             description:
               "Shirt:Digital Printed Textured Cambric 1.75M Dupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
-            price: "4,280",
+            price: "3,280",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P003_1_1800x1800.jpg?v=1727697617",
@@ -805,7 +805,7 @@ export const data = [
             name: " MIRAKI - 3 PC UNSTITCHED   ",
             description:
               "Shirt:Digital Printed Textured Cambric 1.75MDupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
-            price: "4,280",
+            price: "4,900",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P012_1_1800x1800.jpg?v=1727697605",
@@ -822,7 +822,7 @@ export const data = [
             name: " ROMA - 3 PC UNSTITCHED   ",
             description:
               "Shirt:Digital Printed Textured Cambric 1.75MDupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
-            price: "4,280",
+            price: "5,280",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P042_1_500x.jpg?v=1727697593",
@@ -856,7 +856,7 @@ export const data = [
             name: "VINTAGE FLOWER - 3 PC UNSTITCHED    ",
             description:
             "Shirt:Digital Printed Textured Cambric 1.75M Dupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
-            price: "3,890",
+            price: "3,300",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P001_1_500x.jpg?v=1727697569",
@@ -873,7 +873,7 @@ export const data = [
             name: "TURKISH DELIGHT - 3 PC UNSTITCHED ",
             description:
             "Shirt:Digital Printed Textured Cambric 1.75M Dupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
-            price: "4,280",
+            price: "7,280",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P040_1_500x.jpg?v=1727697558",
@@ -890,7 +890,7 @@ export const data = [
             name: "COBALT - 3 PC UNSTITCHED ",
             description:
             "Shirt:Digital Printed Textured Cambric 1.75M Dupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
-            price: "4,280",
+            price: "4,200",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/7W24P3P044_1_1800x1800.jpg?v=1727697547",
@@ -907,7 +907,7 @@ export const data = [
             name: "GLASS GREEN - 3 PC UNSTITCHED ",
             description:
             "Shirt:Digital Printed Textured Cambric 1.75M Dupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
-            price: " 4,280",
+            price: "4,600",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/2W24P3P027_1_500x.jpg?v=1727697531",
@@ -925,7 +925,7 @@ export const data = [
             description:
             "Shirt:Digital Printed Textured Cambric 1.75M Dupatta:Digital Printed Textured Cambric 2.5MTrouser:Dyed Cambric Trouser 1.8M",
 
-            price: " 4,280",
+            price: "5,500",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/1W24P3P002_1_500x.jpg?v=1727697521",
@@ -942,7 +942,7 @@ export const data = [
             name: "SEED PEARL - 3 PC UNSTITCHED ",
             description:
             "Shirt:Digital Printed Lawn 1.75M Dupatta:Digital Printed Organza 2.5M Trouser Digital Printed Cambric Trouser 1.8M",
-            price: " 3,590",
+            price: "3,590",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/0048_1S24P3P420-052A9698_c93647c0-477e-49ec-aeca-880b2ef00b7a_1800x1800.jpg?v=1726313272",
@@ -959,7 +959,7 @@ export const data = [
             name: "FORMAL GARDEN - 3 PC UNSTITCHED ",
             description:
             "Shirt:Digital Printed Lawn 1.75M Dupatta:Digital Printed Lawn 2.5M Trouser: Dyed Cambric Trouser 1.8M",
-            price: " 3,276",
+            price: "3,976",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/0015_1S24P3P066-052A3837_500x.jpg?v=1723807190",
@@ -976,7 +976,7 @@ export const data = [
             name: "BARBERRY - 3 PC UNSTITCHED ",
             description:
             "Shirt:Digital Printed Lawn 1.75M Dupatta:Digital Printed Lawn 2.5M Trouser: Dyed Cambric Trouser 1.8M",
-            price: " 3,276",
+            price: "4,576",
 
             image: [
               "https://bonanzasatrangi.com/cdn/shop/files/0014_1S24P3P568-052A6855_1800x1800.jpg?v=1723883465",
