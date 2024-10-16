@@ -85,12 +85,18 @@ const ProductList = () => {
         <div>
           <select
             value={sortOption}
-            className="border-b-2 outline-none w-40 text-center border-gray-900"
+            className="border-b-2 outline-none w-40 text-center border-gray-900 dark:border-white bg-inherit"
             onChange={(e) => setSortOption(e.target.value)}
           >
-            <option value="none"></option>
-            <option value="lowToHigh">LowToHigh</option>
-            <option value="highToLow">HighToLow</option>
+            <option value="none" className="dark:text-black">
+              None
+            </option>
+            <option value="lowToHigh" className="dark:text-black">
+              LowToHigh
+            </option>
+            <option value="highToLow" className="dark:text-black">
+              HighToLow
+            </option>
           </select>
         </div>
       </div>

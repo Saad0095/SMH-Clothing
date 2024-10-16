@@ -21,9 +21,9 @@ We have developed an E-commerce Fashion and Apparel store website using React an
 ### Product Details
 - Detailed pages for each product, including images, descriptions, prices, etc.
 
-<!-- ### Pagination and Filters
+### Pagination and Filters
 - Pagination for product listings to enhance user experience by loading products in a manageable way.
-- Filters to sort products by price, color, fabric, and other attributes. -->
+- Filters to sort products by price.
 
 ### Cart Management
 - Utilizes Redux for efficient cart management.
