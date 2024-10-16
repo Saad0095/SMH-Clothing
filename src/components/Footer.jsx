@@ -5,7 +5,7 @@ const Footer = () => {
   const navigate = useNavigate();
   return (
     <div className="flex flex-col min-h-36 justify-center items-center border-t-2 border-gray-200">
-      <h1 className="logo text-xl sm:text-3xl md:text-4xl font-bold p-6 text-center">
+      <h1 className="logo text-xl sm:text-3xl md:text-4xl font-bold p-3 pt-6 text-center">
         SMH CLOTHING
       </h1>
       <h1 className="font-bold text-xl p-2">CUSTOMER SUPPORT </h1>

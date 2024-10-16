@@ -1,20 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { faAngleDown, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useSelector } from "react-redux";
-import { useDispatch } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { addDetails } from "../app/slices/orderSlice";
 import { useNavigate } from "react-router-dom";
+import Loading from "../components/Loading";
 
 const Checkout = () => {
   const cart = useSelector((state) => state.cart);
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const form = useRef();
 
   const [billingToggle, setBillingToggle] = useState(true);
   const [shippingToggle, setShippingToggle] = useState(false);
   const [paymentToggle, setPaymentToggle] = useState(false);
   const [paymentMethod, setPaymentMethod] = useState("cod");
+  const [loading, setLoading] = useState(false);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -31,7 +34,7 @@ const Checkout = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleOrder = (e) => {
+  const handleOrder = async (e) => {
     e.preventDefault();
 
     if (
@@ -47,29 +50,33 @@ const Checkout = () => {
       setErrorMsg("*Name must contain at least 4 characters");
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       setErrorMsg("*Invalid Email Address");
+    } else if (formData.zipCode.trim().length > 5) {
+      setErrorMsg("Zip Code cannot be longer than 5 digits");
     } else {
+      setLoading(true);
       setErrorMsg(null);
       dispatch(addDetails(formData));
-      navigate("/orderplacement");
-
-      // const newOrder = {
-      //   products: cart.products,
-      //   orderNumber: "12345",
-      //   shippingInformation: formData,
-      //   totalPrice: cart.cartItems
-      //     .reduce(
-      //       (total, product) =>
-      //         parseFloat(total) +
-      //         parseFloat(product.price.replace(/,/g, "")) * product.quantity,
-      //       0
-      //     )
-      //     .toFixed(2),
-      //   totalItems: cart.cartItems.reduce(
-      //     (totalQuantity, product) => totalQuantity + product.quantity,
-      //     0
-      //   ),
-      // };
-      // navigate("/orderplacement", { state: { order: newOrder } });
+      try {
+        window.scrollTo({ top: 0, left: 0 });
+        emailjs.init("H6Cfk7Md2--5sbdCP");
+        await emailjs.send("service_qzyjprt", "template_rol1v76", {
+          name: formData.name,
+          phone: formData.phone,
+          email: formData.email,
+          address: formData.address,
+          city: formData.city,
+          zipCode: formData.zipCode,
+          cart: cart.cartItems.map((item) => {
+            return `${item.name} (Rs ${item.price} x ${item.quantity})`;
+          }).join(", ")
+        });
+        console.log("SUCCESS!");
+        navigate("/orderplacement");
+      } catch (error) {
+        console.log("FAILED...", error.text);
+      } finally {
+        setLoading(false);
+      }
     }
   };
 
@@ -85,13 +92,21 @@ const Checkout = () => {
       maximumFractionDigits: 2,
     });
 
+  if (loading) {
+    return <Loading />;
+  }
+
   return (
-    <div className="container   md:px-10 px-4 lg:px-22  pt-32 pb-14">
+    <div className="checkout container md:px-10 px-4 lg:px-22  pt-32 pb-14">
       <h3 className="text-3xl font-semibold mb-4">CHECKOUT</h3>
       {errorMsg && (
         <p className="text-red-500 text-center text-sm mb-4">{errorMsg}</p>
       )}
-      <div className="flex flex-col lg:flex-row  justify-between sm:space-x-10 mt-8">
+      <form
+        className="flex flex-col lg:flex-row justify-between sm:space-x-10 mt-8"
+        ref={form}
+        onSubmit={handleOrder}
+      >
         <div className="lg:w-2/3 md:w-3/3  ">
           {/* Billing Information */}
           <div className="border p-2 mb-6">
@@ -108,7 +123,7 @@ const Checkout = () => {
             </div>
             <div className={`space-y-4 ${billingToggle ? "" : "hidden"}`}>
               <div>
-                <label className="block text-gray-700">Name</label>
+                <label className="block text-gray-700">Name: *</label>
                 <input
                   type="text"
                   name="name"
@@ -119,7 +134,7 @@ const Checkout = () => {
                 />
               </div>
               <div>
-                <label>Email</label>
+                <label>Email: *</label>
                 <input
                   type="email"
                   name="email"
@@ -130,7 +145,7 @@ const Checkout = () => {
                 />
               </div>
               <div>
-                <label>Phone</label>
+                <label>Phone: *</label>
                 <input
                   type="number"
                   name="phone"
@@ -158,7 +173,7 @@ const Checkout = () => {
             </div>
             <div className={`space-y-4 ${shippingToggle ? "" : "hidden"}`}>
               <div>
-                <label className="block text-gray-700 ">Address</label>
+                <label className="block text-gray-700 ">Address: *</label>
                 <input
                   type="text"
                   name="address"
@@ -169,7 +184,7 @@ const Checkout = () => {
                 />
               </div>
               <div>
-                <label className="block text-gray-700 ">City</label>
+                <label className="block text-gray-700 ">City: *</label>
                 <input
                   type="text"
                   name="city"
@@ -180,7 +195,7 @@ const Checkout = () => {
                 />
               </div>
               <div>
-                <label className="block text-gray-700">Zip Code</label>
+                <label className="block text-gray-700">Zip Code: *</label>
                 <input
                   type="number"
                   name="zipCode"
@@ -236,7 +251,9 @@ const Checkout = () => {
                       className="w-16 h-16 object-contain rounded"
                     />
                     <div className="ml-4">
-                      <h4 className="sm:text-md text-sm font-semibold">{product.name}</h4>
+                      <h4 className="sm:text-md text-sm font-semibold">
+                        {product.name}
+                      </h4>
                       <p className="text-gray-600">
                         Rs {product.price} x {product.quantity}
                       </p>
@@ -259,14 +276,14 @@ const Checkout = () => {
               <h4 className="font-semibold">Rs {totalPrice}</h4>
             </div>
             <button
-              className="w-full text-white bg-gradient-to-r from-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center  me-2 mb-2"
-              onClick={handleOrder}
+              className="w-full text-white bg-gradient-to-r from-red-600 to-red-800 hover:bg-gradient-to-b font-medium rounded-lg text-sm px-5 py-2.5 text-center  me-2 mb-2"
+              // onClick={handleOrder}
             >
               Place Order
             </button>
           </div>
         </div>
-      </div>
+      </form>
     </div>
   );
 };

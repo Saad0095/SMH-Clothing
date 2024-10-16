@@ -798,7 +798,7 @@ export const data = [
             category: "Unstitched 3 Piece ",
             color: "RED",
             fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
+            // sizes: ["XS", "S", "M", "L"],
           },
           {
             id: "82",
@@ -815,7 +815,7 @@ export const data = [
             category: "Unstitched 3 Piece ",
             color: "GREEN",
             fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
+            // sizes: ["XS", "S", "M", "L"],
           },
           {
             id: "83",
@@ -832,7 +832,7 @@ export const data = [
             category: "Unstitched 2 Piece ",
             color: "TEAL",
             fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
+            // sizes: ["XS", "S", "M", "L"],
           },
           {
             id: "84",
@@ -849,7 +849,7 @@ export const data = [
             category: "Unstitched 2 Piece ",
             color: "PURPLE",
             fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
+            // sizes: ["XS", "S", "M", "L"],
           },
           {
             id: "85",
@@ -866,7 +866,7 @@ export const data = [
             category: "Unstitched 3 Piece ",
             color: "L-GREEN",
             fabric: "Dobby",
-            sizes: ["XS", "S", "M", "L"],
+            // sizes: ["XS", "S", "M", "L"],
           },
           {
             id: "86",
@@ -883,7 +883,7 @@ export const data = [
             category: "Unstitched 3 Piece ",
             color: "MUSTARD",
             fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
+            // sizes: ["XS", "S", "M", "L"],
           },
           {
             id: "87",
@@ -900,7 +900,7 @@ export const data = [
             category: "Unstitched 3 Piece ",
             color: "BEIGE",
             fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
+            // sizes: ["XS", "S", "M", "L"],
           },
           {
             id: "88",
@@ -917,7 +917,7 @@ export const data = [
             category: "Unstitched 3 Piece ",
             color: "MT-GREEN",
             fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
+            // sizes: ["XS", "S", "M", "L"],
           },
           {
             id: "89",
@@ -935,11 +935,11 @@ export const data = [
             category: "Unstitched 3 Piece ",
             color: "BEIGE",
             fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
+            // sizes: ["XS", "S", "M", "L"],
           },
           {
             id: "90",
-            name: "SEED PEARL - 3 PCUNSTITCHED ",
+            name: "SEED PEARL - 3 PC UNSTITCHED ",
             description:
             "Shirt:Digital Printed Lawn 1.75M Dupatta:Digital Printed Organza 2.5M Trouser Digital Printed Cambric Trouser 1.8M",
             price: " 3,590",
@@ -952,7 +952,7 @@ export const data = [
             category: "Unstitched 3 Piece ",
             color: "CREAM",
             fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
+            // sizes: ["XS", "S", "M", "L"],
           },
           {
             id: "91",
@@ -969,7 +969,7 @@ export const data = [
             category: "Unstitched 2 Piece ",
             color: "MULTI",
             fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
+            // sizes: ["XS", "S", "M", "L"],
           },
           {
             id: "92",
@@ -986,7 +986,7 @@ export const data = [
             category: "Unstitched 3 Piece ",
             color: "PINK",
             fabric: "Lawn",
-            sizes: ["XS", "S", "M", "L"],
+            // sizes: ["XS", "S", "M", "L"],
           },
         ],
       },

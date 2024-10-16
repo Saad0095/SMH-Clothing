@@ -26,7 +26,7 @@ const MenSection = () => {
             <img
               src={BannerMen1}
               alt="Kameez-Shalwar"
-              className="h-full w-full"
+              className="h-full w-full "
             />
             <div className="overlay absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
               <button
@@ -41,7 +41,7 @@ const MenSection = () => {
             Kameez Shalwar
           </h4>
         </div>
-        <div className="h-[450px] w-full md:w-96 md:h-[500px] p-4 m-4">
+        <div className="h-[450px] w-full md:w-96 md:h-[500px] 2xl:h-[400px] p-4 m-4">
           <div className="relative group h-full w-full">
             <img src={BannerMen2} alt="Kurta" className="h-full w-full" />
             <div className="overlay absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
@@ -55,7 +55,7 @@ const MenSection = () => {
           </div>
           <h4 className="text-center font-semibold text-xl p-4">Kurta</h4>
         </div>
-        <div className="h-[450px] w-full md:w-96 md:h-[500px] p-4 m-4">
+        <div className="h-[450px] w-full md:w-96 md:h-[500px] 2xl:h-[400px] p-4 m-4">
           <div className="relative group h-full w-full">
             <img src={BannerMen3} alt="Waist-Coat" className="h-full w-full" />
             <div className="overlay absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
