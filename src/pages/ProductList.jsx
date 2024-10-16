@@ -13,8 +13,8 @@ const ProductList = () => {
     JSON.parse(localStorage.getItem("currentPage")) || 1
   );
   const [postsPerPage, setPostsPerPage] = useState(8);
-  const [sortOption,setSortOption] = useState('')
-  // const [filterProduct,setFilterProduct] = useState('')
+  const [sortOption, setSortOption] = useState("none");
+
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -36,32 +36,24 @@ const ProductList = () => {
     }, 1000);
   }, [section, subcategory]);
 
-  
   const getSortedProducts = () => {
-   
-    let sortedProducts = [...products]; 
-  
-    console.log("Sorting se pehle:", sortedProducts); 
-  
-    
+    let sortedProducts = [...products];
     if (sortOption === "lowToHigh") {
-      sortedProducts = sortedProducts.sort((x, y) => parseFloat(x.price) - parseFloat(y.price));
+      sortedProducts = sortedProducts.sort(
+        (x, y) => parseFloat(x.price) - parseFloat(y.price)
+      );
     } else if (sortOption === "highToLow") {
-      sortedProducts = sortedProducts.sort((x, y) => parseFloat(y.price) - parseFloat(x.price));
+      sortedProducts = sortedProducts.sort(
+        (x, y) => parseFloat(y.price) - parseFloat(x.price)
+      );
     }
-  
-    console.log("Sorting ke baad: ", sortedProducts); 
     return sortedProducts;
   };
-  
-  
-  
-    
- 
+
   const sortedProducts = getSortedProducts();
   const lastPostIndex = currentPage * postsPerPage;
   const firstPostIndex = lastPostIndex - postsPerPage;
-  const currentPosts =  sortedProducts.slice(firstPostIndex, lastPostIndex);
+  const currentPosts = sortedProducts.slice(firstPostIndex, lastPostIndex);
 
   useEffect(() => {
     const savedSubCat = localStorage.getItem("subcategory");
@@ -88,13 +80,20 @@ const ProductList = () => {
 
   return (
     <div className="flex flex-col items-center pt-20 pb-12 mx-auto gap-6">
-     <div className="mb-4">
-      <select value={sortOption} onChange={(e)=> setSortOption(e.target.value)}  >
-        <option value="none">None</option>
-        <option value="lowToHigh">LowToHigh</option>
-        <option value="highToLow">HighToLow</option>
-      </select>
-    </div> 
+      <div className="container mr-16 flex justify-end items-center gap-4">
+        <p className="font-bold">SORT BY: </p>
+        <div>
+          <select
+            value={sortOption}
+            className="border-b-2 outline-none w-40 text-center border-gray-900"
+            onChange={(e) => setSortOption(e.target.value)}
+          >
+            <option value="none"></option>
+            <option value="lowToHigh">LowToHigh</option>
+            <option value="highToLow">HighToLow</option>
+          </select>
+        </div>
+      </div>
       <div className="flex flex-wrap justify-center mx-auto">
         {currentPosts.length > 0 ? (
           currentPosts.map((item) => (

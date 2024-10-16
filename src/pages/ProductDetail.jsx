@@ -4,12 +4,18 @@ import { data } from "../app/data";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../app/slices/cartSlice";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import {
+  faChevronUp,
+  faChevronDown,
+  faCheckCircle,
+  faTimes,
+} from "@fortawesome/free-solid-svg-icons";
 
 const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
   const dispatch = useDispatch();
   const [size, setSize] = useState("");
+  const [dispMsgShow, setDispMsgShow] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const category = data.find(
     (category) => category.section.toLowerCase() === section.toLowerCase()
@@ -47,6 +53,10 @@ const ProductDetail = () => {
     );
 
     setError("");
+    setDispMsgShow(true);
+    setTimeout(() => {
+      setDispMsgShow(false);
+    }, 1000);
   };
 
   if (!product) {
@@ -149,6 +159,19 @@ const ProductDetail = () => {
             </div>
           </div>
         </div>
+        {dispMsgShow && (
+          <div className="bg-cyan-600 text-white fixed top-5 z-50 w-96 px-2 py-1 left-1/3 flex items-center justify-between">
+            <div className="flex items-center">
+              <FontAwesomeIcon className="p-3" icon={faCheckCircle} />
+              <span>Item have been added to cart!</span>
+            </div>
+            <FontAwesomeIcon
+              className="p-3 cursor-pointer"
+              icon={faTimes}
+              onClick={() => setDispMsgShow(false)}
+            />
+          </div>
+        )}
       </div>
     </div>
   );

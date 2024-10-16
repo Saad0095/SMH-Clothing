@@ -21,7 +21,7 @@ const WomenSection = () => {
         <span className="w-1/5 sm:w-1/3 bg-black h-1 dark:bg-white"></span>
       </div>
       <div className="flex justify-center items-center flex-wrap">
-        <div className="h-[450px] w-full md:w-96 md:h-[550px] p-4 m-4">
+        <div className="h-[450px] w-96 md:h-[550px] p-4 m-4">
           <div className="relative group h-full w-full">
             <img
               src={BannerWomen1}
@@ -31,7 +31,7 @@ const WomenSection = () => {
             <div className="overlay absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
               <button
                 type="button"
-                className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                className="text-white text-base bg-gradient-to-r from-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg px-7 py-2.5 text-center me-2 mb-2"
                 onClick={() => handleShopNow("Unstitch")}
               >
                 Shop Now
@@ -40,13 +40,13 @@ const WomenSection = () => {
           </div>
           <h4 className="text-center font-semibold text-xl p-4">Unstitched</h4>
         </div>
-        <div className="h-[450px] w-full md:w-96 md:h-[550px] p-4 m-4">
+        <div className="h-[450px] w-96 md:h-[550px] p-4 m-4">
           <div className="relative group h-full w-full">
             <img src={BannerWomen2} alt="Kurta" className="w-full h-full" />
             <div className="overlay absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
               <button
                 type="button"
-                className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                className="text-white text-base bg-gradient-to-r from-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg px-7 py-2.5 text-center me-2 mb-2"
                 onClick={() => handleShopNow("Stitch")}
               >
                 Shop Now
@@ -55,7 +55,7 @@ const WomenSection = () => {
           </div>
           <h4 className="text-center font-semibold text-xl p-4">Stitched</h4>
         </div>
-        <div className="h-[450px] w-full md:w-96 md:h-[550px] p-4 m-4">
+        <div className="h-[450px] w-96 md:h-[550px] p-4 m-4">
           <div className="relative group h-full w-full">
             <img
               src={BannerWomen3}
@@ -65,7 +65,7 @@ const WomenSection = () => {
             <div className="overlay absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
               <button
                 type="button"
-                className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                className="text-white text-base bg-gradient-to-r from-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg px-7 py-2.5 text-center me-2 mb-2"
                 onClick={() => handleShopNow("Kurti")}
               >
                 Shop Now
