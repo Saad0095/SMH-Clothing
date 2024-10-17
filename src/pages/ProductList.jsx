@@ -92,10 +92,10 @@ const ProductList = () => {
               None
             </option>
             <option value="lowToHigh" className="dark:text-black">
-              LowToHigh
+              Low To High (Price)
             </option>
             <option value="highToLow" className="dark:text-black">
-              HighToLow
+              High To Low (Price)
             </option>
           </select>
         </div>

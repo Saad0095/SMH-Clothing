@@ -114,7 +114,7 @@ const Cart = () => {
                   </span>
                 </div>
                 <button
-                  className="w-full bg-gradient-to-r from-red-600 to-red-800 hover:bg-gradient-to-b mb-2 text-white py-2"
+                  className="w-full bg-gradient-to-r from-zinc-900 via-black to-zinc-950 hover:bg-gradient-to-br focus:outline-none mb-2 text-white py-2 dark:border-[1px] dark:border-gray-500"
                   onClick={() => navigate("/checkout")}
                 >
                   Checkout

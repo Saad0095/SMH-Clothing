@@ -79,7 +79,7 @@ const Modal = () => {
             className="p-2 w-1/4 bg-black text-white rounded-r-full"
             onClick={handleModalSubscribe}
           >
-            Search
+            Subscribe
           </button>
         </div>
         {errorMsg && <p className="text-red-600">{errorMsg}</p>}

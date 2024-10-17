@@ -63,7 +63,7 @@ const OrderPlacement = () => {
       </div>
       <div className="mt-6">
         <button
-          className="mt-3 text-xl ml-4 text-white py-2 px-4   bg-gradient-to-r from-red-600 to-red-800 hover:bg-gradient-to-b"
+          className="mt-3 text-xl ml-4 text-white py-2 px-4 bg-gradient-to-r from-zinc-900 via-black to-zinc-950 hover:bg-gradient-to-br dark:shadow-gray-300 dark:border-[1px] dark:border-gray-500"
           onClick={handleContinue}
         >
           Continue Shopping

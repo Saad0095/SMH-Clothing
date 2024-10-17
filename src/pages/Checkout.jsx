@@ -276,8 +276,7 @@ const Checkout = () => {
               <h4 className="font-semibold">Rs {totalPrice}</h4>
             </div>
             <button
-              className="w-full text-white bg-gradient-to-r from-red-600 to-red-800 hover:bg-gradient-to-b font-medium rounded-lg text-sm px-5 py-2.5 text-center  me-2 mb-2"
-              // onClick={handleOrder}
+              className="w-full text-white bg-gradient-to-r from-zinc-900 via-black to-zinc-950 hover:bg-gradient-to-br focus:outline-none font-medium text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-[1px] dark:border-gray-500"
             >
               Place Order
             </button>
