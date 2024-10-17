@@ -4,12 +4,8 @@ import { data } from "../app/data";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../app/slices/cartSlice";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronUp,
-  faChevronDown,
-  faCheckCircle,
-  faTimes,
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import CartDispMsg from "../components/CartDispMsg";
 
 const ProductDetail = () => {
   const { section, subcategory, productId } = useParams();
@@ -88,7 +84,7 @@ const ProductDetail = () => {
               </h1>
               <span className="text-gray-400">SKU#: J-10000077382</span>
               <h2 className="text-gray-500">IN STOCK</h2>
-              <h1 className="font-bold text-4xl">{product.price}</h1>
+              <h1 className="font-bold text-3xl">PKR {product.price}</h1>
               <hr className="border border-gray-500 my-4" />
               {product.sizes && (
                 <div>
@@ -122,7 +118,9 @@ const ProductDetail = () => {
                   Add To Bag
                 </button>
               </div>
-              <p className="mt-4 text-gray-600">{product.description}</p>
+              <p className="mt-4 text-gray-600 dark:text-gray-300">
+                {product.description}
+              </p>
               <hr className="border border-gray-300 my-4" />
               <div className="relative">
                 <button
@@ -159,19 +157,7 @@ const ProductDetail = () => {
             </div>
           </div>
         </div>
-        {dispMsgShow && (
-          <div className="bg-cyan-600 text-white fixed top-5 z-50 w-96 px-2 py-1 left-1/3 flex items-center justify-between">
-            <div className="flex items-center">
-              <FontAwesomeIcon className="p-3" icon={faCheckCircle} />
-              <span>Item have been added to cart!</span>
-            </div>
-            <FontAwesomeIcon
-              className="p-3 cursor-pointer"
-              icon={faTimes}
-              onClick={() => setDispMsgShow(false)}
-            />
-          </div>
-        )}
+        {dispMsgShow && <CartDispMsg setDispMsgShow={setDispMsgShow}/>}
       </div>
     </div>
   );
