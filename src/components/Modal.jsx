@@ -76,7 +76,7 @@ const Modal = () => {
             }}
           />
           <button
-            className="p-2 w-1/4 bg-black text-white rounded-r-full"
+            className="p-2 w-1/4 bg-black text-white rounded-r-full dark:bg-white dark:text-black dark:font-bold"
             onClick={handleModalSubscribe}
           >
             Subscribe
