@@ -4,12 +4,6 @@
 
 We have developed an E-commerce Fashion and Apparel store website using React and Tailwind CSS. This project covers key React concepts like hooks, state management, and Redux to create a dynamic and user-friendly shopping experience.
 
-## Group Members
-
-- Muhammad Saad Bin Khalid 
-- Muhammad Hussain
-- Muhib Sami
-
 ## Key Features
 
 ### Home Page
