@@ -30,9 +30,6 @@ We have developed an E-commerce Fashion and Apparel store website using React an
 ### Dark Theme
 - An option to toggle between light and dark themes, enhancing user experience and accessibility.
 
-<!-- ### Language Translation
-- An option to change content on the order placement page between Urdu and English. -->
-
 ## Technologies Used
 
 - React

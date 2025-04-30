@@ -58,8 +58,8 @@ const Checkout = () => {
       dispatch(addDetails(formData));
       try {
         window.scrollTo({ top: 0, left: 0 });
-        emailjs.init("H6Cfk7Md2--5sbdCP");
-        await emailjs.send("service_qzyjprt", "template_rol1v76", {
+        emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
+        await emailjs.send(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, {
           name: formData.name,
           phone: formData.phone,
           email: formData.email,
